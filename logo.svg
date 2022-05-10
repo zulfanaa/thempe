@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="483.77954"
+   height="483.77954"
+   viewBox="0 0 128 128"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15, custom)"
+   sodipodi:docname="logo.svg"
+   inkscape:export-filename="D:\Study Material (s)\Master\2nd Semester\Modul 3\Webmapping\Assignments\afifah_assignment3_webmapping\logo.png"
+   inkscape:export-xdpi="25.4"
+   inkscape:export-ydpi="25.4">
+  <defs
+     id="defs2">
+    <rect
+       x="-182.18452"
+       y="107.34524"
+       width="248.70833"
+       height="181.42857"
+       id="rect839" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.5"
+     inkscape:cx="400"
+     inkscape:cy="560"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="rect833"
+       style="opacity:1;fill:#1d333e;fill-opacity:1;stroke:#4c9ab0;stroke-width:2.26914;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:4.53828, 2.26914, 1.13457, 2.26914;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       d="M 64.091382,7.6449495 2.9718651,67.638436 23.599001,67.627486 V 116.74419 H 105.93743 V 67.583216 l 19.47468,-0.0104 z" />
+    <text
+       xml:space="preserve"
+       id="text837"
+       style="font-size:25.4px;line-height:1.25;font-family:sans-serif;text-align:center;white-space:pre;shape-inside:url(#rect839)"
+       x="16.947397"
+       y="0"
+       transform="matrix(0.83992874,0,0,0.72236886,112.03474,-39.216293)"><tspan
+         x="-87.852833"
+         y="130.51889"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;font-family:'Brush Script Std';-inkscape-font-specification:'Brush Script Std';text-align:center;text-anchor:middle;fill:#6eb5cb;fill-opacity:1">Home
+</tspan></tspan><tspan
+         x="-87.713113"
+         y="164.91889"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;font-family:'Brush Script Std';-inkscape-font-specification:'Brush Script Std';text-align:center;text-anchor:middle;fill:#6eb5cb;fill-opacity:1">Sweet
+</tspan></tspan><tspan
+         x="-87.852833"
+         y="199.31888"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;font-family:'Brush Script Std';-inkscape-font-specification:'Brush Script Std';text-align:center;text-anchor:middle;fill:#6eb5cb;fill-opacity:1">Home</tspan></tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   version="1.1"
+   viewBox="0 0 210 297"
+   id="svg15"
+   sodipodi:docname="marker_dw.svg"
+   inkscape:export-filename="D:\Study Material (s)\Master\2nd Semester\Modul 3\Webmapping\Assignments\afifah_assignment3_webmapping\marker.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15, custom)">
+  <metadata
+     id="metadata19">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     id="namedview17"
+     showgrid="false"
+     inkscape:zoom="0.4792789"
+     inkscape:cx="396.85039"
+     inkscape:cy="561.25984"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg15" />
+  <defs
+     id="defs5">
+    <filter
+       id="filter1233"
+       x="-3.9497e-5"
+       y="-4.7669e-5"
+       width="1.0001"
+       height="1.0001"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         stdDeviation="0.0072584299"
+         id="feGaussianBlur2" />
+    </filter>
+  </defs>
+  <g
+     id="g848"
+     transform="matrix(0.85544757,0,0,0.85479869,16.18141,13.387474)"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
+    <g
+       id="g9">
+      <path
+         d="m 175.46,108.81 c 0,33.17 -66.99,157.08 -66.99,157.08 C 80.907,214.479 39.386,137.44 39.386,104.27 c 0,-33.17 30.866,-76.692 68.024,-76.692 37.158,0 68.051,48.056 68.051,81.227 z"
+         fill="#ff0000"
+         filter="url(#filter1233)"
+         opacity="0.991"
+         stop-color="#000000"
+         stroke="#9e0000"
+         stroke-width="3"
+         id="path7" />
+    </g>
+    <g
+       opacity="0.982"
+       id="g13">
+      <circle
+         cx="107.02"
+         cy="110.49"
+         fill="#ffffff"
+         stop-color="#000000"
+         stroke="#9e0000"
+         stroke-width="3"
+         id="ellipse11"
+         r="48.066002" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,120 @@
+
+/* whole html */
+html {
+    height: 100%;
+    font-family:'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+  }
+  
+/* the body of html */
+body {
+    margin: 0;
+    padding: 10px;
+    min-height: 100%;
+  }
+
+/* the animation of Ellipse */
+  @keyframes moveEllipse {
+    50% {
+      cy: 150;
+      r: 13;
+    }
+  }
+  :root {
+    --A: #0D0F1Bff;
+    --B: #1D333Eff;
+    --C: #296B75ff;
+    --D: #4C9AB0ff;
+    --E: #6EB5CBff;
+  }
+  
+  .shape {
+    cy: 50;
+    rx: 45;
+    ry: 30;
+    animation: moveEllipse 1250ms ease-in-out both infinite;
+  }
+  
+  .shape:nth-child(1) {
+    cx: 150;
+    fill: var(--A);
+  }
+  
+  .shape:nth-child(2) {
+    cx: 300;
+    fill: var(--B);
+    animation-delay: 100ms;
+  }
+  
+  .shape:nth-child(3) {
+    cx: 450;
+    fill: var(--C);
+    animation-delay: 200ms;
+  }
+  
+  .shape:nth-child(4) {
+    cx: 600;
+    fill: var(--D);
+    animation-delay: 300ms;
+  }
+  
+  .shape:nth-child(5) {
+    cx: 750;
+    fill: var(--E);
+    animation-delay: 400ms;
+  }
+  
+/* the hover reaction for the rectangles as grid layout */
+svg:hover rect {
+    stroke-width: 2;
+    fill-opacity: 0.8;
+    z-index: -1;
+  }
+
+/* the positioning of map part */
+map {
+    position: absolute;
+    left: 100px;
+    top: 450px;
+    z-index: 1;
+    }
+
+/* the marker on the map */
+svg.marker {
+    stroke-width: 2;
+    position: absolute;
+    left: 255px;
+    top: 315px;
+    fill-opacity: 0.8;
+    z-index: 0;
+  }
+svg.marker:active {
+  stroke-width: 2;
+  position: absolute;
+  left: 425px;
+  top: 710px;
+  fill-opacity: 0.8;
+  z-index: 0;
+}
+
+/* the style for population class */
+svg .district #pop{
+  fill: none;
+  stroke: none;
+}
+
+svg .district:hover #pop{
+  fill: red;
+  stroke: red;
+  stroke-width: 1;
+}
+
+/* the style for map inset */
+svg.inset {
+    stroke-width: 2;
+    position: absolute;
+    left: 200px;
+    top: 650px;
+    fill-opacity: 0.8;
+    z-index: -1;
+  }
