@@ -1,120 +1,232 @@
 
 /* whole html */
 html {
-    height: 100%;
-    font-family:'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 13px;
-  }
-  
+  height: 100%;
+  font-family:'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 13px;
+}
+
 /* the body of html */
 body {
-    margin: 0;
-    padding: 10px;
-    min-height: 100%;
-  }
+  margin: 0;
+  padding: 10px;
+  min-height: 100%;
+  background-image: url('background_mp_crop2.png');
+  background-size: cover;
+  background-position: center;
+}
 
-/* the animation of Ellipse */
-  @keyframes moveEllipse {
-    50% {
-      cy: 150;
-      r: 13;
-    }
-  }
-  :root {
-    --A: #0D0F1Bff;
-    --B: #1D333Eff;
-    --C: #296B75ff;
-    --D: #4C9AB0ff;
-    --E: #6EB5CBff;
-  }
-  
-  .shape {
-    cy: 50;
-    rx: 45;
-    ry: 30;
-    animation: moveEllipse 1250ms ease-in-out both infinite;
-  }
-  
-  .shape:nth-child(1) {
-    cx: 150;
-    fill: var(--A);
-  }
-  
-  .shape:nth-child(2) {
-    cx: 300;
-    fill: var(--B);
-    animation-delay: 100ms;
-  }
-  
-  .shape:nth-child(3) {
-    cx: 450;
-    fill: var(--C);
-    animation-delay: 200ms;
-  }
-  
-  .shape:nth-child(4) {
-    cx: 600;
-    fill: var(--D);
-    animation-delay: 300ms;
-  }
-  
-  .shape:nth-child(5) {
-    cx: 750;
-    fill: var(--E);
-    animation-delay: 400ms;
-  }
-  
-/* the hover reaction for the rectangles as grid layout */
-svg:hover rect {
-    stroke-width: 2;
-    fill-opacity: 0.8;
-    z-index: -1;
-  }
+/* warning only the main page */
+section.warning{
+  margin-bottom: 5px;
+  padding: 10px;
+  text-align: center;
+  align-items: center;
+  min-height: 35px;
+  border-radius: 5px;
+  background-color: #6EB5CBff;
+  opacity: 0.9;
+}
 
-/* the positioning of map part */
-map {
-    position: absolute;
-    left: 100px;
-    top: 450px;
-    z-index: 1;
-    }
+/* upper navigation bar */
+.navbar {
+  border-radius: 5px;
+  font-family:'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-bottom: 5px;
+  height: 50px;
+  background-color: #1D333Eff;
+}
 
-/* the marker on the map */
-svg.marker {
-    stroke-width: 2;
-    position: absolute;
-    left: 255px;
-    top: 315px;
-    fill-opacity: 0.8;
-    z-index: 0;
-  }
-svg.marker:active {
-  stroke-width: 2;
+.navbar a {
+  float: left;
+  font-size: 16px;
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
+  color:#4C9AB0ff;
+}
+
+.dropdown {
+  float: left;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: -8px;
+  border: none;
+  outline: none;
+  color: #6EB5CBff;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #296B75ff;
+}
+
+.dropdown-content {
+  display: none;
   position: absolute;
-  left: 425px;
-  top: 710px;
-  fill-opacity: 0.8;
-  z-index: 0;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  background-color: #4C9AB0ff;
 }
 
-/* the style for population class */
-svg .district #pop{
-  fill: none;
-  stroke: none;
+.dropdown-content a {
+  float: none;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  color: #0D0F1Bff;
 }
 
-svg .district:hover #pop{
-  fill: red;
-  stroke: red;
-  stroke-width: 1;
+.dropdown-content a:hover {
+  background-color: #6EB5CBff;
 }
 
-/* the style for map inset */
-svg.inset {
-    stroke-width: 2;
-    position: absolute;
-    left: 200px;
-    top: 650px;
-    fill-opacity: 0.8;
-    z-index: -1;
-  }
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* header of the whole page */
+header {
+  margin-bottom: 5px;
+  padding: 10px;
+  min-height: 20px;
+  border-radius: 5px;
+  background-color: #6EB5CBff;
+  font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  align-items: center;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px #ffffff;
+  opacity: 0.9;
+}
+
+/* the table for project diary and discography log */
+table, th, td {
+  border: 4px solid #1D333Eff;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: center;
+}
+
+/* upper grid */
+.grid2 {
+  display: flex;
+  font-size: 16px;
+  margin: 0px -10px 0px 0;
+  font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+  opacity: 0.9;
+}
+
+.grid2 div {
+  flex: 0 0 250px;
+  margin: 0 10px 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #6EB5CBff;
+}
+
+.grid2 .box1 {
+  flex: 0 1 250px;
+}
+
+.grid2 .box2 {
+  flex: 1 0 250px;
+}
+
+/* lower grid */
+.grid1 {
+    display: flex;
+    font-size: 16px;
+    margin: 0px -10px 0px 0;    
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    opacity: 0.9;
+    text-align: center;
+    justify-content: center;
+}
+
+.grid1 div {
+    padding: 10px;
+    min-height: 35px;
+    border-radius: 5px;
+    background-color: #6EB5CBff;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.grid1 .box1 {
+    flex: 0 1 300px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+.grid1 .box2 {
+    flex: 1 0 250px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+
+/* main section without grid */
+
+main {
+  flex: 0;
+  font-size: 14px;
+  background-color: #6EB5CBff;
+  margin-bottom: 10px;
+  padding: 10px;
+  min-height: 35px;
+  border-radius: 5px;
+  opacity: 0.9;
+  height: 900px;
+  text-align: center;
+}
+
+
+
+/* the style of social media icons, adopted from: https://www.w3schools.com/howto/howto_css_social_media_buttons.asp */
+.fa {
+  padding: 10px;
+  font-size: 10px;
+  width: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 5px;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+/* the footer of all pages */
+
+footer {
+  margin-top: 2.5px;
+  padding: 4px;
+  min-height: 20px;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  align-items: center;
+  opacity: 0.9;
+}
