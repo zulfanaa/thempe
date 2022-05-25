@@ -10,13 +10,29 @@ var yourVlSpec = {
       {
         "lookup": "properties.SOV_A3",
         "from": {
-          "data": {"url": "4a1_se_inf_dsbl.csv"},
+          "data": {"url": "441_se_adt_acts_lv.csv"},
           "key": "ISO3",
           "fields": ["latest_value"]
         }
       }
     ],
     "mark": "geoshape",
-    "encoding": {"color": {"field": "latest_value", "type": "quantitative"}}
+    "encoding": {
+      "color": {
+        "condition": {
+          "test": "datum['latest_value'] === null",
+          "value": "#aaa"
+        },
+        "field": "latest_value", "type": "quantitative"
+      },
+      "tooltip": {"condition": {
+        "test": "datum['latest_value'] === null",
+        "value": "No Data"
+      },
+      "field": "latest_value", "type": "quantitative"}
+    },
+    "config": {
+      "mark": {"invalid": null}
+    },
   };
   vegaEmbed('#vis', yourVlSpec);
