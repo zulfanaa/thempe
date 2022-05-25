@@ -3,14 +3,14 @@ var yourVlSpec = {
     "width": 500,
     "height": 300,
     "data": {
-      "url": "world.geojson",
+      "url": "world_try.json",
       "format": {"property": "features"}
     },
     "transform": [
       {
-        "lookup": "ISO3CD",
+        "lookup": "properties.sov_a3",
         "from": {
-          "data": {"url": "edu_data.csv"},
+          "data": {"url": "spi.csv"},
           "key": "ISO3",
           "fields": ["latest_value"]
         }
