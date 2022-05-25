@@ -1,0 +1,313 @@
+Goal,Target,Indicator,SeriesCode,SeriesDescription,GeoAreaCode,GeoAreaName,Reporting Type,Sex,Units,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,ISO3,latest_value,latest_value_year
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",8,Albania,G,BOTHSEX,PERCENT,,,,,,,,1.53492,1.89852,1.55904,1.47551,,,1.38437,,,9.2,,,ALB,9.2,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",8,Albania,G,FEMALE,PERCENT,,,,,,,,1.47468,2.12108,1.39056,1.403,,,1.23265,,,9.5,,,ALB,9.5,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",8,Albania,G,MALE,PERCENT,,,,,,,,1.59717,1.64189,1.74657,1.55519,,,,,,8.8,,,ALB,8.8,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",24,Angola,G,BOTHSEX,PERCENT,,,,,9.73796,,,,,,,13.77339,,,,,,,,AGO,13.77339,2011
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",24,Angola,G,FEMALE,PERCENT,,,,,8.83035,,,,,,,13.11359,,,,,,,,AGO,13.11359,2011
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",24,Angola,G,MALE,PERCENT,,,,,10.61021,,,,,,,14.50611,,,,,,,,AGO,14.50611,2011
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",32,Argentina,G,BOTHSEX,PERCENT,,,,,5.86885,5.62014,5.89582,,5.37199,5.60676,5.89855,6.08402,5.91209,6.1433,6.41873,,,6.48746,,ARG,6.48746,2017
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",32,Argentina,G,FEMALE,PERCENT,,,,,6.35353,6.073,6.31968,,5.80748,5.86271,6.40291,6.87674,6.51022,6.77287,7.5221,,,7.44567,,ARG,7.44567,2017
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",32,Argentina,G,MALE,PERCENT,,,,,5.32517,5.11183,5.42198,,4.88409,5.32033,5.34059,5.22906,5.25681,5.44606,5.19057,,,5.4297,,ARG,5.4297,2017
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",36,Australia,G,BOTHSEX,PERCENT,,,,,,,,,,,,,54.88867,,,,,,,AUS,54.88867,2012
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",36,Australia,G,FEMALE,PERCENT,,,,,,,,,,,,,53.68333,,,,,,,AUS,53.68333,2012
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",36,Australia,G,MALE,PERCENT,,,,,,,,,,,,,56.10509,,,,,,,AUS,56.10509,2012
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",40,Austria,G,BOTHSEX,PERCENT,,,,,,,,41.9,,,,48.2,,,,,59.9,,,AUT,59.9,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",40,Austria,G,FEMALE,PERCENT,,,,,,,,39.9,,,,47.6,,,,,58.8,,,AUT,58.8,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",40,Austria,G,MALE,PERCENT,,,,,,,,44,,,,48.7,,,,,61.1,,,AUT,61.1,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",56,Belgium,G,BOTHSEX,PERCENT,,,,,,,,40.5,,,,37.7,,,,,45.2,,,BEL,45.2,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",56,Belgium,G,FEMALE,PERCENT,,,,,,,,39.8,,,,36.9,,,,,46.2,,,BEL,46.2,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",56,Belgium,G,MALE,PERCENT,,,,,,,,41.2,,,,38.6,,,,,44.2,,,BEL,44.2,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",84,Belize,G,BOTHSEX,PERCENT,,,,,,,,,,,,,,1.98046,,,,,,BLZ,1.98046,2013
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",84,Belize,G,FEMALE,PERCENT,,,,,,,,,,,,,,2.72596,,,,,,BLZ,2.72596,2013
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",68,Bolivia (Plurinational State of),G,BOTHSEX,PERCENT,,,,,,,,9.09926,6.13429,7.36189,,6.65588,7.04353,6.94037,7.73454,5.59703,6.30194,5.38196,,BOL,5.38196,2017
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",68,Bolivia (Plurinational State of),G,FEMALE,PERCENT,,,,,,,,10.08556,6.02644,6.62078,,6.41442,6.82292,6.41448,7.83339,5.31183,5.96742,5.38096,,BOL,5.38096,2017
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",68,Bolivia (Plurinational State of),G,MALE,PERCENT,,,,,,,,7.99114,6.095,8.16139,,6.91263,7.28717,7.5115,7.62886,5.89729,6.66223,5.38304,,BOL,5.38304,2017
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",70,Bosnia and Herzegovina,G,BOTHSEX,PERCENT,,,,,,,2.17778,2.15767,2.13076,1.90902,2.11273,2.18184,2.23761,,1.74418,,8.7,,,BIH,8.7,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",70,Bosnia and Herzegovina,G,FEMALE,PERCENT,,,,,,,2.02557,2.03539,2.15464,1.86016,1.978,2.13504,2.30169,,1.63634,,8.5,,,BIH,8.5,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",70,Bosnia and Herzegovina,G,MALE,PERCENT,,,,,,,2.29241,2.28263,2.02114,,2.17342,2.15668,2.17297,,,,8.9,,,BIH,8.9,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",72,Botswana,G,BOTHSEX,PERCENT,,,,,,,,,,3.32667,,,,,,,,,,BWA,3.32667,2009
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",72,Botswana,G,FEMALE,PERCENT,,,,,,,,,,3.39421,,,,,,,,,,BWA,3.39421,2009
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",72,Botswana,G,MALE,PERCENT,,,,,,,,,,3.24813,,,,,,,,,,BWA,3.24813,2009
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",96,Brunei Darussalam,G,BOTHSEX,PERCENT,,,,,,,,,,,,,,,1.53148,,,,,BRN,1.53148,2014
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",96,Brunei Darussalam,G,MALE,PERCENT,,,,,,,,,,,,,,,1.47714,,,,,BRN,1.47714,2014
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",100,Bulgaria,G,BOTHSEX,PERCENT,,,,,,,,36.4,,,,26,,,,,24.6,,,BGR,24.6,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",100,Bulgaria,G,FEMALE,PERCENT,,,,,,,,35,,,,24.6,,,,,24.7,,,BGR,24.7,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",100,Bulgaria,G,MALE,PERCENT,,,,,,,,37.9,,,,27.5,,,,,24.5,,,BGR,24.5,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",108,Burundi,G,BOTHSEX,PERCENT,,,,,,,,,,,,,,,1.52528,,,,,BDI,1.52528,2014
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",108,Burundi,G,FEMALE,PERCENT,,,,,,,,,,,,,,,0.82017,,,,,BDI,0.82017,2014
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",116,Cambodia,G,BOTHSEX,PERCENT,0.52016,0.52903,,,,,,0.60694,0.59041,,0.70761,,1.17967,,,,,,,KHM,1.17967,2012
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",116,Cambodia,G,FEMALE,PERCENT,0.50764,0.34087,,,,,,,,,,,0.71805,,,,,,,KHM,0.71805,2012
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",116,Cambodia,G,MALE,PERCENT,0.53518,0.63808,,,,,,0.70582,0.59041,,1.16375,,,,,,,,,KHM,1.16375,2010
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",120,Cameroon,G,BOTHSEX,PERCENT,,,,,,,,1.82257,,,,,,,,,,,,CMR,1.82257,2007
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",120,Cameroon,G,MALE,PERCENT,,,,,,,,2.15896,,,,,,,,,,,,CMR,2.15896,2007
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",124,Canada,G,BOTHSEX,PERCENT,,,,,,,,,,,,,57.74635,,,,,,,CAN,57.74635,2012
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",124,Canada,G,FEMALE,PERCENT,,,,,,,,,,,,,57.10773,,,,,,,CAN,57.10773,2012
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",124,Canada,G,MALE,PERCENT,,,,,,,,,,,,,58.38972,,,,,,,CAN,58.38972,2012
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",152,Chile,G,BOTHSEX,PERCENT,,,,,,,,,,,,,,,,47.09336,,,,CHL,47.09336,2015
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",152,Chile,G,FEMALE,PERCENT,,,,,,,,,,,,,,,,41.70011,,,,CHL,41.70011,2015
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",152,Chile,G,MALE,PERCENT,,,,,,,,,,,,,,,,52.52633,,,,CHL,52.52633,2015
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",184,Cook Islands,G,BOTHSEX,PERCENT,,,,,,,,,,,,,,,,,0.83373,,,,0.83373,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",184,Cook Islands,G,FEMALE,PERCENT,,,,,,,,,,,,,,,,,1.5148,,,,1.5148,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",384,Côte d'Ivoire,G,BOTHSEX,PERCENT,,,,,,,,,,,,,3.81833,2.94685,,,,,,CIV,2.94685,2013
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",384,Côte d'Ivoire,G,FEMALE,PERCENT,,,,,,,,,,,,,2.63174,2.31326,,,,,,CIV,2.31326,2013
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",384,Côte d'Ivoire,G,MALE,PERCENT,,,,,,,,,,,,,4.92929,3.50592,,,,,,CIV,3.50592,2013
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",191,Croatia,G,BOTHSEX,PERCENT,,,,,,,,21.2,,,,,,,,,31.8,,,HRV,31.8,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",191,Croatia,G,FEMALE,PERCENT,,,,,,,,21.1,,,,,,,,,31.1,,,HRV,31.1,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",191,Croatia,G,MALE,PERCENT,,,,,,,,21.4,,,,,,,,,32.5,,,HRV,32.5,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",196,Cyprus,G,BOTHSEX,PERCENT,,,,,,,,40.6,,,,42.3,,,,,48.1,,,CYP,48.1,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",196,Cyprus,G,FEMALE,PERCENT,,,,,,,,38.2,,,,41.5,,,,,40.4,,,CYP,40.4,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",196,Cyprus,G,MALE,PERCENT,,,,,,,,43,,,,43.1,,,,,56.6,,,CYP,56.6,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",203,Czechia,G,BOTHSEX,PERCENT,,,,,,,,37.6,,,,37.1,,,,,46.1,,,CZE,46.1,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",203,Czechia,G,FEMALE,PERCENT,,,,,,,,33.6,,,,37,,,,,42.6,,,CZE,42.6,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",203,Czechia,G,MALE,PERCENT,,,,,,,,41.6,,,,37.2,,,,,49.5,,,CZE,49.5,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",180,Democratic Republic of the Congo,G,BOTHSEX,PERCENT,,,,,,2.90837,,,,,,,2.82773,,,,,,,COD,2.82773,2012
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",180,Democratic Republic of the Congo,G,FEMALE,PERCENT,,,,,,1.70627,,,,,,,1.67313,,,,,,,COD,1.67313,2012
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",180,Democratic Republic of the Congo,G,MALE,PERCENT,,,,,,4.16797,,,,,,,4.05406,,,,,,,COD,4.05406,2012
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",208,Denmark,G,BOTHSEX,PERCENT,,,,,,,,44.5,,,,58.5,,,,,50.4,,,DNK,50.4,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",208,Denmark,G,FEMALE,PERCENT,,,,,,,,45.1,,,,61.8,,,,,52.6,,,DNK,52.6,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",208,Denmark,G,MALE,PERCENT,,,,,,,,43.9,,,,55.2,,,,,48.3,,,DNK,48.3,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",214,Dominican Republic,G,BOTHSEX,PERCENT,6.7878,6.07368,7.04923,7.10516,6.72118,,,,,7.63362,7.10462,7.40866,7.47534,8.2787,8.95633,8.15924,7.59324,6.27417,,DOM,6.27417,2017
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",214,Dominican Republic,G,FEMALE,PERCENT,8.19521,7.30396,8.50234,8.80701,7.97211,,,,,9.48628,9.07511,8.97512,8.7883,9.92668,11.06007,10.32167,9.503,8.0238,,DOM,8.0238,2017
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",214,Dominican Republic,G,MALE,PERCENT,5.21526,4.74096,5.49015,5.26429,5.38304,,,,,5.69201,5.02829,5.75013,6.08353,6.50935,6.74494,5.81906,5.5586,4.41272,,DOM,4.41272,2017
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",218,Ecuador,G,BOTHSEX,PERCENT,4.19511,4.00207,,3.51248,3.97677,,,,,4.7971,5.257,4.31103,4.09387,3.60805,3.23828,2.90147,3.08215,35.07959,3.32518,ECU,3.32518,2018
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",218,Ecuador,G,FEMALE,PERCENT,4.00703,4.13185,,3.2873,3.72817,,,,,5.34449,5.77347,4.59453,4.44647,3.97472,3.30099,3.06867,3.26914,30.38283,3.48717,ECU,3.48717,2018
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",218,Ecuador,G,MALE,PERCENT,4.39448,3.86712,,3.7521,4.2465,,,,,4.1914,4.68159,3.9951,3.70548,3.20191,3.16917,2.71945,2.87919,40.17193,3.14872,ECU,3.14872,2018
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",818,Egypt,G,BOTHSEX,PERCENT,,,,,,,,,0.30876,0.30491,0.32886,0.27229,0.30102,0.29417,0.32023,0.46505,0.7227,0.66102,,EGY,0.66102,2017
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",818,Egypt,G,FEMALE,PERCENT,,,,,,,,,0.18746,0.15264,,0.16913,,0.1902,0.21029,0.29039,0.41382,0.34808,,EGY,0.34808,2017
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",818,Egypt,G,MALE,PERCENT,,,,,,,,,0.42888,0.46666,0.4407,0.37202,0.41914,0.39942,0.42964,0.63602,1.02425,,,EGY,1.02425,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",222,El Salvador,G,BOTHSEX,PERCENT,,,,,,,,,,,2.07355,2.02367,2.11133,2.13825,2.0318,,,,,SLV,2.0318,2014
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",222,El Salvador,G,FEMALE,PERCENT,,,,,,,,,,,2.04455,1.87809,2.03229,2.01897,,,,,,SLV,2.01897,2013
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",222,El Salvador,G,MALE,PERCENT,,,,,,,,,,,,,2.20476,2.28819,2.46574,,,,,SLV,2.46574,2014
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",233,Estonia,G,BOTHSEX,PERCENT,,,,,,,,42.1,,,,49.9,,,,,44,,,EST,44,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",233,Estonia,G,FEMALE,PERCENT,,,,,,,,46.7,,,,53.3,,,,,50.7,,,EST,50.7,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",233,Estonia,G,MALE,PERCENT,,,,,,,,36.9,,,,46.1,,,,,37,,,EST,37,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",748,Eswatini,G,BOTHSEX,PERCENT,,,,,,,,,,,,,,,,,2.27764,,,SWZ,2.27764,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",748,Eswatini,G,FEMALE,PERCENT,,,,,,,,,,,,,,,,,2.22395,,,SWZ,2.22395,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",748,Eswatini,G,MALE,PERCENT,,,,,,,,,,,,,,,,,2.31527,,,SWZ,2.31527,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",231,Ethiopia,G,BOTHSEX,PERCENT,,,,,,,,,,,,,,3.57308,,,,,,ETH,3.57308,2013
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",231,Ethiopia,G,FEMALE,PERCENT,,,,,,,,,,,,,,2.41221,,,,,,ETH,2.41221,2013
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",231,Ethiopia,G,MALE,PERCENT,,,,,,,,,,,,,,4.79646,,,,,,ETH,4.79646,2013
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",242,Fiji,G,BOTHSEX,PERCENT,,,,,,,,,,,,1.91829,,,,,0.93715,,,FJI,0.93715,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",242,Fiji,G,FEMALE,PERCENT,,,,,,,,,,,,1.70881,,,,,,,,FJI,1.70881,2011
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",242,Fiji,G,MALE,PERCENT,,,,,,,,,,,,,,,,,0.71779,,,FJI,0.71779,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",246,Finland,G,BOTHSEX,PERCENT,,,,,,,,55,,,,55.7,,,,,54.1,,,FIN,54.1,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",246,Finland,G,FEMALE,PERCENT,,,,,,,,61.3,,,,63.1,,,,,60.2,,,FIN,60.2,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",246,Finland,G,MALE,PERCENT,,,,,,,,48.9,,,,48.5,,,,,48,,,FIN,48,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",250,France,G,BOTHSEX,PERCENT,,,,,,,,35.1,,,,50.5,,,,,51.3,,,-99,51.3,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",250,France,G,FEMALE,PERCENT,,,,,,,,33.8,,,,50.8,,,,,53.8,,,-99,53.8,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",250,France,G,MALE,PERCENT,,,,,,,,36.4,,,,50.2,,,,,48.7,,,-99,48.7,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",268,Georgia,G,BOTHSEX,PERCENT,,,,,,,,,,,,,,,,,,1.61582,,GEO,1.61582,2017
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",268,Georgia,G,FEMALE,PERCENT,,,,,,,,,,,,,,,,,,1.96888,,GEO,1.96888,2017
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",268,Georgia,G,MALE,PERCENT,,,,,,,,,,,,,,,,,,1.23425,,GEO,1.23425,2017
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",276,Germany,G,BOTHSEX,PERCENT,,,,,,,,45.4,,,,50.2,,,,,52,,,DEU,52,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",276,Germany,G,FEMALE,PERCENT,,,,,,,,42.4,,,,47.6,,,,,52.2,,,DEU,52.2,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",276,Germany,G,MALE,PERCENT,,,,,,,,48.3,,,,52.8,,,,,51.8,,,DEU,51.8,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",288,Ghana,G,BOTHSEX,PERCENT,,,,,,,,,,,,,,2.61597,,2.90423,,1.79245,,GHA,1.79245,2017
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",288,Ghana,G,FEMALE,PERCENT,,,,,,,,,,,,,,1.65953,,1.82934,,,,GHA,1.82934,2015
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",288,Ghana,G,MALE,PERCENT,,,,,,,,,,,,,,3.73692,,4.3238,,2.38932,,GHA,2.38932,2017
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",300,Greece,G,BOTHSEX,PERCENT,,,,,,,,14.5,,,,11.7,,,,,16.7,,,GRC,16.7,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",300,Greece,G,FEMALE,PERCENT,,,,,,,,14.6,,,,13.1,,,,,17.5,,,GRC,17.5,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",300,Greece,G,MALE,PERCENT,,,,,,,,14.3,,,,10.3,,,,,15.9,,,GRC,15.9,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",320,Guatemala,G,BOTHSEX,PERCENT,,,,3.36008,2.79093,,,,,,3.4546,3.11259,3.09817,3.36377,,,2.67874,2.60555,,GTM,2.60555,2017
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",320,Guatemala,G,FEMALE,PERCENT,,,,,2.25786,,,,,,3.41107,3.21985,2.56417,3.06594,,,2.25683,2.29667,,GTM,2.29667,2017
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",320,Guatemala,G,MALE,PERCENT,,,,4.39002,3.3983,,,,,,,2.99245,3.65201,3.65033,,,3.17562,2.96938,,GTM,2.96938,2017
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",328,Guyana,G,BOTHSEX,PERCENT,,,,,,,,,,,,,,,,,,2.39381,,GUY,2.39381,2017
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",328,Guyana,G,FEMALE,PERCENT,,,,,,,,,,,,,,,,,,2.94638,,GUY,2.94638,2017
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",328,Guyana,G,MALE,PERCENT,,,,,,,,,,,,,,,,,,1.71761,,GUY,1.71761,2017
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",340,Honduras,G,BOTHSEX,PERCENT,,,,,,4.36864,,,,,3.47593,3.20714,3.33082,4.14508,4.72127,4.91521,5.05463,3.30808,,HND,3.30808,2017
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",340,Honduras,G,FEMALE,PERCENT,,,,,,4.8757,,,,,3.93014,3.4766,3.73162,4.83633,5.31132,5.85076,5.45368,3.89348,,HND,3.89348,2017
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",340,Honduras,G,MALE,PERCENT,,,,,,3.62553,,,,,2.86191,2.79464,2.75903,3.29715,3.99589,3.74666,4.56596,2.55566,,HND,2.55566,2017
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",348,Hungary,G,BOTHSEX,PERCENT,,,,,,,,9,,,,41.1,,,,,55.7,,,HUN,55.7,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",348,Hungary,G,FEMALE,PERCENT,,,,,,,,9.6,,,,39.4,,,,,52.7,,,HUN,52.7,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",348,Hungary,G,MALE,PERCENT,,,,,,,,8.3,,,,43,,,,,58.7,,,HUN,58.7,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",360,Indonesia,G,BOTHSEX,PERCENT,,,,,,,,1.25079,0.70407,0.64956,0.76351,1.19629,0.82719,0.791,0.7637,,,,,IDN,0.7637,2014
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",360,Indonesia,G,FEMALE,PERCENT,,,,,,,,1.10421,0.62322,0.57757,0.68654,1.08832,0.76847,0.7337,0.68233,,,,,IDN,0.68233,2014
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",360,Indonesia,G,MALE,PERCENT,,,,,,,,1.39819,0.78547,0.72181,0.84015,1.30341,0.88554,0.84799,0.84463,,,,,IDN,0.84463,2014
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",368,Iraq,G,BOTHSEX,PERCENT,,,,,,,,0.70154,,,,,1.27204,,,,,,,IRQ,1.27204,2012
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",368,Iraq,G,FEMALE,PERCENT,,,,,,,,0.44421,,,,,0.82303,,,,,,,IRQ,0.82303,2012
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",368,Iraq,G,MALE,PERCENT,,,,,,,,0.96685,,,,,1.73166,,,,,,,IRQ,1.73166,2012
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",372,Ireland,G,BOTHSEX,PERCENT,,,,,,,,,,,,24.4,,,,,,,,IRL,24.4,2011
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",372,Ireland,G,FEMALE,PERCENT,,,,,,,,,,,,24.4,,,,,,,,IRL,24.4,2011
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",372,Ireland,G,MALE,PERCENT,,,,,,,,,,,,24.5,,,,,,,,IRL,24.5,2011
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",376,Israel,G,BOTHSEX,PERCENT,,,,,,,,,,,,,,,,52.54323,,,,ISR,52.54323,2015
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",376,Israel,G,FEMALE,PERCENT,,,,,,,,,,,,,,,,52.16544,,,,ISR,52.16544,2015
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",376,Israel,G,MALE,PERCENT,,,,,,,,,,,,,,,,52.94086,,,,ISR,52.94086,2015
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",380,Italy,G,BOTHSEX,PERCENT,,,,,,,,22.2,,,,35.6,,,,,41.5,,,ITA,41.5,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",380,Italy,G,FEMALE,PERCENT,,,,,,,,22.2,,,,34,,,,,39.1,,,ITA,39.1,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",380,Italy,G,MALE,PERCENT,,,,,,,,22.2,,,,37.3,,,,,44,,,ITA,44,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",392,Japan,G,BOTHSEX,PERCENT,,,,,,,,,,,,,41.75506,,,,,,,JPN,41.75506,2012
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",392,Japan,G,FEMALE,PERCENT,,,,,,,,,,,,,35.43983,,,,,,,JPN,35.43983,2012
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",392,Japan,G,MALE,PERCENT,,,,,,,,,,,,,48.12037,,,,,,,JPN,48.12037,2012
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",398,Kazakhstan,G,BOTHSEX,PERCENT,,,,,,,,,,,,,,,,,,16.94607,,KAZ,16.94607,2017
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",398,Kazakhstan,G,FEMALE,PERCENT,,,,,,,,,,,,,,,,,,19.32091,,KAZ,19.32091,2017
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",398,Kazakhstan,G,MALE,PERCENT,,,,,,,,,,,,,,,,,,14.34515,,KAZ,14.34515,2017
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",418,Lao People's Democratic Republic,G,BOTHSEX,PERCENT,,,,,,,,,,,,,,,,,,0.69696,,LAO,0.69696,2017
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",418,Lao People's Democratic Republic,G,FEMALE,PERCENT,,,,,,,,,,,,,,,,,,0.6766,,LAO,0.6766,2017
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",418,Lao People's Democratic Republic,G,MALE,PERCENT,,,,,,,,,,,,,,,,,,0.71806,,LAO,0.71806,2017
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",428,Latvia,G,BOTHSEX,PERCENT,,,,,,,,32.7,,,,32.3,,,,,47.5,,,LVA,47.5,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",428,Latvia,G,FEMALE,PERCENT,,,,,,,,39,,,,37.3,,,,,51.9,,,LVA,51.9,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",428,Latvia,G,MALE,PERCENT,,,,,,,,25.9,,,,26.9,,,,,42.7,,,LVA,42.7,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",440,Lithuania,G,BOTHSEX,PERCENT,,,,,,,,33.9,,,,28.5,,,,,27.9,,,LTU,27.9,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",440,Lithuania,G,FEMALE,PERCENT,,,,,,,,38.7,,,,33.1,,,,,31.9,,,LTU,31.9,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",440,Lithuania,G,MALE,PERCENT,,,,,,,,28.7,,,,23.4,,,,,23.5,,,LTU,23.5,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",442,Luxembourg,G,BOTHSEX,PERCENT,,,,,,,,,,,,70.1,,,,,48.1,,,LUX,48.1,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",442,Luxembourg,G,FEMALE,PERCENT,,,,,,,,,,,,68.5,,,,,48.1,,,LUX,48.1,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",442,Luxembourg,G,MALE,PERCENT,,,,,,,,,,,,71.6,,,,,48.1,,,LUX,48.1,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",454,Malawi,G,BOTHSEX,PERCENT,,,,,,,,,,,,0.94588,,0.39609,,,,0.81752,,MWI,0.81752,2017
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",454,Malawi,G,FEMALE,PERCENT,,,,,,,,,,,,,,0.51109,,,,,,MWI,0.51109,2013
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",454,Malawi,G,MALE,PERCENT,,,,,,,,,,,,1.1649,,0.26274,,,,1.09142,,MWI,1.09142,2017
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",462,Maldives,G,BOTHSEX,PERCENT,,,,,,,,,,,,,,,,,8.62558,,,,8.62558,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",462,Maldives,G,FEMALE,PERCENT,,,,,,,,,,,,,,,,,10.03702,,,,10.03702,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",462,Maldives,G,MALE,PERCENT,,,,,,,,,,,,,,,,,6.92919,,,,6.92919,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",466,Mali,G,BOTHSEX,PERCENT,,,,,,,,,,,,,,,1.30514,1.27257,0.80787,,,MLI,0.80787,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",466,Mali,G,FEMALE,PERCENT,,,,,,,,,,,,,,,0.86113,0.92943,0.50672,,,MLI,0.50672,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",466,Mali,G,MALE,PERCENT,,,,,,,,,,,,,,,1.8013,1.67747,1.1585,,,MLI,1.1585,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",470,Malta,G,BOTHSEX,PERCENT,,,,,,,,33.7,,,,35.9,,,,,36.3,,,,36.3,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",470,Malta,G,FEMALE,PERCENT,,,,,,,,32.8,,,,34.1,,,,,35.7,,,,35.7,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",470,Malta,G,MALE,PERCENT,,,,,,,,34.6,,,,37.7,,,,,36.7,,,,36.7,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",478,Mauritania,G,BOTHSEX,PERCENT,,,,,,,,,,,,,4.32615,,,,,,,MRT,4.32615,2012
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",478,Mauritania,G,FEMALE,PERCENT,,,,,,,,,,,,,3.70816,,,,,,,MRT,3.70816,2012
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",478,Mauritania,G,MALE,PERCENT,,,,,,,,,,,,,5.11516,,,,,,,MRT,5.11516,2012
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",480,Mauritius,G,BOTHSEX,PERCENT,,,1.2728,1.26945,2.06552,,,,,2.03068,2.07746,1.76336,2.17412,2.39081,2.41867,2.25266,1.90442,1.67614,,,1.67614,2017
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",480,Mauritius,G,FEMALE,PERCENT,,,1.01875,1.2189,1.87993,,,,,1.70474,1.84847,1.44986,1.90379,2.39188,2.31861,2.23496,1.63492,,,,1.63492,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",480,Mauritius,G,MALE,PERCENT,,,1.52882,,2.25342,,,,,2.36357,2.29228,2.05453,2.44755,2.3812,2.49428,2.25961,2.12046,1.72583,,,1.72583,2017
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",484,Mexico,G,BOTHSEX,PERCENT,,,,,,,,,,,,,,,,,,30.42356,,MEX,30.42356,2017
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",484,Mexico,G,FEMALE,PERCENT,,,,,,,,,,,,,,,,,,28.03967,,MEX,28.03967,2017
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",484,Mexico,G,MALE,PERCENT,,,,,,,,,,,,,,,,,,33.06445,,MEX,33.06445,2017
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",496,Mongolia,G,BOTHSEX,PERCENT,,,,,,,,,1.12049,,1.29321,1.21232,1.23722,,,,,0.63171,,MNG,0.63171,2017
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",496,Mongolia,G,FEMALE,PERCENT,,,,,,,,,1.18343,,1.37032,1.22884,,,,,,,,MNG,1.22884,2011
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",496,Mongolia,G,MALE,PERCENT,,,,,,,,,1.04973,,1.16046,1.13499,0.88404,,,,,0.4336,,MNG,0.4336,2017
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",104,Myanmar,G,BOTHSEX,PERCENT,,,,,,,,,,,,,,,,2.13075,,0.35023,,MMR,0.35023,2017
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",104,Myanmar,G,FEMALE,PERCENT,,,,,,,,,,,,,,,,2.13671,,0.31794,,MMR,0.31794,2017
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",104,Myanmar,G,MALE,PERCENT,,,,,,,,,,,,,,,,2.12377,,0.38865,,MMR,0.38865,2017
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",516,Namibia,G,BOTHSEX,PERCENT,,,,,,,,,,,,,2.28915,2.7754,2.01373,,3.28426,,7.15517,NAM,7.15517,2018
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",516,Namibia,G,FEMALE,PERCENT,,,,,,,,,,,,,2.20116,2.90218,2.01837,,3.57196,,7.25256,NAM,7.25256,2018
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",516,Namibia,G,MALE,PERCENT,,,,,,,,,,,,,2.36543,2.62879,1.97279,,2.95443,,7.04728,NAM,7.04728,2018
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",524,Nepal,G,BOTHSEX,PERCENT,,,,,,,,,1.96906,,,,,,,,,,,NPL,1.96906,2008
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",524,Nepal,G,FEMALE,PERCENT,,,,,,,,,0.97812,,,,,,,,,,,NPL,0.97812,2008
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",524,Nepal,G,MALE,PERCENT,,,,,,,,,3.12772,,,,,,,,,,,NPL,3.12772,2008
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",528,Netherlands,G,BOTHSEX,PERCENT,,,,,,,,44.6,,,,59.3,,,,,64.1,,,NLD,64.1,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",528,Netherlands,G,FEMALE,PERCENT,,,,,,,,41.6,,,,55.8,,,,,63.5,,,NLD,63.5,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",528,Netherlands,G,MALE,PERCENT,,,,,,,,47.5,,,,62.8,,,,,64.7,,,NLD,64.7,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",554,New Zealand,G,BOTHSEX,PERCENT,,,,,,,,,,,,,,,,67.22365,,,,NZL,67.22365,2015
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",554,New Zealand,G,FEMALE,PERCENT,,,,,,,,,,,,,,,,66.8339,,,,NZL,66.8339,2015
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",554,New Zealand,G,MALE,PERCENT,,,,,,,,,,,,,,,,67.6534,,,,NZL,67.6534,2015
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",558,Nicaragua,G,BOTHSEX,PERCENT,,,,,,,,,,,,,4.61703,,3.57562,,,,,NIC,3.57562,2014
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",558,Nicaragua,G,FEMALE,PERCENT,,,,,,,,,,,,,5.02601,,3.73862,,,,,NIC,3.73862,2014
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",558,Nicaragua,G,MALE,PERCENT,,,,,,,,,,,,,4.15193,,3.28349,,,,,NIC,3.28349,2014
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",807,North Macedonia,G,BOTHSEX,PERCENT,,,,,,,,,,,,,,,,,12.7,,,MKD,12.7,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",807,North Macedonia,G,FEMALE,PERCENT,,,,,,,,,,,,,,,,,11.9,,,MKD,11.9,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",807,North Macedonia,G,MALE,PERCENT,,,,,,,,,,,,,,,,,13.5,,,MKD,13.5,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",578,Norway,G,BOTHSEX,PERCENT,,,,,,,,54.6,,,,60,63.3277,,,,60,,,,60,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",578,Norway,G,FEMALE,PERCENT,,,,,,,,55.9,,,,60.9,64.75374,,,,60.4,,,,60.4,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",578,Norway,G,MALE,PERCENT,,,,,,,,53.3,,,,59.2,61.9648,,,,59.6,,,,59.6,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",585,Palau,G,BOTHSEX,PERCENT,2.05745,,,,,,,,,,,,,,,,,,,,2.05745,2000
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",585,Palau,G,FEMALE,PERCENT,2.43576,,,,,,,,,,,,,,,,,,,,2.43576,2000
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",585,Palau,G,MALE,PERCENT,1.49373,,,,,,,,,,,,,,,,,,,,1.49373,2000
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",591,Panama,G,BOTHSEX,PERCENT,,,,,,,,,,,4.19765,4.29999,4.24457,,,,,3.87658,,PAN,3.87658,2017
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",591,Panama,G,FEMALE,PERCENT,,,,,,,,,,,4.9303,5.0802,4.91085,,,,,4.51449,,PAN,4.51449,2017
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",591,Panama,G,MALE,PERCENT,,,,,,,,,,,3.42685,3.45244,3.50586,,,,,3.1529,,PAN,3.1529,2017
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",598,Papua New Guinea,G,BOTHSEX,PERCENT,,,,,,,,,,,0.88273,,,,,,,,,PNG,0.88273,2010
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",598,Papua New Guinea,G,MALE,PERCENT,,,,,,,,,,,1.36226,,,,,,,,,PNG,1.36226,2010
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",600,Paraguay,G,BOTHSEX,PERCENT,,,,23.86705,24.06088,25.48202,28.19008,28.30778,7.48373,,76.18967,,73.79626,,,,,,,PRY,73.79626,2012
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",600,Paraguay,G,FEMALE,PERCENT,,,,23.75552,24.22046,26.38006,28.14409,27.84599,8.52745,,75.44522,,73.07029,,,,,,,PRY,73.07029,2012
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",600,Paraguay,G,MALE,PERCENT,,,,23.98124,23.90136,24.5806,28.23784,28.78932,6.4395,,,,,,,,,,,PRY,6.4395,2008
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",604,Peru,G,BOTHSEX,PERCENT,,,,,,2.17809,2.46948,2.97281,2.82647,3.07247,3.12385,3.39904,3.23447,3.1761,3.149,2.98766,2.91773,34.46066,,PER,34.46066,2017
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",604,Peru,G,FEMALE,PERCENT,,,,,,2.07287,2.28139,2.77806,2.6423,2.88288,2.77299,2.88992,2.63287,2.82461,2.875,2.8323,2.60801,27.95681,,PER,27.95681,2017
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",604,Peru,G,MALE,PERCENT,,,,,,2.29119,2.66077,3.15189,3.02733,3.28047,3.50816,3.95761,3.87659,3.56058,3.45429,3.16137,3.25768,41.00502,,PER,41.00502,2017
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",616,Poland,G,BOTHSEX,PERCENT,,,,,,,,21.8,,,,24.2,,,,,25.5,,,POL,25.5,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",616,Poland,G,FEMALE,PERCENT,,,,,,,,22.4,,,,25.2,,,,,25.7,,,POL,25.7,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",616,Poland,G,MALE,PERCENT,,,,,,,,21.3,,,,23.2,,,,,25.2,,,POL,25.2,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",620,Portugal,G,BOTHSEX,PERCENT,,,,,,,,26.4,,,,44.4,,,,,46.1,,,PRT,46.1,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",620,Portugal,G,FEMALE,PERCENT,,,,,,,,25.9,,,,45.2,,,,,44.7,,,PRT,44.7,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",620,Portugal,G,MALE,PERCENT,,,,,,,,27,,,,43.5,,,,,47.6,,,PRT,47.6,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",642,Romania,G,BOTHSEX,PERCENT,,,,,,,,7.4,,,,8,,,,,7,,,ROU,7,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",642,Romania,G,FEMALE,PERCENT,,,,,,,,7.9,,,,8,,,,,7.5,,,ROU,7.5,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",642,Romania,G,MALE,PERCENT,,,,,,,,6.9,,,,8,,,,,6.4,,,ROU,6.4,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",643,Russian Federation,G,BOTHSEX,PERCENT,,,,,,,,,,,,,19.37653,,,,,,,RUS,19.37653,2012
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",643,Russian Federation,G,FEMALE,PERCENT,,,,,,,,,,,,,22.40027,,,,,,,RUS,22.40027,2012
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",643,Russian Federation,G,MALE,PERCENT,,,,,,,,,,,,,15.97133,,,,,,,RUS,15.97133,2012
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",646,Rwanda,G,BOTHSEX,PERCENT,,,,,,,,,,,,,,,,,,2.51045,,RWA,2.51045,2017
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",646,Rwanda,G,FEMALE,PERCENT,,,,,,,,,,,,,,,,,,1.72,,RWA,1.72,2017
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",646,Rwanda,G,MALE,PERCENT,,,,,,,,,,,,,,,,,,3.39182,,RWA,3.39182,2017
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",882,Samoa,G,BOTHSEX,PERCENT,,,,,,,,,,,,,0.74902,,,,,,,,0.74902,2012
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",882,Samoa,G,MALE,PERCENT,,,,,,,,,,,,,0.71715,,,,,,,,0.71715,2012
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",686,Senegal,G,BOTHSEX,PERCENT,,,,,,,,,,,,,,,,5.5965,,,,SEN,5.5965,2015
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",686,Senegal,G,FEMALE,PERCENT,,,,,,,,,,,,,,,,4.13818,,,,SEN,4.13818,2015
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",686,Senegal,G,MALE,PERCENT,,,,,,,,,,,,,,,,7.29815,,,,SEN,7.29815,2015
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",688,Serbia,G,BOTHSEX,PERCENT,,,,,,,,,,,,16.5,,,,,19.8,,,SRB,19.8,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",688,Serbia,G,FEMALE,PERCENT,,,,,,,,,,,,16.1,,,,,21.4,,,SRB,21.4,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",688,Serbia,G,MALE,PERCENT,,,,,,,,,,,,16.8,,,,,18,,,SRB,18,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",694,Sierra Leone,G,BOTHSEX,PERCENT,,,,,,,,,,,,,,,3.12046,,,,,SLE,3.12046,2014
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",694,Sierra Leone,G,FEMALE,PERCENT,,,,,,,,,,,,,,,2.35092,,,,,SLE,2.35092,2014
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",702,Singapore,G,BOTHSEX,PERCENT,,,,,,,,,,,,,,,,56.6159,,,,,56.6159,2015
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",702,Singapore,G,FEMALE,PERCENT,,,,,,,,,,,,,,,,52.92454,,,,,52.92454,2015
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",702,Singapore,G,MALE,PERCENT,,,,,,,,,,,,,,,,60.38041,,,,,60.38041,2015
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",703,Slovakia,G,BOTHSEX,PERCENT,,,,,,,,44,,,,41.6,,,,,46.1,,,SVK,46.1,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",703,Slovakia,G,FEMALE,PERCENT,,,,,,,,42.8,,,,41.9,,,,,45.3,,,SVK,45.3,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",703,Slovakia,G,MALE,PERCENT,,,,,,,,45.3,,,,41.4,,,,,46.8,,,SVK,46.8,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",705,Slovenia,G,BOTHSEX,PERCENT,,,,,,,,40.6,,,,36.2,,,,,46.1,,,SVN,46.1,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",705,Slovenia,G,FEMALE,PERCENT,,,,,,,,43.1,,,,37.9,,,,,48.3,,,SVN,48.3,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",705,Slovenia,G,MALE,PERCENT,,,,,,,,38.1,,,,34.5,,,,,44.1,,,SVN,44.1,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",90,Solomon Islands,G,BOTHSEX,PERCENT,,,,,,,,,,,,,,18.57161,,,,,,SLB,18.57161,2013
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",90,Solomon Islands,G,FEMALE,PERCENT,,,,,,,,,,,,,,16.63094,,,,,,SLB,16.63094,2013
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",90,Solomon Islands,G,MALE,PERCENT,,,,,,,,,,,,,,20.33974,,,,,,SLB,20.33974,2013
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",710,South Africa,G,BOTHSEX,PERCENT,3.36966,2.98106,1.86117,2.78905,2.42692,,,,,,,,,,2.83032,2.92102,2.70744,2.61188,2.50607,ZAF,2.50607,2018
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",710,South Africa,G,FEMALE,PERCENT,3.25782,2.91689,1.78324,2.72335,2.43174,,,,,,,,,,3.16273,3.28348,3.06631,3.03567,2.7059,ZAF,2.7059,2018
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",710,South Africa,G,MALE,PERCENT,3.4961,3.05182,1.94673,2.86111,2.42161,,,,,,,,,,2.48143,2.54266,2.33463,2.1733,2.29986,ZAF,2.29986,2018
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",724,Spain,G,BOTHSEX,PERCENT,,,,,,,,30.9,,,,37.7,,,,,43.4,,,ESP,43.4,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",724,Spain,G,FEMALE,PERCENT,,,,,,,,31,,,,36.6,,,,,42.9,,,ESP,42.9,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",724,Spain,G,MALE,PERCENT,,,,,,,,30.8,,,,38.8,,,,,44,,,ESP,44,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",144,Sri Lanka,G,BOTHSEX,PERCENT,,,,,,,,,,,0.7501,0.68608,,1.03364,1.0125,0.97011,0.832,,,LKA,0.832,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",144,Sri Lanka,G,FEMALE,PERCENT,,,,,,,,,,,0.80537,0.77129,,1.05426,1.12766,1.08613,1.00407,,,LKA,1.00407,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",144,Sri Lanka,G,MALE,PERCENT,,,,,,,,,,,0.68199,,,1.00936,0.87882,0.83197,0.62518,,,LKA,0.62518,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",275,State of Palestine,G,BOTHSEX,PERCENT,2.0746,2.17096,2.15724,2.69041,2.86721,2.7073,2.96761,3.12356,,,,,3.18219,2.92673,2.53213,2.51719,2.12121,1.84866,1.8465,PSE,1.8465,2018
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",275,State of Palestine,G,FEMALE,PERCENT,1.17561,,1.31686,1.81811,2.03037,,2.54277,2.54037,,,,,2.64662,2.51496,,,,1.74549,1.78904,PSE,1.78904,2018
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",275,State of Palestine,G,MALE,PERCENT,2.94683,3.11587,2.97262,,3.65985,3.05188,3.37724,3.6826,,,,,3.69677,3.293,2.88622,2.80662,2.23932,1.94458,1.87925,PSE,1.87925,2018
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",729,Sudan,G,BOTHSEX,PERCENT,,,,,,,,,,,,2.88159,,,,,,,,SDN,2.88159,2011
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",729,Sudan,G,FEMALE,PERCENT,,,,,,,,,,,,2.1255,,,,,,,,SDN,2.1255,2011
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",729,Sudan,G,MALE,PERCENT,,,,,,,,,,,,3.59079,,,,,,,,SDN,3.59079,2011
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",752,Sweden,G,BOTHSEX,PERCENT,,,,,,,,73.4,,,,71.8,,,,,63.8,,,SWE,63.8,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",752,Sweden,G,FEMALE,PERCENT,,,,,,,,76.1,,,,74.4,,,,,68.2,,,SWE,68.2,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",752,Sweden,G,MALE,PERCENT,,,,,,,,70.8,,,,69.2,,,,,59.5,,,SWE,59.5,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",756,Switzerland,G,BOTHSEX,PERCENT,,,,,,,,49,,,,65.5,,,,,69.1,,,CHE,69.1,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",756,Switzerland,G,FEMALE,PERCENT,,,,,,,,46.7,,,,66,,,,,67.7,,,CHE,67.7,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",756,Switzerland,G,MALE,PERCENT,,,,,,,,51.3,,,,65,,,,,70.4,,,CHE,70.4,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",764,Thailand,G,BOTHSEX,PERCENT,,,,,,,,,,,,,,0.75253,,,0.45835,,,THA,0.45835,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",764,Thailand,G,FEMALE,PERCENT,,,,,,,,,,,,,,0.81993,,,0.50227,,,THA,0.50227,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",764,Thailand,G,MALE,PERCENT,,,,,,,,,,,,,,0.68174,,,0.41185,,,THA,0.41185,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",626,Timor-Leste,G,BOTHSEX,PERCENT,,,,,,,,,,,3.30498,,,5.12103,,,,,,TLS,5.12103,2013
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",626,Timor-Leste,G,FEMALE,PERCENT,,,,,,,,,,,2.3682,,,4.16581,,,,,,TLS,4.16581,2013
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",626,Timor-Leste,G,MALE,PERCENT,,,,,,,,,,,4.05677,,,6.04907,,,,,,TLS,6.04907,2013
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",788,Tunisia,G,BOTHSEX,PERCENT,,,,,,,,,,,1.80422,,,,,,,,,TUN,1.80422,2010
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",788,Tunisia,G,FEMALE,PERCENT,,,,,,,,,,,1.92526,,,,,,,,,TUN,1.92526,2010
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",788,Tunisia,G,MALE,PERCENT,,,,,,,,,,,1.67703,,,,,,,,,TUN,1.67703,2010
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",792,Turkey,G,BOTHSEX,PERCENT,,,,,,,,14.1,,,,17.8,,,,22.48931,20.9,,,TUR,20.9,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",792,Turkey,G,FEMALE,PERCENT,,,,,,,,10.5,,,,15.1,,,,15.94692,17,,,TUR,17,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",792,Turkey,G,MALE,PERCENT,,,,,,,,17.7,,,,20.6,,,,28.74756,24.8,,,TUR,24.8,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",826,United Kingdom of Great Britain and Northern Ireland,G,BOTHSEX,PERCENT,,,,,,,,49.3,,,,35.8,,,,,52.1,,,GBR,52.1,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",826,United Kingdom of Great Britain and Northern Ireland,G,FEMALE,PERCENT,,,,,,,,51.3,,,,37.9,,,,,53.9,,,GBR,53.9,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",826,United Kingdom of Great Britain and Northern Ireland,G,MALE,PERCENT,,,,,,,,47.2,,,,33.6,,,,,50.2,,,GBR,50.2,2016
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",834,United Republic of Tanzania,G,BOTHSEX,PERCENT,,0.04897,,,,,,,,,,,,,,,,,,TZA,0.04897,2001
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",834,United Republic of Tanzania,G,MALE,PERCENT,,0.06443,,,,,,,,,,,,,,,,,,TZA,0.06443,2001
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",840,United States of America,G,BOTHSEX,PERCENT,,,,,,,,,,,,,59.13664,,,,,59.35554,,USA,59.35554,2017
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",840,United States of America,G,FEMALE,PERCENT,,,,,,,,,,,,,59.1972,,,,,61.21358,,USA,61.21358,2017
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",840,United States of America,G,MALE,PERCENT,,,,,,,,,,,,,59.07031,,,,,57.40049,,USA,57.40049,2017
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",858,Uruguay,G,BOTHSEX,PERCENT,,3.56594,3.26805,3.82213,4.35339,4.31352,,,,,4.50712,,,,,,,5.6184,5.8216,URY,5.8216,2018
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",858,Uruguay,G,FEMALE,PERCENT,,3.96088,3.79117,4.26702,4.72018,4.81464,,,,,5.36523,,,,,,,6.54901,7.01457,URY,7.01457,2018
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",858,Uruguay,G,MALE,PERCENT,,3.09373,2.66103,,3.93124,3.70964,,,,,3.53745,,,,,,,4.63879,4.55052,URY,4.55052,2018
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",548,Vanuatu,G,BOTHSEX,PERCENT,,,,,,,,,,0.89176,,,,,,,,,,VUT,0.89176,2009
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",548,Vanuatu,G,FEMALE,PERCENT,,,,,,,,,,0.86082,,,,,,,,,,VUT,0.86082,2009
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",548,Vanuatu,G,MALE,PERCENT,,,,,,,,,,0.91358,,,,,,,,,,VUT,0.91358,2009
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",862,Venezuela (Bolivarian Republic of),G,BOTHSEX,PERCENT,,,,,,,,,,4.92379,9.1823,8.90644,8.00242,,,,,,,VEN,8.00242,2012
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",862,Venezuela (Bolivarian Republic of),G,FEMALE,PERCENT,,,,,,,,,,6.44741,11.88555,11.32616,9.71849,,,,,,,VEN,9.71849,2012
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",862,Venezuela (Bolivarian Republic of),G,MALE,PERCENT,,,,,,,,,,3.38384,6.44755,6.45668,6.26412,,,,,,,VEN,6.26412,2012
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",704,Viet Nam,G,BOTHSEX,PERCENT,,,,,,,,,,,,,0.61964,0.68749,0.60835,0.16593,,,,VNM,0.16593,2015
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",704,Viet Nam,G,FEMALE,PERCENT,,,,,,,,,,,,,0.49215,0.57334,0.5354,0.13112,,,,VNM,0.13112,2015
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",704,Viet Nam,G,MALE,PERCENT,,,,,,,,,,,,,0.75337,0.80761,0.68521,0.20244,,,,VNM,0.20244,2015
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",887,Yemen,G,BOTHSEX,PERCENT,,,,,,,,,,,,,,,1.49086,,,,,YEM,1.49086,2014
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",887,Yemen,G,FEMALE,PERCENT,,,,,,,,,,,,,,,0.72903,,,,,YEM,0.72903,2014
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",887,Yemen,G,MALE,PERCENT,,,,,,,,,,,,,,,2.23831,,,,,YEM,2.23831,2014
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",894,Zambia,G,BOTHSEX,PERCENT,,,,,,,,,,,,,,,,,,3.32688,,ZMB,3.32688,2017
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",894,Zambia,G,FEMALE,PERCENT,,,,,,,,,,,,,,,,,,3.1784,,ZMB,3.1784,2017
+4,4.3,4.3.1,SE_ADT_EDUCTRN,"Participation rate in formal and non-formal education and training, by sex (%)",894,Zambia,G,MALE,PERCENT,,,,,,,,,,,,,,,,,,3.48209,,ZMB,3.48209,2017
