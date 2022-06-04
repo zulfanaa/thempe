@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Cartographic Process</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open Sans"/>
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/quiz.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="index.html">Thempe Home</a>
+            </div>
+        </nav>
+        <!-- About-->
+        <section class="about-section text-center" id="about">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8">
+                        <h1 class="text-white mb-4">Cartographic Process</h2>
+                        <p class="text-white-50">
+                        Cartographic Process of Making a Thematic Map
+                        <p><a type="button" class="btn btn-primary btn-lg" href="#projects">TELL ME MORE</a></p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Projects-->
+        <section class="projects-section bg-light" id="projects">
+            <div class="container px-4 px-lg-5">
+                <!-- Featured Project Row-->
+                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/thematic_map_pinterest.png" alt="..." /></div>
+                    <div class="col-xl-4 col-lg-5">
+                        <div class="featured-text text-center text-lg-left">
+                            <h4>What is Cartographic Process?</h4>
+                            <p class="text-black-50 mb-0">Cartographic Process is the process of 
+                                how to visualize your data into a thematic map</p>
+                        </div>
+                    </div>
+                    <div class="d-grid gap-2 mx-auto justify-content-md-end">
+                        <a class="btn btn-secondary" href="#about">Back</a>
+                        <a class="btn btn-primary" href="#data">Next</a>
+                    </div>
+                </div>
+                <!-- Project One Row-->
+                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center" id="data">
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/choro_map_ex_countries_by_mean_wealth_per_adult_in_2018.png" alt="..." /></div>
+                    <div class="col-lg-6">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h4 class="text-white">Know about your data</h4>
+                                    <p class="mb-0 text-white-50">What is the nature of your data?</p>
+                                    <hr class="d-none d-lg-block mb-0 ms-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-grid gap-2 mx-auto justify-content-md-end">
+                    <a class="btn btn-secondary" href="#projects">Back</a>
+                    <a class="btn btn-primary" href="#visvar">Next</a>
+                </div>
+                <!-- Project Two Row-->
+                <div class="row gx-0 justify-content-center" id="visvar">
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/visvar_roth_2017.png" alt="..." /></div>
+                    <div class="col-lg-6 order-lg-first">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-right">
+                                    <h4 class="text-white">Know what visual variable you need</h4>
+                                    <p class="mb-0 text-white-50">What is visual variable?</p>
+                                    <hr class="d-none d-lg-block mb-0 me-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-grid gap-2 mx-auto justify-content-md-end">
+                    <a class="btn btn-secondary" href="#data">Back</a>
+                    <a class="btn btn-primary" href="#container">Next</a>
+                </div>
+            </div>
+        </section>
+        <!--Quiz!-->
+        <!--this script is taken from: https://codepen.io/gcarino/pen/AaJBOo-->
+        <div id='container'>
+			<div id='quiz_01'>
+				<h2>Quiz #2: Cartographic Process</h1>
+			</div>
+   			<br/>
+  			<div id='quiz'></div>
+    		<a class='btn btn-dark' id='next' href='#'>Next</a>
+    		<a class='btn btn-light' id='prev' href='#'>Prev</a>
+            <a class='btn btn-light' id='try' href='#'>Try Again</a>
+    		<a class='btn btn-light dropdown-toggle' type="button" id="further" data-bs-toggle="dropdown" aria-expanded="false">
+                Further Step</a>
+              <ul class="dropdown-menu" aria-labelledby="further">
+                <li><a class="dropdown-item" href="03_choropleth.html">Choropleth Map</a></li>
+                <li><a class="dropdown-item" href="#">Proportional Symbol Map</a></li>
+                <li><a class="dropdown-item" href="#">Flow Map</a></li>
+              </ul>
+    	</div>
+        <!-- Footer-->
+        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; Thempe 2022</div></footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
+        <script src="js/01_quiz.js"></script>
+    </body>
+</html>
