@@ -16,10 +16,20 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
         <link href="css/quiz.css" rel="stylesheet" />
+        <link href="css/sidebar.css" rel="stylesheet" />
     </head>
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#">Introduction</a>
+                <a href="#">Cartographic Process</a>
+                <a href="#">Map Types</a>
+            </div>
+            <div id="main">
+                <span style="font-size:30px;cursor:pointer;color:#64a19d;" onclick="openNav()">&#9776;</span>
+            </div>
             <div class="container px-4 px-lg-5">
                 <a class="navbar-brand" href="index.html">Thempe Home</a>
             </div>
@@ -123,5 +133,6 @@
         <script src="js/scripts.js"></script>
         <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
         <script src="js/02_quiz.js"></script>
+        <script src="js/sidebar.js"></script>
     </body>
 </html>
