@@ -73,9 +73,16 @@
             </div>
         </section>
 
-        <section class="map text-center" id="diy">
+        <section class="projects-section text-center" style="padding-top: 2em;" id="diy">
+            <h3>Data selection</h3>
+            <h5 style="font-style:italic;">for visualizing a data into a Choropleth Map, please select the data that you want from the dropdown below</h5>
+            <p><select class="dropdown-toggle" style="font-size: 18px;" id="selectData" onChange="selectData(this.value)">
+                <option>Choose your data</option>
+            </select>
+            </p>
+            <h5>Data Description&#11015;&#65039;</h5>
+            <p style="font-size: 18px;" id="dataDescription">will be shown once you select the data</p>
             <div id="vis"></div>
-            <script src="js/vega.js"></script>
             </div>
         </section>
         <!--References-->
@@ -113,5 +120,6 @@
         <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
         <script src="js/03_quiz.js"></script>
         <script src="js/sidebar.js"></script>
+        <script src="js/choropleth.js"></script>
     </body>
 </html>
