@@ -1,4 +1,3 @@
-var select = document.getElementById("selectData");
 var options = {
     "4A1_SE_ACS_INTNT": {"filename": "assets/data/4a1_se_acs_intnt_lv.csv", 
     "description": "Sustainable Development Goals: \r\n Indicator 4.a.1 Series Proportion of schools with access to the internet for pedagogical purposes, by education level in percentage"},
@@ -28,6 +27,14 @@ var options = {
     "description": "Sustainable Development Goals: \r\n Indicator 4.5.1 Parity indices (female/male, rural/urban, bottom/top wealth quintile and others such as disability status, indigenous peoples and conflict-affected, as data become available) for all education indicators on this list that can be disaggregated"}    
 };
 
+var color = {
+  "Browns": {"scheme" : "browns"},
+  "Blues": {"scheme" : "blues"},
+  "Red": {"scheme" : "reds"},
+  "Green" : {"scheme" : "greens"},
+  "Grey" : {"scheme" : "greys"}
+}
+
 var yourVlSpec = {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": 1000,
@@ -52,7 +59,8 @@ var yourVlSpec = {
           "test": "datum['latest_value'] === null",
           "value": "#aaa"
         },
-        "field": "latest_value", "type": "quantitative"
+        "field": "latest_value", "type": "quantitative",
+        "scale": {"scheme": "tealblues"}
       },
       "tooltip": {"condition": {
         "test": "datum['latest_value'] === null",
@@ -66,13 +74,21 @@ var yourVlSpec = {
   };
   vegaEmbed('#vis', yourVlSpec);
 
+  var data_dropdown = document.getElementById("selectData");
 // https://stackoverflow.com/questions/34913675/how-to-iterate-keys-values-in-javascript
 for (const [key, value] of Object.entries(options)) {
-    var opt = key;
     var el = document.createElement("option");
-    el.textContent = opt;
-    el.value = opt;
-    select.appendChild(el);
+    el.textContent = key;
+    el.value = key;
+    data_dropdown.appendChild(el);
+}
+
+var color_dropdown = document.getElementById("selectColor");
+for (const [key, value] of Object.entries(color)) {
+    var el = document.createElement("option");
+    el.textContent = key;
+    el.value = key;
+    color_dropdown.appendChild(el);
 }
 
 function selectData(attribute) {
@@ -82,4 +98,10 @@ function selectData(attribute) {
     data = {"url": filename};
     yourVlSpec.transform[0].from["data"] = data;
     vegaEmbed('#vis', yourVlSpec);
-} 
+}
+
+function selectColor(colschemes) {
+    cs = color[colschemes];
+    yourVlSpec.encoding.color.scale = cs;
+    vegaEmbed('#vis', yourVlSpec);
+}
