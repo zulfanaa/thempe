@@ -13,7 +13,7 @@
   }
   
   .sidenav a {
-    padding: 8px 8px 8px 32px;
+    padding: 8px 8px 8px 24px;
     text-decoration: none;
     font-size: 20px;
     color: #fff;
@@ -40,9 +40,46 @@
   
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+    .sidenav a {font-size: 20px;}
   }
 
   #dataDescription {
     white-space: pre-line;
   }
+
+.accordion {
+  font-size: 20px;
+}
+
+.accordion-header {
+  font-size: 20px;
+}
+
+.accordion-item {
+  font-size: 20px;
+}
+
+.accordion-button {
+  font-size: 20px;
+  background-color: #64a19d;
+  color: #fff;
+}
+
+.accordion-collapse {
+  font-size: 20px;
+  background-color: #64a19d;
+  color: #fff;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #64a19d;
+  color: #fff;
+}
+.accordion-button:not(.collapsed)::after {
+  background-color: #64a19d;
+  color: #fff;
+}
+.accordion-button::after {
+  background-color: #64a19d;
+  color: #fff;
+}

@@ -19,13 +19,26 @@
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-            <div id="mySidenav" class="sidenav">
+            <div id="mySidenav" class="sidenav accordion accordion-flush">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 <a style="color:darkgrey;" href="#">Introduction &#128274;</a>
                 <a style="color:darkgrey;" href="#">Cartographic Process &#128274;</a>
-                <a style="color:darkgrey;" href="#">Choropleth Map &#128274;</a>
-                <a style="color:darkgrey;" href="#">Proportional Symbol Map &#128274;</a>
-                <a style="color:darkgrey;" href="#">Flow Map &#128274;</a>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          Map Type
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p style="font-style:italic">learn about each map type</p>
+                            <a style="color:darkgrey;" href="#">Choropleth Map &#128274;</a>
+                            <a style="color:darkgrey;" href="#">Proportional Symbol Map &#128274;</a>
+                            <a style="color:darkgrey;" href="#">Flow Map &#128274;</a>
+                        </div>
+                      </div>
+                    </div>
+                </a>
             </div>
             <div id="main">
                 <span style="font-size:30px;cursor:pointer;color:#64a19d;" onclick="openNav()">&#9776;</span>
@@ -100,6 +113,21 @@
                                     <h4 class="text-white">Proportional Symbol Map</h4>
                                     <p class="mb-0 text-white-50">Learn how to visualize your data on a Proportional Symbol Map</p>
                                     <hr class="d-none d-lg-block mb-0 me-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Three Row-->
+                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/choro_map_ex_countries_by_mean_wealth_per_adult_in_2018.png" alt="..." /></div>
+                    <div class="col-lg-6">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h4 class="text-white">Flow Map</h4>
+                                    <p class="mb-0 text-white-50">Learn how to visualize your data on a Flow Map</p>
+                                    <hr class="d-none d-lg-block mb-0 ms-0" />
                                 </div>
                             </div>
                         </div>

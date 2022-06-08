@@ -21,19 +21,32 @@
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-            <div id="mySidenav" class="sidenav">
+            <div id="mySidenav" class="sidenav accordion accordion-flush">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 <a href="01_introduction.html">Introduction</a>
                 <a style="color:darkgrey;" href="#">Cartographic Process &#128274;</a>
-                <a style="color:darkgrey;" href="#">Choropleth Map &#128274;</a>
-                <a style="color:darkgrey;" href="#">Proportional Symbol Map &#128274;</a>
-                <a style="color:darkgrey;" href="#">Flow Map &#128274;</a>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          Map Type
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p style="font-style:italic">learn about each map type</p>
+                            <a style="color:darkgrey;" href="#">Choropleth Map &#128274;</a>
+                            <a style="color:darkgrey;" href="#">Proportional Symbol Map &#128274;</a>
+                            <a style="color:darkgrey;" href="#">Flow Map &#128274;</a>
+                        </div>
+                      </div>
+                    </div>
+                </a>
             </div>
             <div id="main">
                 <span style="font-size:30px;cursor:pointer;color:#64a19d;" onclick="openNav()">&#9776;</span>
             </div>
             <div class="container px-4 px-lg-5">
-                <a class="navbar-brand text-black" href="index.html">Thempe Home</a>
+                <a class="navbar-brand" href="index.html">Thempe Home</a>
             </div>
         </nav>
         <!-- About-->
