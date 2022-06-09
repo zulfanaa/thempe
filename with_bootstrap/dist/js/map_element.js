@@ -1,0 +1,3 @@
+$(function() {
+  $(".drag-me").draggable();
+});

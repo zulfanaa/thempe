@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Cartographic Process</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open Sans"/>
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/quiz.css" rel="stylesheet" />
+        <link href="css/sidebar.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+            <div id="mySidenav" class="sidenav accordion accordion-flush">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="01_introduction.html">Introduction</a>
+                <a href="02_carto_process.html">Cartographic Process</a>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          Map Type
+                        </button>
+                    </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p style="font-style:italic">learn about each map type</p>
+                            <a href="03_choropleth.html">Choropleth Map</a>
+                            <a href="04_proportional_symbol.html">Proportional Symbol Map</a>
+                            <a href="05_flow_map.html">Flow Map</a>
+                        </div>
+                    </div>
+                </div>
+                <a href="06_map_elements.html">Map Elements</a>
+            </div>
+            <div id="main">
+                <span style="font-size:30px;cursor:pointer;color:#64a19d;" onclick="openNav()">&#9776;</span>
+            </div>
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" style="color:black" href="index.html">Thempe Home</a>
+            </div>
+        </nav>
+        <!-- About-->
+        <section class="about-section text-center" id="about">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8">
+                        <h1 class="text-white mb-4">Map Element</h2>
+                        <p class="text-white-50">
+                        Map Element explanation
+                        <p><a type="button" class="btn btn-primary btn-lg" href="#projects">TELL ME MORE</a></p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Projects-->
+        <section class="projects-section bg-light" id="projects">
+            <div class="container px-4 px-lg-5">
+                <!-- Featured Project Row-->
+                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/thematic_map_pinterest.png" alt="..." /></div>
+                    <div class="col-xl-4 col-lg-5">
+                        <div class="featured-text text-center text-lg-left">
+                            <h4>What are map elements?</h4>
+                            <p class="text-black-50 mb-0">Map elements are map frame, map title, map legend, orientation, map scale, and map citation.
+                                The optional elements would be inset and grid.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="d-grid gap-2 mx-auto justify-content-md-end">
+                        <a class="btn btn-secondary" href="#about">Back</a>
+                        <a class="btn btn-primary" href="#mapFrame">Next</a>
+                    </div>
+                </div>
+                <!-- Map Frame -->
+                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center" id="mapFrame">
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/choro_map_ex_countries_by_mean_wealth_per_adult_in_2018.png" alt="..." /></div>
+                    <div class="col-lg-6">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h4 class="text-white">Map Frame</h4>
+                                    <p class="mb-0 text-white-50">Map Frame is ...</p>
+                                    <hr class="d-none d-lg-block mb-0 ms-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-grid gap-2 mx-auto justify-content-md-end">
+                    <a class="btn btn-secondary" href="#projects">Back</a>
+                    <a class="btn btn-primary" href="#mapTitle">Next</a>
+                </div>
+                <!-- Map Title -->
+                <div class="row gx-0 justify-content-center" id="mapTitle">
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/flow_map_ex_map_maker_nat_geo.png" alt="..." /></div>
+                    <div class="col-lg-6 order-lg-first">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-right">
+                                    <h4 class="text-white">Map Title</h4>
+                                    <p class="mb-0 text-white-50">Map Title is ...</p>
+                                    <hr class="d-none d-lg-block mb-0 me-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-grid gap-2 mx-auto justify-content-md-end">
+                    <a class="btn btn-secondary" href="#mapFrame">Back</a>
+                    <a class="btn btn-primary" href="#mapLegend">Next</a>
+                </div>
+                <!-- Map Legend -->
+                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center" id="mapLegend">
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/choro_map_ex_countries_by_mean_wealth_per_adult_in_2018.png" alt="..." /></div>
+                    <div class="col-lg-6">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h4 class="text-white">Map Legend</h4>
+                                    <p class="mb-0 text-white-50">Map Legend is ...</p>
+                                    <hr class="d-none d-lg-block mb-0 ms-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-grid gap-2 mx-auto justify-content-md-end">
+                    <a class="btn btn-secondary" href="#mapTitle">Back</a>
+                    <a class="btn btn-primary" href="#orientation">Next</a>
+                </div>
+                <!-- Orientation -->
+                <div class="row gx-0 justify-content-center" id="orientation">
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/flow_map_ex_map_maker_nat_geo.png" alt="..." /></div>
+                    <div class="col-lg-6 order-lg-first">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-right">
+                                    <h4 class="text-white">Orientation</h4>
+                                    <p class="mb-0 text-white-50">Orientation is ...</p>
+                                    <hr class="d-none d-lg-block mb-0 me-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-grid gap-2 mx-auto justify-content-md-end">
+                    <a class="btn btn-secondary" href="#mapLegend">Back</a>
+                    <a class="btn btn-primary" href="#mapScale">Next</a>
+                </div>
+                <!-- Map Scale -->
+                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center" id="mapScale">
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/choro_map_ex_countries_by_mean_wealth_per_adult_in_2018.png" alt="..." /></div>
+                    <div class="col-lg-6">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h4 class="text-white">Map Scale</h4>
+                                    <p class="mb-0 text-white-50">Map Scale is ...</p>
+                                    <hr class="d-none d-lg-block mb-0 ms-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-grid gap-2 mx-auto justify-content-md-end">
+                    <a class="btn btn-secondary" href="#orientation">Back</a>
+                    <a class="btn btn-primary" href="#mapCitation">Next</a>
+                </div>
+                <!-- Map Citation -->
+                <div class="row gx-0 justify-content-center" id="mapCitation">
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/flow_map_ex_map_maker_nat_geo.png" alt="..." /></div>
+                    <div class="col-lg-6 order-lg-first">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-right">
+                                    <h4 class="text-white">Map Citation</h4>
+                                    <p class="mb-0 text-white-50">Map Citation is ...</p>
+                                    <hr class="d-none d-lg-block mb-0 me-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-grid gap-2 mx-auto justify-content-md-end">
+                    <a class="btn btn-secondary" href="#mapScale">Back</a>
+                    <a class="btn btn-primary" href="#visualization">Next</a>
+                </div>
+            </div>
+        </section>
+        <!--Map Element Practice-->
+        <section class="projects-section text-center" style="padding-top: 2em;" id="visualization">
+                    <h3>Modify your map</h3>
+                    <div class="card bg-light" style="max-width: 200rem;">
+                        <div class="card-header">The Final Map</div>
+                            <div class="card-body">
+                            <p class="card-text">Arrange your map elements here</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="drag-me card bg-dark text-white" id="mapFrame">
+                        <img class="card-img" src="assets/img/flow_map_ex_map_maker_nat_geo.png" alt="map frame">
+                        <div class="card-img-overlay">
+                        <h5 class="card-title">Map Frame</h5>
+                        </div>
+                    </div>
+                    <div class="drag-me card" style="width: 18rem;">
+                        <div class="card-body">
+                        <p class="card-text">Map Title</p>
+                        </div>
+                    </div>
+                    <div class="drag-me card bg-dark text-white" id="mapFrame">
+                        <img class="card-img" src="assets/img/flow_map_ex_map_maker_nat_geo.png" alt="map frame">
+                        <div class="card-img-overlay">
+                        <h5 class="card-title">Map Legend</h5>
+                        </div>
+                    </div>
+                    <div class="drag-me card bg-dark text-white" id="mapFrame">
+                        <img class="card-img" src="assets/img/flow_map_ex_map_maker_nat_geo.png" alt="map frame">
+                        <div class="card-img-overlay">
+                        <h5 class="card-title">Orientation</h5>
+                        </div>
+                    </div>
+                    <div class="drag-me card bg-dark text-white" id="mapFrame">
+                        <img class="card-img" src="assets/img/flow_map_ex_map_maker_nat_geo.png" alt="map frame">
+                        <div class="card-img-overlay">
+                        <h5 class="card-title">Map Scale</h5>
+                        </div>
+                    </div>
+                    <div class="drag-me card bg-dark text-white" id="mapFrame">
+                        <img class="card-img" src="assets/img/flow_map_ex_map_maker_nat_geo.png" alt="map frame">
+                        <div class="card-img-overlay">
+                        <h5 class="card-title">Map Citation</h5>
+                        </div>
+                    </div>
+        </section> 
+        <!--References-->
+        <section class="about-section text-center" id="references" style="background:#fff;">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8">
+                        <h3 class="text-black mb-4">References</h3>
+                        <p class="text-black-50">
+                        HEI HEI HEI
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Quiz!-->
+        <!--this script is taken from: https://codepen.io/gcarino/pen/AaJBOo-->
+        <div id='container'>
+			<div id='quiz_01'>
+				<h2>Quiz #6: Map Elements</h2>
+			</div>
+   			<br/>
+  			<div id='quiz'></div>
+    		<a class='btn btn-dark' id='next' href='#'>Next</a>
+    		<a class='btn btn-light' id='prev' href='#'>Prev</a>
+            <a class='btn btn-light' id='try' href='#'>Try Again</a>
+    		<a class='btn btn-dark' id='further' href='index.html'>Thempe Home</a>
+            <p>
+                <p class="text-black mb-4">Hi! R U stuck here? Please contact me &#128521;&#11015;&#65039;</p>
+            </p>
+    	</div>
+        <!--Contact-->
+        <section class="contact-section bg-black" id="contacts">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Address</h4>
+                                <hr class="my-4 mx-auto" />
+                                <div class="small text-black-50">Vienna, Austria</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-envelope text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Email</h4>
+                                <hr class="my-4 mx-auto" />
+                                <div class="small text-black-50"><a href="#!">zulfanaa@icloud.com</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Phone</h4>
+                                <hr class="my-4 mx-auto" />
+                                <div class="small text-black-50">+62 851 5536 8388</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="social d-flex justify-content-center">
+                    <a class="mx-2" href="https://twitter.com/zzulfanaa"><i class="fab fa-twitter"></i></a>
+                    <a class="mx-2" href="https://www.facebook.com/zulfa.afifah.0705/"><i class="fab fa-facebook-f"></i></a>
+                    <a class="mx-2" href="https://github.com/zulfanaa/thempe"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; Thempe 2022</div></footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
+        <script src="js/02_quiz.js"></script>
+        <script src="js/sidebar.js"></script>
+        <!-- Draggable -->
+        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+        <script src="js/map_element.js"></script>
+        <link href="css/map_element.css" rel="stylesheet" />
+    </body>
+</html>
