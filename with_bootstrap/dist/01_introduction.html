@@ -17,6 +17,7 @@
         <link href="css/styles.css" rel="stylesheet" />
         <link href="css/quiz.css" rel="stylesheet" />
         <link href="css/sidebar.css" rel="stylesheet" />
+        <link href="css/modal.css" rel="stylesheet" />
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -115,42 +116,29 @@
                         </div>
                     </div>
                 </div>
-                <div id="mapExamples" class="carousel slide" data-bs-ride="false">
-                    <div class="carousel-indicators">
-                      <button type="button" data-bs-target="#mapExamples" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                      <button type="button" data-bs-target="#mapExamples" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <div class="row gx-0 justify-content-center" id="examples">
+                    <div class="card" style="width: 18rem;">
+                        <img id="myImg" src="assets/img/map_example_7_eu.jpeg" class="card-img-top modal-img" alt="Percentage of People That Think Their Country Has Benefited From Being In The EU">
+                        <div id="myModal" class="card-body modal">
+                            <span class="close">&times;</span>
+                            <img class="modal-content" id="img">
+                            <div id="caption"></div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Percentage of People That Think Their Country Has Benefited From Being In The EU</h5>
+                            <p class="card-text">Map created by Landgeist</p>
+                            <a href="https://brilliantmaps.com/benefited-eu/" class="btn btn-secondary">map source</a>
+                        </div>
                     </div>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="assets/img/neon_world.jpeg" class="d-block w-100" alt="map1 by">
-                        <div class="carousel-caption d-none d-md-block">
-                          <h5>Neon Map</h5>
-                          <p>by: ...</p>
+                    <div class="card w-75" style="width: 25rem;">
+                        <img id="myImg" src="assets/img/map_example_8_worldLE.png" class="card-img-top modal-img" alt="Life Expectancy in The World (Years)">
+                        <div class="card-body">
+                            <h5 class="card-title">Life Expectancy in The World (Years)</h5>
+                            <p class="card-text">Map from hast7gs.weebly.com</p>
+                            <a href="https://hast7gs.weebly.com/the-geographers-tools.html" class="btn btn-secondary">map source</a>
                         </div>
-                      </div>
-                      <div class="carousel-item">
-                        <img src="assets/img/world_blue.jpeg" class="d-block w-100" alt="map2 by">
-                        <div class="carousel-caption d-none d-md-block">
-                          <h5>Blue Map</h5>
-                          <p>by: ...</p>
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <img src="assets/img/world_blue.jpeg" class="d-block w-100" alt="map2 by">
-                        <div class="carousel-caption d-none d-md-block">
-                          <h5>Blue Map</h5>
-                          <p>by: ...</p>
-                        </div>
-                      </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#mapExamples" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#mapExamples" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
+
                 </div>
                 <div class="d-grid gap-2 mx-auto justify-content-md-end">
                     <a class="btn btn-secondary" href="#goal">Back</a>
@@ -240,5 +228,6 @@
         <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
         <script src="js/01_quiz.js"></script>
         <script src="js/sidebar.js"></script>
+        <script src="js/modal.js"></script>
     </body>
 </html>
