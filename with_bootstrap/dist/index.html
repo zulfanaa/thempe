@@ -15,6 +15,7 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
         <link href="css/sidebar.css" rel="stylesheet" />
+        <link href="css/modal.css" rel="stylesheet" />
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -41,7 +42,7 @@
                 <a style="color:darkgrey;" href="#">Map Elements &#128274;</a>
             </div>
             <div id="main">
-                <span style="font-size:30px;cursor:pointer;color:#64a19d;" onclick="openNav()">&#9776;</span>
+                <span style="font-size:30px;cursor:pointer;color:rgb(100, 161, 157);" onclick="openNav()">&#9776;</span>
             </div>
             <div class="container px-4 px-lg-5">
                 <a class="navbar-brand" href="#page-top">Thempe Home</a>
@@ -60,19 +61,24 @@
             </div>
         </header>
         <!-- About-->
-        <section class="about-section text-center" id="about" style="padding-top: 0rem;">
+        <section class="about-section text-center" id="about" style="padding-top: 0rem; padding-bottom: 10rem;">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8">
                         <h1 class="text-white mb-4">What is Thempe?</h1>
-                        <p class="text-white-50">
+                        <h5 class="text-white-50">
                            Thempe is an acronym of Thematic Mapping Practice and Explanation. 
                            By learning map types in Thempe you will gain more knowledge in the simplest and exciting way.
                            Are you ready for more?
-                        </p>
+                        </h5>
                     </div>
                 </div>
-                <img class="img-fluid" src="assets/img/flow_map_ex_map_maker_nat_geo.png" alt="..." />
+                    <img id="myImg" src="assets/img/thempe_me.png" alt="Practice section in Thempe" style="width:100%;max-width:800px">
+                    <div id="myModal" class="modal">
+                        <span class="close">&times;</span>
+                        <img class="modal-content" id="img01">
+                        <div id="caption"></div>
+                    </div>
             </div>
         </section>
         <!-- Projects-->
@@ -85,8 +91,8 @@
                     <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/thematic_map_pinterest.png" alt="..." /></div>
                     <div class="col-xl-4 col-lg-5">
                         <div class="featured-text text-center text-lg-left">
-                            <h4>Introduction to Thematic Mapping</h4>
-                            <p class="text-black-50 mb-0">Introduction - Good Thematic Map Examples</p>
+                            <h2>Introduction to Thematic Mapping</h2>
+                            <h3 class="text-black-50 mb-0">Introduction - Good Thematic Map Examples</h3>
                         </div>
                     </div>
                 </div>
@@ -95,8 +101,8 @@
                     <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/thematic_map_pinterest.png" alt="..." /></div>
                     <div class="col-xl-4 col-lg-5">
                         <div class="featured-text text-center text-lg-left">
-                            <h4>Cartographic Process</h4>
-                            <p class="text-black-50 mb-0">Data - Perception Properties - Visual Variables</p>
+                            <h2>Cartographic Process</h2>
+                            <h3 class="text-black-50 mb-0">Data - Perception Properties - Visual Variables</h2>
                         </div>
                     </div>
                 </div>
@@ -105,20 +111,24 @@
                     <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/thematic_map_pinterest.png" alt="..." /></div>
                     <div class="col-xl-4 col-lg-5">
                         <div class="featured-text text-center text-lg-left">
-                            <h4>Map Types</h4>
-                            <p class="text-black-50 mb-0">Choropleth Map - Proportional Symbol Map - Flow Map</p>
+                            <h2>Map Types</h2>
+                            <h3 class="text-black-50 mb-0">Choropleth Map - Proportional Symbol Map - Flow Map</h3>
                         </div>
                     </div>
                 </div>
                 <!-- Map Type: Choropleth Map-->
                 <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/choro_map_ex_countries_by_mean_wealth_per_adult_in_2018.png" alt="..." /></div>
+                    <div class="col-lg-6 card"><img class="img-fluid" src="assets/img/choro_map_ex_population.png"/>
+                        <h5 class="card-text text-center" style="font-size: 14px; font-style: italic;">
+                            <a href="https://www.internetgeography.net/choropleth-maps-in-geography/">Image source</a>
+                        </h5>
+                    </div>
                     <div class="col-lg-6">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Choropleth Map</h4>
-                                    <p class="mb-0 text-white-50">Learn how to visualize your data on a Choropleth Map</p>
+                                    <h2 class="text-white">Choropleth Map</h2>
+                                    <h4 class="mb-0 text-white-50">Learn how to visualize your data on a Choropleth Map</h4>
                                     <hr class="d-none d-lg-block mb-0 ms-0" />
                                 </div>
                             </div>
@@ -127,13 +137,17 @@
                 </div>
                 <!-- Map Type: Proportional Symbol Map-->
                 <div class="row gx-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/prop_map_ex_europe_gdp_map.png" alt="..." /></div>
+                    <div class="col-lg-6 card"><img class="img-fluid" src="assets/img/prop_map_ex_us_oilcomsumption.jpeg"/>
+                        <h5 class="card-text text-center" style="font-size: 14px; font-style: italic;">
+                            <a href="https://mappingignorance.org/2013/12/16/the-complexity-of-drawing-good-proportional-symbol-maps/">Image source</a>
+                        </h5>
+                    </div>
                     <div class="col-lg-6 order-lg-first">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">Proportional Symbol Map</h4>
-                                    <p class="mb-0 text-white-50">Learn how to visualize your data on a Proportional Symbol Map</p>
+                                    <h2 class="text-white">Proportional Symbol Map</h2>
+                                    <h4 class="mb-0 text-white-50">Learn how to visualize your data on a Proportional Symbol Map</h4>
                                     <hr class="d-none d-lg-block mb-0 me-0" />
                                 </div>
                             </div>
@@ -142,13 +156,17 @@
                 </div>
                 <!-- Map Type: Flow Map-->
                 <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/choro_map_ex_countries_by_mean_wealth_per_adult_in_2018.png" alt="..." /></div>
+                    <div class="col-lg-6 card"><img class="img-fluid" src="assets/img/flow_map_ex_disease.png"/>
+                        <h5 class="card-text text-center" style="font-size: 14px; font-style: italic;">
+                            <a href="https://www.flowmapp.com/blog/qa/what-is-a-flow-map">Image source</a>
+                        </h5>
+                    </div>
                     <div class="col-lg-6">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Flow Map</h4>
-                                    <p class="mb-0 text-white-50">Learn how to visualize your data on a Flow Map</p>
+                                    <h2 class="text-white">Flow Map</h2>
+                                    <h4 class="mb-0 text-white-50">Learn how to visualize your data on a Flow Map</h4>
                                     <hr class="d-none d-lg-block mb-0 ms-0" />
                                 </div>
                             </div>
@@ -160,8 +178,8 @@
                     <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/thematic_map_pinterest.png" alt="..." /></div>
                     <div class="col-xl-4 col-lg-5">
                         <div class="featured-text text-center text-lg-left">
-                            <h4>Map Elements</h4>
-                            <p class="text-black-50 mb-0">Map Frame - Map Title - Map Legend - Map Scale - Orientation - Map Citation</p>
+                            <h2>Map Elements</h2>
+                            <h3 class="text-black-50 mb-0">Map Frame - Map Title - Map Legend - Map Scale - Orientation - Map Citation</h3>
                         </div>
                     </div>
                 </div>
@@ -173,8 +191,8 @@
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8">
                         <h2 class="text-white mb-4">READY FOR THE ADVENTURE???!!!</h2>
-                        <p class="text-white-50">
-                        HEI HEI HEI
+                        <h1>&#128640; &#128640; &#128640;</h1>
+                        <p></p>
                         <div class="d-grid gap-2 col-6 mx-auto">
                             <a type="button" class="btn btn-primary btn-lg" href="01_introduction.html">I AM BORN READY!!!</a>
                         </div>
@@ -232,5 +250,6 @@
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
         <script src="js/sidebar.js"></script>
+        <script src="js/modal.js"></script>
     </body>
 </html>
