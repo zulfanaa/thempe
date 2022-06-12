@@ -1,16 +1,28 @@
 (function() {
     var questions = [{
-      question: "What is 2*5?",
-      choices: [2, 5, 10, 15, 20],
+      question: "Which things are predominant in Thematic Cartography?",
+      choices: [' techniques and locations',
+      ' attributes and techniques',
+      ' locations and attributes',
+      ' attributes and numbers',
+      ' numbers and location'],
+      correctAnswer: 1
+    }, {
+      question: "What is the purpose of a thematic map?",
+      choices: [' to show a beautiful representation of information',
+      ' to visualize geographic phemomena distribution',
+      ' to represent one or more geographic phenomena, the location, and the attribute',
+      ' to show a detail statistical data',
+      ' to tell the audience about a speacific geographical area'],
       correctAnswer: 2
     }, {
-      question: "What is 1*5?",
-      choices: [5, 6, 7, 9, 11],
-      correctAnswer: 0
-    }, {
-      question: "What is 8*8?",
-      choices: [20, 30, 40, 50, 64],
-      correctAnswer: 4
+      question: "Which one is not a quality of a good map?",
+      choices: [' has a clear idea of what the map is trying to demonstrate',
+        ' legend or key is easy to interpret',
+        ' uses a good symbolization to demonstrate a clear point',
+        ' has a beautiful layout',
+        ' has clear features and is not overcrowded'],
+      correctAnswer: 3
     }];
     
     var questionCounter = 0; //Tracks question number
