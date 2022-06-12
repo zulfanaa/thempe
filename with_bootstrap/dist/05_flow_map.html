@@ -21,6 +21,10 @@
         <script src="https://cdn.jsdelivr.net/npm/vega@5.21.0"></script>
         <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.2.0"></script>
         <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.20.2"></script>
+        <!-- LEAFLET-->
+        <link rel="stylesheet" href="http://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+        <script src="http://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -129,23 +133,9 @@
         </div>
         <!--Visualizing the Data-->
         <section class="projects-section text-center" style="padding-top: 2em;" id="visualization">
-            <div><h3>Create a Flow Map</h3>
-            <p>
-                <select class="btn btn-primary dropdown-toggle" id="selectData" onChange="selectData(this.value)">
-                <option>Choose your data</option>
-                </select>
-                <a class="stretched-link" href="#aboutData">See About Data</a>
-            </p>
-            <p>
-                <select class="btn btn-primary dropdown-toggle" id="selectColor" onChange="selectColor(this.value)">
-                <option>Choose color scheme</option>
-                </select>
-                <a class="stretched-link"href="#aboutColor">See About Color Scheme</a>
-            </p>
-            <h5>Data Description&#11015;&#65039;</h5>
-            <p style="font-size: 18px;" id="dataDescription">will be shown once you select the data</p>
-            </div>
-            <div id="vis"></div>
+            <div>
+                <h3>Create a Flow Map</h3>
+                <div id="map"></div>
             </div>
         </section>       
         <!--References-->
@@ -232,6 +222,6 @@
         <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
         <script src="js/03_quiz.js"></script>
         <script src="js/sidebar.js"></script>
-        <script src="js/choropleth.js"></script>
+        <script src="js/flow_map.js"></script>
     </body>
 </html>
