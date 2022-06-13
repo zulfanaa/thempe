@@ -1,16 +1,28 @@
 (function() {
     var questions = [{
-      question: "What is 2*5?",
-      choices: [2, 5, 10, 15, 20],
-      correctAnswer: 2
-    }, {
-      question: "What is 1*5?",
-      choices: [5, 6, 7, 9, 11],
+      question: "Where in the following does the 'cartographic process' take place?",
+      choices: ['Cartographer and Map',
+      'Map and User',
+      'User and Cartographer',
+      'Information and Cartographer',
+      'information and Map'],
       correctAnswer: 0
     }, {
-      question: "What is 8*8?",
-      choices: [20, 30, 40, 50, 64],
-      correctAnswer: 4
+      question: "Which data is <b>not</b> 'QUANTITATIVE'?",
+      choices: ['Export of wheat',
+      'Poverty index of Country X',
+      'Tree species in Region Y',
+      'Happiness Index of Country Z',
+      'Plastic waste of Year 2022'],
+      correctAnswer: 2
+    }, {
+      question: "What visual variable is suitable for representing Population Density?",
+      choices: ['Color value or Position',
+      'Size or Shape',
+      'Color hue or Size',
+      'Color value or Size',
+      'Orientation or Texture'],
+      correctAnswer: 3
     }];
     
     var questionCounter = 0; //Tracks question number
