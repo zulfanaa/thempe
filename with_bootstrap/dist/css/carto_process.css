@@ -1,5 +1,4 @@
-#dropZone,
-#animals {
+#perception_properties{
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;

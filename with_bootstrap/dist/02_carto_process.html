@@ -179,70 +179,43 @@
             </div>
         </section>
         <!--Exercise,
-        code is taken from https://javascript.plainenglish.io/beginner-drag-and-drop-game-with-html-css-and-js-58653f974285-->
+        code is taken from https://javascript.plainenglish.io/beginner-drag-and-drop-game-with-html-css-and-js-58653f974285 -->
         <section class="projects-section bg-light" id="exercise" style="padding-top: 0em;">
-            <div class="container px-4 px-lg-5">
-                <div id="dropZone">
-                    <div
-                    id="dropBox1"
-                    ondrop="drop(event)"
-                    ondragover="allowDrop(event)">
-                    <p>Fish</p>
+            <div class="container px-4 px-lg-5 text-center">
+                <h2><b>Match the visual variables with perception properties</b></h2>
+                <p></p>
+                <div id="perception_properties">
+                    <div id="dropBox1" style="font-size: 24px;" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <p><b>Selective</b></p>
                     </div>
-                    <div
-                    id="dropBox2"
-                    ondrop="drop(event)"
-                    ondragover="allowDrop(event)">
-                    <p>Mouse</p>
+
+                    <div id="dropBox2"style="font-size: 24px;" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <p><b>Associative</b></p>
                     </div>
-                    <div
-                    id="dropBox3"
-                    ondrop="drop(event)"
-                    ondragover="allowDrop(event)"
-                    >
-                    <p>Cat</p>
+
+                    <div id="dropBox3" style="font-size: 24px;" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <p><b>Ordered</b></p>
                     </div>
-                    <div
-                    id="dropBox4"
-                    ondrop="drop(event)"
-                    ondragover="allowDrop(event)">
-                    <p>Dog</p>
+
+                    <div id="dropBox4" style="font-size: 24px;" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <p><b>Quantitative</b></p>
                     </div>
                 </div>
-                <div
-                    id="animals"
-                    ondrop="drop(event)"
-                    ondragover="allowDrop(event)">
-                    <img
-                    id="cat"
-                    src="https://www.veterinarypracticenews.com/wp-content/uploads/2019/10/bigstock-Four-Kittens-On-A-White-Backgr-2730282.jpg"
-                    draggable="true"
-                    ondragstart="drag(event)"
-                    width="300"
-                    />
-                <img
-                    id="dog"
-                    src="https://www.wallpaperflare.com/static/800/62/574/puppies-white-background-paws-yellow-wallpaper-preview.jpg"
-                    draggable="true"
-                    ondragstart="drag(event)"
-                    width="300"
-                    />
-                <img
-                    id="mouse"
-                    src="https://www.adamspestcontrol.com/cms-files/size-992x992/adams-mouse-600x600.jpg"
-                    draggable="true"
-                    ondragstart="drag(event)"
-                    width="300"
-                    />
-                <img
-                    id="fish"
-                    src="https://cdn.mos.cms.futurecdn.net/uhLVL2jTdtQ7ScXCeoeAU6-650-80.jpg.webp"
-                    draggable="true"
-                    ondragstart="drag(event)"
-                    width="300"
-                    />
+
+                <div id="visual_variable" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <div class="card text-center justify-content-center" id="size" style="width: 10rem;height: 5rem;font-size: 20px;"
+                    draggable="true" ondragstart="drag(event)">Size <br> &#9642;&#65039; &#9724;&#65039; &#11035;</div>
+                    
+                    <div class="card text-center justify-content-center" id="colval" style="width: 10rem;height: 5rem;font-size: 20px;"
+                    draggable="true" ondragstart="drag(event)">Color value <br> &#127912;</div>
+
+                    <div class="card text-center justify-content-center" id="orientation" style="width: 10rem;height: 5rem;font-size: 20px;"
+                    draggable="true" ondragstart="drag(event)">Orientation <br> &#11014;&#65039; &#8599;&#65039; &#10145;&#65039;</div>
+
+                    <div class="card text-center justify-content-center" id="texture" style="width: 10rem;height: 5rem;font-size: 20px;"
+                    draggable="true" ondragstart="drag(event)">Texture <br> &#129349; &#127937; &#128465;&#65039;</div>
                 </div>
-                </div>
+            </div>
         </section>
         <!--Common Map Types-->
         <section class="projects-section bg-light" id="commonmaps" style="padding-top: 0em;">
