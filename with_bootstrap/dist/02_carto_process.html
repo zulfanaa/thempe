@@ -6,7 +6,7 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>Cartographic Process</title>
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="icon" href="assets/icon.png" sizes="128x128" type="image/png">
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
@@ -181,7 +181,7 @@
         <!--Exercise,
         code is taken from https://javascript.plainenglish.io/beginner-drag-and-drop-game-with-html-css-and-js-58653f974285 -->
         <section class="projects-section bg-light" id="exercise" style="padding-top: 0em;">
-            <div class="container px-4 px-lg-5 text-center">
+            <div class="container px-4 px-lg-5 text-center" id="vistoper">
                 <h2><b>Match the visual variables with perception properties</b></h2>
                 <p></p>
                 <div id="perception_properties">
@@ -202,7 +202,7 @@
                     </div>
                 </div>
 
-                <div id="visual_variable" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <div id="visual_variable1" ondrop="drop(event)" ondragover="allowDrop(event)">
                     <div class="card text-center justify-content-center" id="size" style="width: 10rem;height: 5rem;font-size: 20px;"
                     draggable="true" ondragstart="drag(event)">Size <br> &#9642;&#65039; &#9724;&#65039; &#11035;</div>
                     
@@ -215,6 +215,46 @@
                     <div class="card text-center justify-content-center" id="texture" style="width: 10rem;height: 5rem;font-size: 20px;"
                     draggable="true" ondragstart="drag(event)">Texture <br> &#129349; &#127937; &#128465;&#65039;</div>
                 </div>
+            </div>
+
+            <div class="container px-4 px-lg-5 text-center" id="maptovis" style="padding-top: 5rem;">
+                <h2><b>Match the maps with their symbols' visual variables</b></h2>
+                <p></p>
+                <div id="visual_variable2">
+                    <div id="dropBox5" style="font-size: 24px;" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <p><b>Color Hue</b></p>
+                    </div>
+
+                    <div id="dropBox6"style="font-size: 24px;" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <p><b>Size</b></p>
+                    </div>
+
+                    <div id="dropBox7" style="font-size: 24px;" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <p><b>Color value</b></p>
+                    </div>
+
+                    <div id="dropBox8" style="font-size: 24px;" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <p><b>Position/Location</b></p>
+                    </div>
+                </div>
+
+                <div id="maps" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img class="card-img-top text-center justify-content-center" id="vis_size" src="assets/img/vis_size.png"
+                    style="width: 18rem;height: auto;"
+                    draggable="true" ondragstart="drag(event)">
+                    <img class="card-img-top text-center justify-content-center" id="vis_hue" src="assets/img/vis_hue.png"
+                    style="width: 18rem;height: auto;"
+                    draggable="true" ondragstart="drag(event)">
+                    <img class="card-img-top text-center justify-content-center" id="vis_value" src="assets/img/vis_value.png"
+                    style="width: 18rem;height: auto;"
+                    draggable="true" ondragstart="drag(event)">
+                    <img class="card-img-top text-center justify-content-center" id="vis_position" src="assets/img/vis_position.png"
+                    style="width: 18rem;height: auto;"
+                    draggable="true" ondragstart="drag(event)">
+                </div>
+                <h4 style="font-style: italic; padding-top:3rem;">
+                    Map source: <a href="https://mapmaker.nationalgeographic.org/">Map Maker by National Geographic</a>
+                </h4>
             </div>
         </section>
         <!--Common Map Types-->

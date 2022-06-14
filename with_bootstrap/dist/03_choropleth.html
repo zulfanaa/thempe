@@ -6,7 +6,7 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>Choropleth Map</title>
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="icon" href="assets/icon.png" sizes="128x128" type="image/png">
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
@@ -59,10 +59,14 @@
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8">
-                        <h1 class="text-white mb-4">Choropleth Map</h2>
-                        <p class="text-white-50">
-                        What is Choropleth Map?
-                        </p>
+                        <h1 class="text-white mb-4"><b>Choropleth Map</b></h2>
+                        <h3 class="text-white-50">
+                            In this section, you will learn about about the data for choropleth map, the color scheme, and the classification method.
+                            </h3>
+                            <p></p>
+                            <p>
+                                <a type="button" class="btn btn-primary btn-lg" href="#projects">TELL ME MORE</a></p>
+                            </p>
                     </div>
                 </div>
             </div>
@@ -72,106 +76,156 @@
             <div class="container px-4 px-lg-5">
                 <!-- Featured Project Row-->
                 <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/thematic_map_pinterest.png" alt="..." /></div>
+                    <div class="col-xl-8 col-lg-7">
+                        <img class="img-fluid mb-3 mb-lg-0" src="assets/img/choro_map_ex_population.png"/>
+                        <p class="text-center">Figure 1. Choropleth Map - <a href="https://www.internetgeography.net/choropleth-maps-in-geography/">Population Density 2022</a></p>
+                    </div>
                     <div class="col-xl-4 col-lg-5">
                         <div class="featured-text text-center text-lg-left">
-                            <h4>About Choropleth Map</h4>
-                            <p class="text-black-50 mb-0">Choropleth Map is
-                                </p>blablablabla
+                            <h3><b>About Choropleth Map</b></h3>
+                            <p></p>
+                            <h5 class="text-black mb-0" style="text-align: justify;">
+                                'Choropleth' word comes from Greek <br>
+                                <b><i>χῶρος (choros) = 'area/region'</i></b> and <br>
+                                <b><i>πλῆθος (plethos) = 'multitude' </i></b> <a href="https://en.wikipedia.org/wiki/Choropleth_map">(from Wikipedia)</a> <br>
+                                <p></p>
+                                Choropleth map is one of common thematic maps. 
+                                This map uses visual variable <b><i>color value</i></b>
+                                to visualize <b><i>quantitative data</i></b>.
+
+                            </h5>
                         </div>
                     </div>
-                </div>
-                <div class="d-grid gap-2">
-                    <a type="button" class="btn btn-primary btn-lg" href="#aboutData">Tell Me More</a>
-                </div>
-            </div>
-        </section>
-        <!--About the Data-->
-            <div class="row gx-0 mb-5 mb-lg-0 justify-content-center" id="aboutData">
-                <div class="col-lg-6">
-                    <div class="bg-black text-center h-100 project">
-                        <div class="d-flex h-100">
-                            <div class="project-text w-100 my-auto text-center text-lg-left">
-                                <h4 class="text-white">About Choropleth Map Data</h4>
-                                <p class="mb-0 text-white-50">The data should be ...</p>
-                                <hr class="d-none d-lg-block mb-0 ms-0" />
+                </div>    
+                <!--Choropleth Data-->
+                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center" id="cm_data">
+                    <div class="col-lg-6 card" style="padding-top: 2rem;">
+                        <img class="img-fluid" src="assets/img/map_type_MSD.png"/>
+                        <p class="text-center">Figure 2. Common Map Types from <br> <a href="https://digitallibrary.un.org/record/3898826">Kraak MJ, RE Roth, B Ricker, A Kagawa, and G Le Sourd (2020)</a></p>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h3 class="text-white"><b>Choropleth Map Data</b></h3>
+                                    <p></p>
+                                    <h5 class="mb-0" style="text-align: justify; color:#64a19d">
+                                        From the previous section, we have learnt about data type just like it is shown in Figure 2.
+                                        Choropleth map is used to represent <b><i>Quantitative Data</i></b>
+                                        <p></p>
+                                        <h5 class="mb-0" style="text-align: left; color:#64a19d">
+                                        The examples of Quantitative data which are 'Abrupt - Continuous' for Choropleth Map:<br> 
+                                        &#8594 Population density, forest coverage percentage per cities, poverty index of a specific region
+                                        </h5>
+                                    </h5>
+                                    <hr class="d-none d-lg-block mb-0 ms-0" />
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6"><img class="img-fluid" src="assets/img/choro_map_ex_countries_by_mean_wealth_per_adult_in_2018.png" alt="..." /></div>
-                <div class="d-grid gap-2 mx-auto justify-content-md-end">
-                    <a class="btn btn-secondary" href="#projects">Back</a>
-                    <a class="btn btn-primary" href="#aboutColor">Next</a>
+
+                <!--Choropleth Map Color Scheme-->
+                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center" id="cm_colorscheme">
+                    <div class="col-lg-6">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h3 class="text-white"><b>Choropleth Map Color Scheme</b></h3>
+                                    <p></p>
+                                    <h5 class="mb-0" style="text-align: justify; color:#64a19d">
+                                        As you can see in Figure 3 beside, color scheme is one of the most important cosiderations of making a Choropleth Map.<br>
+                                        There are two main color scheme:
+                                        <p></p>
+                                        <h5 class="mb-0" style="text-align: left; color:#64a19d">
+                                        &#9898; Multi Hue <br> 
+                                        <p></p>
+                                        &#9898; Single Hue<br> 
+                                        </h5>
+                                    </h5>
+                                    <hr class="d-none d-lg-block mb-0 ms-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 card" style="padding-top: 2rem;">
+                        <img class="img-fluid" src="assets/img/choro_map_CS.png"/>
+                        <p class="text-center">Figure 3. <a href="https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3">Color Brewer 2.0</a></p>
+                    </div>
                 </div>
-            </div>
-        <!--About the Color Scheme-->
-        <div class="row gx-0 mb-5 mb-lg-0 justify-content-center" id="aboutColor">
-            <div class="col-lg-6"><img class="img-fluid" src="assets/img/choro_map_ex_countries_by_mean_wealth_per_adult_in_2018.png" alt="..." /></div>
-            <div class="col-lg-6">
-                <div class="bg-black text-center h-100 project">
-                    <div class="d-flex h-100">
-                        <div class="project-text w-100 my-auto text-center text-lg-left">
-                            <h4 class="text-white">About Choropleth Map Color Scheme</h4>
-                            <p class="mb-0 text-white-50">The data should be ...</p>
-                            <hr class="d-none d-lg-block mb-0 ms-0" />
+
+                <!--Choropleth Map Classification Method-->
+                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center" id="cm_classification">
+                    <div class="col-lg-6 card" style="padding-top: 3rem;">
+                        <img class="img-fluid" style="padding-left: 8rem; width: 30rem;" src="assets/img/choro_map_cm_equalint.png"/>
+                        <img class="img-fluid" style="padding-left: 8rem; width: 30rem;" src="assets/img/choro_map_cm_quantile.png"/>
+                        <p class="text-center">
+                            Figure 4. 
+                            <a href="https://gisgeography.com/choropleth-maps-data-classification/">
+                                Difference between equal interval and quantile histogram <br>
+                                for choropleth data classification
+                            </a>
+                        </p>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h3 class="text-white"><b>Choropleth Map Classification Method</b></h3>
+                                    <p></p>
+                                    <h5 class="mb-0" style="text-align: justify; color:#64a19d">
+                                        From Figure 3, we can conclude that data classification methods can affect the appearance of the Choropleth map.
+                                        There are several methods that can be used to classify data before it is visualized into a map, namely:
+                                        <p></p>
+                                        <h5 class="mb-0" style="text-align: left; color:#64a19d">
+                                        &#9898; Equal Interval<br> 
+                                        <p></p>
+                                        &#9898; Quantile (Equal Count)<br> 
+                                        <p></p>
+                                        &#9898; Natural Breaks (Jenks) <br>
+                                        <p></p> 
+                                        &#9898; Standard Deviation<br>
+                                        <p></p> 
+                                        &#9898; Pretty Breaks<br> 
+                                        </h5>
+                                    </h5>
+                                    <hr class="d-none d-lg-block mb-0 ms-0" />
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="d-grid gap-2 mx-auto justify-content-md-end">
-                <a class="btn btn-secondary" href="#aboutData">Back</a>
-                <a class="btn btn-primary" href="#aboutClassification">Next</a>
-            </div>
-        </div>
-        <!--About the Classification-->
-        <div class="row gx-0 mb-5 mb-lg-0 justify-content-center" id="aboutClassification">
-            <div class="col-lg-6">
-                <div class="bg-black text-center h-100 project">
-                    <div class="d-flex h-100">
-                        <div class="project-text w-100 my-auto text-center text-lg-left">
-                            <h4 class="text-white">About Choropleth Map Data Classification</h4>
-                            <p class="mb-0 text-white-50">The data should be ...</p>
-                            <hr class="d-none d-lg-block mb-0 ms-0" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6"><img class="img-fluid" src="assets/img/choro_map_ex_countries_by_mean_wealth_per_adult_in_2018.png" alt="..." /></div>
-            <div class="d-grid gap-2 mx-auto justify-content-md-end">
-                <a class="btn btn-secondary" href="#aboutColor">Back</a>
-                <a class="btn btn-primary" href="#visualization">Next</a>
-            </div>
-        </div>
+        </section>
         <!--Visualizing the Data-->
-        <section class="projects-section text-center" style="padding-top: 2em;" id="visualization">
-            <div><h3>Create a Choropleth Map</h3>
-            <p>
-                <select class="btn btn-primary dropdown-toggle" id="selectData" onChange="selectData(this.value)">
-                <option>Choose your data</option>
-                </select>
-                <a class="stretched-link" href="#aboutData">See About Data</a>
-            </p>
-            <p>
-                <select class="btn btn-primary dropdown-toggle" id="selectColor" onChange="selectColor(this.value)">
-                <option>Choose color scheme</option>
-                </select>
-                <a class="stretched-link"href="#aboutColor">See About Color Scheme</a>
-            </p>
-            <h5>Data Description&#11015;&#65039;</h5>
-            <p style="font-size: 18px;" id="dataDescription">will be shown once you select the data</p>
+        <section class="projects-section text-center bg-light" style="padding-top: 2em;" id="visualization">
+            <div class="container px-4 px-lg-5 text-center" id="createCM">
+                <h2 style="padding-bottom: 1em;"><b>Create a Choropleth Map</b></h2>
+                <p>
+                    <select class="btn btn-primary dropdown-toggle" id="selectData" onChange="selectData(this.value)">
+                    <option>Choose your data</option>
+                    </select>
+                    <a class="stretched-link" href="#cm_data">See About Data</a>
+                </p>
+                <p>
+                    <select class="btn btn-primary dropdown-toggle" id="cm_colorscheme" onChange="selectColor(this.value)">
+                    <option>Choose color scheme</option>
+                    </select>
+                    <a class="stretched-link"href="#aboutColor">See About Color Scheme</a>
+                </p>
+                <h5>Data Description&#11015;&#65039;</h5>
+                <p style="font-size: 18px;" id="dataDescription">will be shown once you select the data</p>
             </div>
             <div id="vis"></div>
             </div>
         </section>       
         <!--References-->
-        <section class="about-section text-center" id="references" style="background:#fff;">
+        <section class="projects-section text-center bg-light" id="references" style="padding-top: 0rem ;">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8">
                         <h3 class="text-black mb-4">References</h3>
-                        <p class="text-black-50">
-                        HEI HEI HEI
+                        <p class="text-black-50" style="text-align: left;">
+                            Kraak MJ, RE Roth, B Ricker, A Kagawa, and G Le Sourd. 2020. Mapping for a Sustainable World. The United Nations: New York, NY (USA). <br>
                         </p>
                     </div>
                 </div>

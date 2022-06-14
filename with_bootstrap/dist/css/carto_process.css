@@ -1,14 +1,20 @@
-#perception_properties{
+#perception_properties,
+#visual_variable2{
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
   min-height: 200px;
   margin-bottom: 20px;
+  color: #64a19d;
 }
 #dropBox1,
 #dropBox2,
 #dropBox3,
-#dropBox4 {
+#dropBox4,
+#dropBox5,
+#dropBox6,
+#dropBox7,
+#dropBox8 {
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
@@ -17,4 +23,7 @@
   width: 250px;
   border: 1px solid #aaaaaa;
   padding: 1rem;
+  border-style: dashed;
+  border-width: 0.25rem;
+  border-color: #64a19d47;
 }
