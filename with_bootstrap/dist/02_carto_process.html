@@ -133,19 +133,24 @@
                                     <h5 class="mb-0" style="text-align: left; color:#64a19d">
                                         From Figure 3, we know that Bertin defined perception properties of visual variables into 4 categories below:<br>
                                         <p></p>
-                                        &#9898; Selective <br>
-                                        &#9898; Associative <br>
-                                        &#9898; Ordered/Ordinal <br>
-                                        &#9898; Quantitative <br>
+                                        &#9898; Selective: easily separated as an obvious symbol from the group symbol based on the contrast<br>
+                                        <p></p>
+                                        &#9898; Associative: easily recognized as a group of symbol despite other differences<br>
+                                        <p></p>
+                                        &#9898; Ordered/Ordinal: easily perceived as a rank or an order of symbols<br>
+                                        <p></p>
+                                        &#9898; Quantitative: able to give estimation of numerical difference between symbols<br>
                                     </h5>
                                     <hr class="d-none d-lg-block mb-0 ms-0" />
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 card" style="padding-top: 4rem;">
+                    <div class="col-lg-6 card" style="padding-top: 10rem;">
                         <img class="img-fluid" src="assets/img/perception_properties.png" />
                         <p class="text-center">Figure 3. <a href="https://www.axismaps.com/guide/visual-variables">Bertin's Visual Variables</a></p>
+                        <p></p>
+                        <p></p>
                     </div>
                 </div>
                 <!--Visual variables-->
@@ -202,18 +207,30 @@
                     </div>
                 </div>
 
+                <div class="btn btn-primary" id="check" onclick="check()"> Check your answers </div>
+                <p id="checkAnswer"></p>
+
                 <div id="visual_variable1" ondrop="drop(event)" ondragover="allowDrop(event)">
-                    <div class="card text-center justify-content-center" id="size" style="width: 10rem;height: 5rem;font-size: 20px;"
+                    <div class="card text-center justify-content-center visvar1" id="size" style="width: 10rem;height: 5rem;font-size: 20px;"
                     draggable="true" ondragstart="drag(event)">Size <br> &#9642;&#65039; &#9724;&#65039; &#11035;</div>
                     
-                    <div class="card text-center justify-content-center" id="colval" style="width: 10rem;height: 5rem;font-size: 20px;"
+                    <div class="card text-center justify-content-center visvar1" id="colval" style="width: 10rem;height: 5rem;font-size: 20px;"
                     draggable="true" ondragstart="drag(event)">Color value <br> &#127912;</div>
 
-                    <div class="card text-center justify-content-center" id="orientation" style="width: 10rem;height: 5rem;font-size: 20px;"
-                    draggable="true" ondragstart="drag(event)">Orientation <br> &#11014;&#65039; &#8599;&#65039; &#10145;&#65039;</div>
+                    <div class="card text-center justify-content-center visvar1" id="orientation" style="width: 10rem;height: 5rem;font-size: 20px;"
+                    draggable="true" ondragstart="drag(event)">Orientation <br> &#11014;&#65039; &#11015;&#65039; &#10145;&#65039;</div>
 
-                    <div class="card text-center justify-content-center" id="texture" style="width: 10rem;height: 5rem;font-size: 20px;"
+                    <div class="card text-center justify-content-center visvar1" id="texture" style="width: 10rem;height: 5rem;font-size: 20px;"
                     draggable="true" ondragstart="drag(event)">Texture <br> &#129349; &#127937; &#128465;&#65039;</div>
+
+                    <div class="card text-center justify-content-center visvar1" id="colhue" style="width: 10rem;height: 5rem;font-size: 20px;"
+                    draggable="true" ondragstart="drag(event)">Color Hue <br> &#128308; &#128993; &#128309;</div>
+
+                    <div class="card text-center justify-content-center visvar1" id="position" style="width: 10rem;height: 5rem;font-size: 20px;"
+                    draggable="true" ondragstart="drag(event)">Position <br> &#127757; &#127758; &#127759;</div>
+
+                    <div class="card text-center justify-content-center visvar1" id="shape" style="width: 10rem;height: 5rem;font-size: 20px;"
+                    draggable="true" ondragstart="drag(event)">Shape <br> &#128309; &#128998; &#128311;</div>
                 </div>
             </div>
 
@@ -239,19 +256,23 @@
                 </div>
 
                 <div id="maps" ondrop="drop(event)" ondragover="allowDrop(event)">
-                    <img class="card-img-top text-center justify-content-center" id="vis_size" src="assets/img/vis_size.png"
+                    <img class="card-img-top text-center justify-content-center visvar2" id="vis_size" src="assets/img/vis_size.png"
                     style="width: 18rem;height: auto;"
                     draggable="true" ondragstart="drag(event)">
-                    <img class="card-img-top text-center justify-content-center" id="vis_hue" src="assets/img/vis_hue.png"
+                    <img class="card-img-top text-center justify-content-center visvar2" id="vis_hue" src="assets/img/vis_hue.png"
                     style="width: 18rem;height: auto;"
                     draggable="true" ondragstart="drag(event)">
-                    <img class="card-img-top text-center justify-content-center" id="vis_value" src="assets/img/vis_value.png"
+                    <img class="card-img-top text-center justify-content-center visvar2" id="vis_value" src="assets/img/vis_value.png"
                     style="width: 18rem;height: auto;"
                     draggable="true" ondragstart="drag(event)">
-                    <img class="card-img-top text-center justify-content-center" id="vis_position" src="assets/img/vis_position.png"
+                    <img class="card-img-top text-center justify-content-center visvar2" id="vis_position" src="assets/img/vis_position.png"
                     style="width: 18rem;height: auto;"
                     draggable="true" ondragstart="drag(event)">
                 </div>
+
+                <div class="btn btn-primary" id="check" onclick="checkRight()"> Check your answers </div>
+                <p id="checkRight"></p>
+
                 <h4 style="font-style: italic; padding-top:3rem;">
                     Map source: <a href="https://mapmaker.nationalgeographic.org/">Map Maker by National Geographic</a>
                 </h4>

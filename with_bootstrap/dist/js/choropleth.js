@@ -32,7 +32,7 @@ var color = {
   "Blues": {"scheme" : "blues"},
   "Red": {"scheme" : "reds"},
   "Green" : {"scheme" : "greens"},
-  "Grey" : {"scheme" : "greys"}
+  "Purple" : {"scheme" : "purples"}
 }
 
 var yourVlSpec = {
