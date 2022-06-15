@@ -17,6 +17,7 @@
         <link href="css/styles.css" rel="stylesheet" />
         <link href="css/quiz.css" rel="stylesheet" />
         <link href="css/sidebar.css" rel="stylesheet" />
+        <link href="css/modal.css" rel="stylesheet" />
         <!-- VEGALITE EMBED-->
         <script src="https://cdn.jsdelivr.net/npm/vega@5.21.0"></script>
         <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.2.0"></script>
@@ -63,10 +64,14 @@
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8">
-                        <h1 class="text-white mb-4">Flow Map</h2>
-                        <p class="text-white-50">
-                        What is Flow Map?
-                        </p>
+                        <h1 class="text-white mb-4"><b>Flow Map</b></h2>
+                        <h3 class="text-white-50">
+                            In this section, you will learn about about the data for choropleth map, the color scheme, and the classification method.
+                            </h3>
+                            <p></p>
+                            <p>
+                                <a type="button" class="btn btn-primary btn-lg" href="#projects">TELL ME MORE</a></p>
+                            </p>
                     </div>
                 </div>
             </div>
@@ -76,77 +81,138 @@
             <div class="container px-4 px-lg-5">
                 <!-- Featured Project Row-->
                 <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/thematic_map_pinterest.png" alt="..." /></div>
+                    <div class="col-xl-8 col-lg-7">
+                        <img class="img-fluid" src="assets/img/flow_map_ex_disease.png"/>
+                        <p class="text-center">Figure 1. Flow Map - <a href="https://www.flowmapp.com/blog/qa/what-is-a-flow-map">Spread of Disease</a></p>
+                    </div>
                     <div class="col-xl-4 col-lg-5">
                         <div class="featured-text text-center text-lg-left">
-                            <h4>About Flow Map</h4>
-                            <p class="text-black-50 mb-0">Flow Map is
-                                </p>blablablabla
+                            <h3><b>About Flow Map</b></h3>
+                            <p></p>
+                            <h5 class="text-black mb-0" style="text-align: justify;">
+                                'Choropleth' word comes from Greek <br>
+                                <b><i>χῶρος (choros) = 'area/region'</i></b> and <br>
+                                <b><i>πλῆθος (plethos) = 'multitude' </i></b> <a href="https://en.wikipedia.org/wiki/Choropleth_map">(from Wikipedia)</a> <br>
+                                <p></p>
+                                Choropleth map is one of common thematic maps. 
+                                This map uses visual variable <b><i>color value</i></b>
+                                to visualize <b><i>quantitative data</i></b>.
+
+                            </h5>
+                        </div>
+                    </div>
+                </div> 
+                <!--Flow Maps Data-->
+                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center" id="fm_data">
+                    <div class="col-lg-6 card" style="padding-top: 2rem;">
+                        <img class="img-fluid" src="assets/img/map_type_MSD.png"/>
+                        <p class="text-center">Figure 2. Common Map Types from <br> <a href="https://digitallibrary.un.org/record/3898826">Kraak MJ, RE Roth, B Ricker, A Kagawa, and G Le Sourd (2020)</a></p>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h3 class="text-white"><b>Flow Map Data</b></h3>
+                                    <p></p>
+                                    <h5 class="mb-0" style="text-align: justify; color:#64a19d">
+                                        From the previous section, we have learnt about data type just like it is shown in Figure 2.
+                                        Choropleth map is used to represent <b><i>Quantitative Data</i></b>
+                                        <p></p>
+                                        <h5 class="mb-0" style="text-align: left; color:#64a19d">
+                                        The examples of Quantitative data which are 'Abrupt - Continuous' for Choropleth Map:<br> 
+                                        &#8594 Population density, forest coverage percentage per cities, poverty index of a specific region
+                                        </h5>
+                                    </h5>
+                                    <hr class="d-none d-lg-block mb-0 ms-0" />
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="d-grid gap-2">
-                    <a type="button" class="btn btn-primary btn-lg" href="#flowmapCategory">Tell Me More</a>
+                <!--Flow Maps Categories-->
+                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center" id="fm_cat">
+                    <div class="col-lg-6">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h3 class="text-white"><b>Flow Map Categories</b></h3>
+                                    <p></p>
+                                    <h5 class="mb-0" style="text-align: justify; color:#64a19d">
+                                        From the previous section, we have learnt about data type just like it is shown in Figure 2.
+                                        Choropleth map is used to represent <b><i>Quantitative Data</i></b>
+                                        <p></p>
+                                        <h5 class="mb-0" style="text-align: left; color:#64a19d">
+                                        The examples of Quantitative data which are 'Abrupt - Continuous' for Choropleth Map:<br> 
+                                        &#8594 Population density, forest coverage percentage per cities, poverty index of a specific region
+                                        </h5>
+                                    </h5>
+                                    <img class="img-fluid" width="750rem" src="assets/img/flow_map_cat.jpeg"/>
+                                    <p class="text-center text-white">Figure 3. Flow Map Categories from <br> <a href="https://gistbok.ucgis.org/bok-topics/common-thematic-map-types">Golebiowska, I., Korycka-Skorupa, J., and Slomska-Przech, K. (2021)</a></p>
+                                    <hr class="d-none d-lg-block mb-0 ms-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 card" style="padding-top: 2rem;">
+                        <div id="myModal" class="card-body modal">
+                            <span class="close">&times;</span>
+                            <img class="modal-content" id="img">
+                            <div id="caption"></div>
+                        </div>
+                        <img id="myImg" class="modal-img w-50 img-center" src="assets/img/flow_map_typology.png" alt="Figure 4. Flow Map Typology from Steiner, E. (2019)">
+                        <p class="text-center">Figure 4. Flow Map Typology from <br> <a href="https://gistbok.ucgis.org/bok-topics/flow-maps">Steiner, E. (2019).</a></p>
+                    </div>
                 </div>
-            </div>
+                <!--Flow Maps Design Considerations-->
+                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center" id="fm_descon">
+                    <div class="col-lg-6 card" style="padding-top: 2rem;">
+                        <div id="myModal" class="card-body modal">
+                            <span class="close">&times;</span>
+                            <img class="modal-content" id="img">
+                            <div id="caption"></div>
+                        </div>
+                        <img id="myImg" class="modal-img w-50 img-center" src="assets/img/flow_map_descon.png" alt="Figure 5. Flow Map Design Considerations from Steiner, E. (2019)"/>
+                        <p class="text-center">Figure 5. Flow Map Design Considerations from <br> <a href="https://gistbok.ucgis.org/bok-topics/flow-maps">Steiner, E. (2019).</a></p>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h3 class="text-white"><b>Flow Map Design Considerations</b></h3>
+                                    <p></p>
+                                    <h5 class="mb-0" style="text-align: justify; color:#64a19d">
+                                        As you can see in Figure 3 beside, color scheme is one of the most important cosiderations of making a Choropleth Map.<br>
+                                        There are two main color scheme:
+                                        <p></p>
+                                        <h5 class="mb-0" style="text-align: left; color:#64a19d">
+                                        &#9898; Multi Hue <br> 
+                                        <p></p>
+                                        &#9898; Single Hue<br> 
+                                        </h5>
+                                    </h5>
+                                    <hr class="d-none d-lg-block mb-0 ms-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
         </section>
-        <!--Flow Maps Categories-->
-        <div class="row gx-0 mb-5 mb-lg-0 justify-content-center" id="flowmapCategory">
-            <div class="col-lg-6">
-                <img class="img-fluid" src="assets/img/flow_map_cat.jpeg" alt="..." />
-                <img class="img-fluid" src="assets/img/flow_map_typology.png" alt="..." />
-            </div>
-            <div class="col-lg-6">
-                <div class="bg-black text-center h-100 project">
-                    <div class="d-flex h-100">
-                        <div class="project-text w-100 my-auto text-center text-lg-left">
-                            <h4 class="text-white">Flow Map Categories</h4>
-                            <p class="mb-0 text-white-50">Flow Map Categories</p>
-                            <hr class="d-none d-lg-block mb-0 ms-0" />
-                        </div>
-                    </div>
-                </div>
-            </div>    
-            <div class="d-grid gap-2 mx-auto justify-content-md-end">
-                <a class="btn btn-secondary" href="#projects">Back</a>
-                <a class="btn btn-primary" href="#designConsiderations">Next</a>
-            </div>
-        </div>
-        <!--Flow Maps Design Considerations-->
-        <div class="row gx-0 mb-5 mb-lg-0 justify-content-center" id="designConsiderations">
-            <div class="col-lg-6">
-                <div class="bg-black text-center h-100 project">
-                    <div class="d-flex h-100">
-                        <div class="project-text w-100 my-auto text-center text-lg-left">
-                            <h4 class="text-white">Design Considerations</h4>
-                            <p class="mb-0 text-white-50">Design Considerations</p>
-                            <hr class="d-none d-lg-block mb-0 ms-0" />
-                        </div>
-                    </div>
-                </div>
-            </div> 
-            <div class="col-lg-6"><img class="img-fluid" src="assets/img/flow_map_descon.png" alt="..." /></div>
-            <div class="d-grid gap-2 mx-auto justify-content-md-end">
-                <a class="btn btn-secondary" href="#flowmapCategory">Back</a>
-                <a class="btn btn-primary" href="#visualization">Next</a>
-            </div>
-        </div>
         <!--Visualizing the Data-->
-        <section class="projects-section text-center" style="padding-top: 2em;" id="visualization">
+        <section class="projects-section text-center bg-light" style="padding-top: 2em;" id="visualization">
             <div>
                 <h3>Create a Flow Map</h3>
                 <div id="map"></div>
             </div>
         </section>       
         <!--References-->
-        <section class="about-section text-center" id="references" style="background:#fff;">
+        <section class="projects-section text-center bg-light" id="references" style="padding-top: 0rem ;">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8">
                         <h3 class="text-black mb-4">References</h3>
-                        <p class="text-black-50">
-                            Steiner, E. (2019). Flow Maps. The Geographic Information Science & Technology Body of Knowledge (4th Quarter 2019 Edition), John P. Wilson (ed.). 
-                            <a href="https://gistbok.ucgis.org/bok-topics/flow-maps">DOI: 10.22224/gistbok/2019.4.10 </a>
+                        <p class="text-black-50" style="text-align: left;">
+                            - Golebiowska, I., Korycka-Skorupa, J., and Slomska-Przech, K. (2021). Common Thematic Map Types.  The Geographic Information Science & Technology Body of Knowledge (2nd Quarter 2021 Edition), John P. Wilson (ed.). <a href="https://gistbok.ucgis.org/bok-topics/common-thematic-map-types">DOI: 10.22224/gistbok/2021.2.7</a> <br>
+                            - Steiner, E. (2019). Flow Maps. The Geographic Information Science & Technology Body of Knowledge (4th Quarter 2019 Edition), John P. Wilson (ed.). <a href="https://gistbok.ucgis.org/bok-topics/flow-maps">DOI: 10.22224/gistbok/2019.4.10 </a><br>
                         </p>
                     </div>
                 </div>
@@ -220,8 +286,9 @@
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
         <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
-        <script src="js/03_quiz.js"></script>
+        <script src="js/05_quiz.js"></script>
         <script src="js/sidebar.js"></script>
         <script src="js/flow_map.js"></script>
+        <script src="js/modal.js"></script>
     </body>
 </html>

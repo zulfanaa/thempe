@@ -83,3 +83,9 @@
     height: 15vw;
     object-fit: cover;
 }
+
+.img-center{
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+}

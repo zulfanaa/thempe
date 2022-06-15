@@ -31,7 +31,7 @@ function check(){
   var score = document.getElementById('checkAnswer');
     
   score.textContent ='You got ' + correctAnswer + ' questions out of ' +
-               elements.length + ' right!!!';
+               elements.length + ' right!!!✅';
 }
 
 var answer2 = {
@@ -52,5 +52,5 @@ function checkRight(){
   var score = document.getElementById('checkRight');
     
   score.textContent ='You got ' + rightAnswer + ' questions out of ' +
-               elements.length + ' right!!!';
+               elements.length + ' right!!!✅';
 }

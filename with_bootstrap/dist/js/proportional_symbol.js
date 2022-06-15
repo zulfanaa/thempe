@@ -27,58 +27,61 @@ var options = {
     "description": "Sustainable Development Goals: \r\n Indicator 4.5.1 Series Parity indices (female/male, rural/urban, bottom/top wealth quintile and others such as disability status, indigenous peoples and conflict-affected, as data become available) for all education indicators on this list that can be disaggregated"}    
 };
 
-var color = {
-  "Browns": {"scheme" : "browns"},
-  "Blues": {"scheme" : "blues"},
-  "Red": {"scheme" : "reds"},
-  "Green" : {"scheme" : "greens"},
-  "Purple" : {"scheme" : "purples"}
+var scale = {
+  "0-5": {"domain": [0, 5]},
+  "0-10": {"domain": [0, 10]},
+  "0-25": {"domain": [0, 25]},
+  "0-50" : {"domain": [0, 50]},
+  "0-100" : {"domain": [0, 100]}
 }
 
 var yourVlSpec = {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 1000,
-    "height": 800,
-    "data": {
-      "url": "assets/data/un_world.geojson",
-      "format": {"property": "features"}
-    },
-    "transform": [
-      {
-        "lookup": "properties.SOV_A3",
-        "from": {
-          "key": "ISO3",
-          "fields": ["latest_value"]
-        }
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 1000,
+  "height": 800,
+  "config": {
+    "legend": {
+      "orient": "top-left",
+      "labelColor": "black",
+    }
+  },
+  "layer" : [
+    {
+      "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white"},
+      "data": {
+        "url": "assets/data/un_world.geojson",
+        "format": {"property": "features"}
       }
-    ],
-    "projection": {"type": "equalEarth"},
-    "mark": "geoshape",
-    "encoding": {
-      "color": {
-        "condition": {
-          "test": "datum['latest_value'] === null",
-          "value": "#aaa"
-        },
-        "field": "latest_value", "type": "quantitative",
-        "scale": {"scheme": "tealblues"}
-      },
-      "tooltip": {"condition": {
-        "test": "datum['latest_value'] === null",
-        "value": "No Data"
-      },
-      "field": "latest_value", "type": "quantitative"}
     },
-    "config": {
-      "mark": {"invalid": null},
-      "legend": {
-          "orient": "-right",
-          "labelColor": "black",
-          "symbolType":"stroke",
+    {
+      "data": {
+        "url": "assets/data/un_world_latlon.geojson",
+        "format": {"property": "features"}
+      },
+      "transform": [
+        {
+          "lookup": "properties.SOV_A3",
+          "from": {
+            "key": "ISO3",
+            "fields": ["latest_value"]
+          }
         }
-    },
-  };
-  vegaEmbed('#vis', yourVlSpec);
+      ],
+      "projection": {"type": "equalEarth"},
+      "mark": {"type": "circle"},
+      "encoding" : {
+        "longitude": {"field": "properties.longitude", "type": "quantitative"},
+        "latitude": {"field": "properties.latitude", "type": "quantitative"},
+        "size": {
+          "field": "latest_value",
+          "type": "quantitative",
+          "scale": {"domain": [0, 100]}
+        },
+        },
+      },
+  ]
+};
+vegaEmbed('#vis', yourVlSpec);
 
   var data_dropdown = document.getElementById("selectData");
 // https://stackoverflow.com/questions/34913675/how-to-iterate-keys-values-in-javascript
@@ -89,12 +92,12 @@ for (const [key, value] of Object.entries(options)) {
     data_dropdown.appendChild(el);
 }
 
-var color_dropdown = document.getElementById("selectColor");
-for (const [key, value] of Object.entries(color)) {
+var scale_dropdown = document.getElementById("selectScale");
+for (const [key, value] of Object.entries(scale)) {
     var el = document.createElement("option");
     el.textContent = key;
     el.value = key;
-    color_dropdown.appendChild(el);
+    scale_dropdown.appendChild(el);
 }
 
 function selectData(attribute) {
@@ -102,12 +105,12 @@ function selectData(attribute) {
     description = options[attribute].description;
     document.getElementById("dataDescription").textContent = description;
     data = {"url": filename};
-    yourVlSpec.transform[0].from["data"] = data;
+    yourVlSpec.layer[1].transform[0].from["data"] = data;
     vegaEmbed('#vis', yourVlSpec);
 }
 
-function selectColor(colschemes) {
-    cs = color[colschemes];
-    yourVlSpec.encoding.color.scale = cs;
+function selectScale(symscale) {
+    cs = scale[symscale];
+    yourVlSpec.layer[1].encoding.size.scale = cs;
     vegaEmbed('#vis', yourVlSpec);
 }
