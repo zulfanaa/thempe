@@ -1,14 +1,13 @@
 var options = {
-    "Export": {"filename": "assets/data/export.csv"},
-    "Imigration": {"filename": "assets/data/imigration.csv"},    
+    "Export": {"filename": "assets/data/export.csv",
+    "description": "Export (Dummy) Data"},
+    "Imigration": {"filename": "assets/data/imigration.csv",
+    "description": "Imigration (Dummy) Data"},    
 };
 
 var color = {
-  "Browns": {"scheme" : "browns"},
-  "Blues": {"scheme" : "blues"},
-  "Red": {"scheme" : "reds"},
-  "Green" : {"scheme" : "greens"},
-  "Purple" : {"scheme" : "purples"}
+    "color hue" : {"field": "variable", "type": "nominal"},
+    "color value" : {"field": "variable", "type": "quantitative", "scale": {"scheme": "reds"}},
 }
 
 var yourVlSpec = {
@@ -30,7 +29,7 @@ var yourVlSpec = {
         }
       },
       {
-        "mark": {"type": "rule", "color": "#000", "opacity": 0.35},
+        "mark": {"type": "rule", "color": "#000", "opacity": 0.80},
         "projection": {"type": "equalEarth"},
         "transform": [
           {
@@ -56,7 +55,8 @@ var yourVlSpec = {
           "longitude": {"field": "longitude"},
           "latitude2": {"field": "lat2"},
           "longitude2": {"field": "lon2"},
-          "size": {"value": 5}
+          "size" : {"value": 10},
+          "color": {"field": "variable", "type": "nominal"},
         }
       },
     ]
@@ -91,6 +91,6 @@ function selectData(attribute) {
 
 function selectColor(colschemes) {
     cs = color[colschemes];
-    yourVlSpec.encoding.color.scale = cs;
+    yourVlSpec.layer[1].encoding.color = cs;
     vegaEmbed('#vis', yourVlSpec);
 }
