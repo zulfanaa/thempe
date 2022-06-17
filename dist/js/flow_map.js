@@ -1,7 +1,7 @@
 var options = {
     "Export": {"filename": "assets/data/export.csv",
     "description": "Export (Dummy) Data"},
-    "Imigration": {"filename": "assets/data/imigration.csv",
+    "Immigration": {"filename": "assets/data/imigration.csv",
     "description": "Imigration (Dummy) Data"},    
 };
 
@@ -29,14 +29,15 @@ var yourVlSpec = {
         }
       },
       {
-        "mark": {"type": "rule", "color": "#000", "opacity": 0.80},
+        "mark": {"type": "rule", "color": "#000", "opacity": 0.80, 
+      },
         "projection": {"type": "equalEarth"},
         "transform": [
           {
             "lookup": "origin",
             "from": {
               "data": {"url": "assets/data/country.csv"},
-              "key": "SOV_A3",
+              "key": "NAME_EN",
               "fields": ["latitude", "longitude"]
             }
           },
@@ -44,7 +45,7 @@ var yourVlSpec = {
             "lookup": "destination",
             "from": {
               "data": {"url": "assets/data/country.csv"},
-              "key": "SOV_A3",
+              "key": "NAME_EN",
               "fields": ["latitude", "longitude"]
             },
             "as": ["lat2", "lon2"]
@@ -57,6 +58,11 @@ var yourVlSpec = {
           "longitude2": {"field": "lon2"},
           "size" : {"value": 10},
           "color": {"field": "variable", "type": "nominal"},
+          "tooltip": [
+            {"field": "variable"},
+            {"field": "origin", "type": "nominal"},
+            {"field": "destination", "type": "nominal"}
+          ]
         }
       },
     ]
