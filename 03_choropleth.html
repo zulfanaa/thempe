@@ -37,7 +37,7 @@
                     </h2>
                       <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            <p style="font-style:italic">learn about each map type</p>
+                            <p style="font-style:italic; color: white; font-size: 16px;">learn about each map type</p>
                             <a href="03_choropleth.html">Choropleth Map</a>
                             <a href="04_proportional_symbol.html">Proportional Symbol Map</a>
                             <a href="05_flow_map.html">Flow Map</a>
@@ -138,9 +138,9 @@
                                         There are two main color scheme:
                                         <p></p>
                                         <h5 class="mb-0" style="text-align: left; color:#64a19d">
-                                        &#9898; Multi Hue <br> 
+                                        -<b> Multi Hue</b><br> 
                                         <p></p>
-                                        &#9898; Single Hue<br> 
+                                        -<b>Single Hue</b><br> 
                                         </h5>
                                     </h5>
                                     <hr class="d-none d-lg-block mb-0 ms-0" />
@@ -178,15 +178,15 @@
                                         There are several methods that can be used to classify data before it is visualized into a map, namely:
                                         <p></p>
                                         <h5 class="mb-0" style="text-align: left; color:#64a19d">
-                                        &#9898; Equal Interval<br> 
+                                        -<b>Equal Interval</b><br> 
                                         <p></p>
-                                        &#9898; Quantile (Equal Count)<br> 
+                                        -<b>Quantile (Equal Count)</b><br> 
                                         <p></p>
-                                        &#9898; Natural Breaks (Jenks) <br>
+                                        -<b>Natural Breaks (Jenks)</b><br>
                                         <p></p> 
-                                        &#9898; Standard Deviation<br>
+                                        -<b>Standard Deviation</b><br>
                                         <p></p> 
-                                        &#9898; Pretty Breaks<br> 
+                                        -<b>Pretty Breaks</b><br> 
                                         </h5>
                                     </h5>
                                     <hr class="d-none d-lg-block mb-0 ms-0" />
@@ -201,23 +201,100 @@
             <div class="container px-4 px-lg-5 text-center" id="createCM">
                 <h2 style="padding-bottom: 1em;"><b>Create a Choropleth Map</b></h2>
                 <p>
-                    <select class="btn btn-primary dropdown-toggle" id="selectData" onChange="selectData(this.value)" style="min-width: 500px;">
+                    <select class="btn btn-primary dropdown-toggle" id="selectData" onChange="selectData(this.value)" style="min-width: 700px;">
                     <option>Choose your data</option>
                     </select>
                 </p>
                 <p>
-                    <select class="btn btn-primary dropdown-toggle" id="selectColor" onChange="selectColor(this.value)" style="min-width: 500px;">
+                    <select class="btn btn-primary dropdown-toggle" id="selectColor" onChange="selectColor(this.value)" style="min-width: 700px;">
                     <option>Choose color scheme</option>
                     </select>
                 </p>
                 <h5>Data Description&#11015;&#65039;</h5>
                 <p style="font-size: 18px;" id="dataDescription">will be shown once you select the data</p>
             </div>
-            <div id="vis"></div>
+            <div id="vis">
             </div>
         </section>       
+        <!--Quiz!-->
+        <!--this script is taken from: https://codepen.io/gcarino/pen/AaJBOo-->
+        <section class="bg-light">
+            <div id='container'>
+                <div id='quiz_01'>
+                    <h2>Quiz #3: Choropleth Map</h2>
+                </div>
+                <br/>
+                <div id='quiz'></div>
+                <a class='btn btn-dark' id='next' href='#'>Next</a>
+                <a class='btn btn-light' id='prev' href='#'>Prev</a>
+                <a class='btn btn-light' id='try' href='#'>Try Again</a>
+                <a class='btn btn-dark' id='further' href='#commonmaps'>Further Step</a>
+                <hr>
+                    <a class='btn btn-light' href='06_map_elements.html'>Map Elements</a>
+                </hr>
+                <p>
+                    <p class="text-black mb-4">Hi! R U stuck here? Please <a style="color: black;" href="#contacts">contact me</a> &#128521;&#11015;&#65039;</p>
+                </p>
+            </div>
+        </section>
+
+        <!--Common Map Types-->
+        <section class="projects-section bg-light" id="commonmaps" style="padding-top: 5em;">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <h2 class="text-black mb-4 text-center"><b>Which Map Type Do You Want to Learn Next?</b></h2>
+                    <hr></hr>
+                </div>
+                <!--Table of Common Map Types-->
+                <table class="table table-bordered table-hover table-sm">
+                    <thead>
+                      <tr class="table-primary">
+                        <th scope="col">#</th>
+                        <th scope="col">Thematic Map Type</th>
+                        <th scope="col">Data Type</th>
+                        <th scope="col">Symbol dimensionality</th>
+                        <th scope="col">Most commonly applied visual variable</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                        <th scope="row">1</th>
+                        <td><a href="03_choropleth.html">Choropleth Map</a>
+                            <p>
+                                <a href="03_choropleth.html"><img class="img-fluid" src="assets/img/choro_map_ex_population.png" width="400"/></a>
+                            </p>
+                        </td>
+                        <td>Quantitative</td>
+                        <td>Area</td>
+                        <td>Color value</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td><a href="04_proportional_symbol.html">Proportional Symbol Map</a>
+                            <p>
+                                <a href="04_proportional_symbol.html"><img class="img-fluid" src="assets/img/prop_map_ex_us_oilcomsumption.jpeg" width="400"/></a>
+                            </p>       
+                        </td>
+                        <td>Quantitative</td>
+                        <td>Line (bars), Area, Volume</td>
+                        <td>Size</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td><a href="05_flow_map.html">Flow Map</a>
+                            <p>
+                                <a href="05_flow_map.html"><img class="img-fluid" src="assets/img/flow_map_ex_disease.png" width="400"/></a>
+                            </p>
+                        </td>
+                        <td>Qualitative and Quantitative</td>
+                        <td>Line</td>
+                        <td>Size or Color Value (when representing magnitude)</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+        </section>
         <!--References-->
-        <section class="projects-section text-center bg-light" id="references" style="padding-top: 0rem ;">
+        <section class="projects-section text-center bg-light" id="references" style="padding-top: 5rem ;">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8">
@@ -229,25 +306,6 @@
                 </div>
             </div>
         </section>
-        <!--Quiz!-->
-        <!--this script is taken from: https://codepen.io/gcarino/pen/AaJBOo-->
-        <div id='container'>
-			<div id='quiz_01'>
-				<h2>Quiz #3: Choropleth Map</h2>
-			</div>
-   			<br/>
-  			<div id='quiz'></div>
-    		<a class='btn btn-dark' id='next' href='#'>Next</a>
-    		<a class='btn btn-light' id='prev' href='#'>Prev</a>
-            <a class='btn btn-light' id='try' href='#'>Try Again</a>
-    		<a class='btn btn-dark' id='further' href='06_map_elements.html'>Further Step</a>
-            <hr>
-                <a class='btn btn-light' href='06_map_elements.html'>Map Elements</a>
-            </hr>
-            <p>
-                <p class="text-black mb-4">Hi! R U stuck here? Please contact me &#128521;&#11015;&#65039;</p>
-            </p>
-    	</div>
         <!--Contact-->
         <section class="contact-section bg-black" id="contacts">
             <div class="container px-4 px-lg-5">

@@ -34,7 +34,7 @@
                     </h2>
                       <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            <p style="font-style:italic">learn about each map type</p>
+                            <p style="font-style:italic; color: white; font-size: 16px;">learn about each map type</p>
                             <a style="color:darkgrey;" href="#">Choropleth Map &#128274;</a>
                             <a style="color:darkgrey;" href="#">Proportional Symbol Map &#128274;</a>
                             <a style="color:darkgrey;" href="#">Flow Map &#128274;</a>
@@ -114,10 +114,10 @@
                                         As you can see in Figure 2 beside, the type of data can be differentiated to <b><i>Quantitative and Qualitative.</i></b><br>
                                         <p></p>
                                         <h5 class="mb-0" style="text-align: left; color:#64a19d">
-                                        &#9898; Quantitative data <br> 
+                                        -<b>Quantitative data</b> <br> 
                                             &#8594 the example in thematic map: Population density, Export and Import, The distribution of a specific language Native speakers
                                         <p></p>
-                                        &#9898; Qualitative: <br> 
+                                        -<b>Qualitative data</b> <br> 
                                         &#8594 the example in thematic map: Countries name, Languages spoken in a specific region, Favorite food from a specific area
                                         </h5>
                                     </h5>
@@ -138,13 +138,13 @@
                                     <h5 class="mb-0" style="text-align: left; color:#64a19d">
                                         From Figure 3, we know that Bertin defined perception properties of visual variables into 4 categories below:<br>
                                         <p></p>
-                                        &#9898; Selective: easily separated as an obvious symbol from the group symbol based on the contrast<br>
+                                        - <b>Selective:</b> easily separated as an obvious symbol from the group symbol based on the contrast<br>
                                         <p></p>
-                                        &#9898; Associative: easily recognized as a group of symbol despite other differences<br>
+                                        - <b>Associative:</b> easily recognized as a group of symbol despite other differences<br>
                                         <p></p>
-                                        &#9898; Ordered/Ordinal: easily perceived as a rank or an order of symbols<br>
+                                        - <b>Ordered/Ordinal:</b> easily perceived as a rank or an order of symbols<br>
                                         <p></p>
-                                        &#9898; Quantitative: able to give estimation of numerical difference between symbols<br>
+                                        - <b>SQuantitative:</b> able to give estimation of numerical difference between symbols<br>
                                     </h5>
                                     <hr class="d-none d-lg-block mb-0 ms-0" />
                                 </div>
@@ -289,6 +289,7 @@
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <h2 class="text-black mb-4 text-center"><b>Common Map Types</b></h2>
                     <hr></hr>
+                    <h5 class="text-black mb-4 text-center">After the quiz of this page, you can choose which common map type from the table you want to learn first.</h5>
                 </div>
                 <!--Table of Common Map Types-->
                 <table class="table table-bordered table-hover table-sm">
@@ -339,8 +340,42 @@
                   </table>
             </div>
         </section>
+        <!--Quiz!-->
+        <!--this script is taken from: https://codepen.io/gcarino/pen/AaJBOo-->
+        <section class="bg-light">
+            <div id='container'>
+                <div id='quiz_01'>
+                    <h2>Quiz #2: Cartographic Process</h2>
+                    <h4>&#128273; for the next chapter</h4>
+                </div>
+                <br/>
+                <div id='quiz'></div>
+                <a class='btn btn-dark' id='next' href='#'>Next</a>
+                <a class='btn btn-light' id='prev' href='#'>Prev</a>
+                <a class='btn btn-light' id='try' href='#'>Try Again</a>
+                <a class='btn btn-light dropdown-toggle' type="button" id="further" data-bs-toggle="dropdown">
+                    GO!!
+                <ul class="dropdown-menu dropmn" aria-labelledby="further">
+                    <li><a class="dropdown-item" href="03_choropleth.html">Choropleth Map</a></li>
+                    <li><a class="dropdown-item" href="04_proportional_symbol.html">Proportional Symbol Map</a></li>
+                    <li><a class="dropdown-item" href="05_flow_map.html">Flow Map</a></li>
+                </ul>
+                </a>
+                <p>
+                    <p class="text-black mb-4">Hi! R U stuck here? Please <a style="color: black;" href="#contacts">contact me</a> &#128521;&#11015;&#65039;</p>
+                </p>
+                <a class='btn btn-light dropdown-toggle' type="button" id="temporal" data-bs-toggle="dropdown">
+                    temporary &#128273;
+                <ul class="dropdown-menu dropmn" aria-labelledby="further">
+                    <li><a class="dropdown-item" href="03_choropleth.html">Choropleth Map</a></li>
+                    <li><a class="dropdown-item" href="04_proportional_symbol.html">Proportional Symbol Map</a></li>
+                    <li><a class="dropdown-item" href="05_flow_map.html">Flow Map</a></li>
+                </ul>
+                </a>
+            </div>
+        </section>
         <!--References-->
-        <section class="projects-section text-center bg-light" id="references" style="padding-top: 0rem ;">
+        <section class="projects-section text-center bg-light" id="references" style="padding-top: 5rem ;">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8">
@@ -353,39 +388,6 @@
                 </div>
             </div>
         </section>
-        <!--Quiz!-->
-        <!--this script is taken from: https://codepen.io/gcarino/pen/AaJBOo-->
-        <div id='container'>
-			<div id='quiz_01'>
-				<h2>Quiz #2: Cartographic Process</h2>
-                <h4>&#128273; for the next chapter</h4>
-			</div>
-   			<br/>
-  			<div id='quiz'></div>
-    		<a class='btn btn-dark' id='next' href='#'>Next</a>
-    		<a class='btn btn-light' id='prev' href='#'>Prev</a>
-            <a class='btn btn-light' id='try' href='#'>Try Again</a>
-    		<a class='btn btn-light dropdown-toggle' type="button" id="further" data-bs-toggle="dropdown">
-                GO!!
-              <ul class="dropdown-menu dropmn" aria-labelledby="further">
-                <li><a class="dropdown-item" href="03_choropleth.html">Choropleth Map</a></li>
-                <li><a class="dropdown-item" href="04_proportional_symbol.html">Proportional Symbol Map</a></li>
-                <li><a class="dropdown-item" href="05_flow_map.html">Flow Map</a></li>
-              </ul>
-            </a>
-            <p>
-                <p class="text-black mb-4">Hi! R U stuck here? Please contact me &#128521;&#11015;&#65039;</p>
-            </p>
-    		<a class='btn btn-light dropdown-toggle' type="button" id="temporal" data-bs-toggle="dropdown">
-                temporary &#128273;
-              <ul class="dropdown-menu dropmn" aria-labelledby="further">
-                <li><a class="dropdown-item" href="03_choropleth.html">Choropleth Map</a></li>
-                <li><a class="dropdown-item" href="04_proportional_symbol.html">Proportional Symbol Map</a></li>
-                <li><a class="dropdown-item" href="05_flow_map.html">Flow Map</a></li>
-              </ul>
-            </a>
-    	</div>
-    </div>
     <!--Contact-->
     <section class="contact-section bg-black" id="contacts">
         <div class="container px-4 px-lg-5">
