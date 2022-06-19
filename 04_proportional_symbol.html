@@ -61,7 +61,7 @@
                     <div class="col-lg-8">
                         <h1 class="text-white mb-4"><b>Proportional Symbol Map</b></h2>
                         <h3 class="text-white-50">
-                            In this section, you will learn about about the data for choropleth map, the color scheme, and the classification method.
+                            In this section, you will learn about about the data for proportional symbol map, and the design considerations.
                             </h3>
                             <p></p>
                             <p>
@@ -85,13 +85,11 @@
                             <h3><b>About Proportional Symbol Map</b></h3>
                             <p></p>
                             <h5 class="text-black mb-0" style="text-align: justify;">
-                                'Choropleth' word comes from Greek <br>
-                                <b><i>χῶρος (choros) = 'area/region'</i></b> and <br>
-                                <b><i>πλῆθος (plethos) = 'multitude' </i></b> <a href="https://en.wikipedia.org/wiki/Choropleth_map">(from Wikipedia)</a> <br>
-                                <p></p>
-                                Choropleth map is one of common thematic maps. 
-                                This map uses visual variable <b><i>color value</i></b>
+                                A proportional symbol map or proportional point symbol map
+                                is one of common thematic maps. 
+                                This map uses visual variable <b><i>size</i></b>
                                 to visualize <b><i>quantitative data</i></b>.
+                                (Dent, Borden D., Torguson, Jeffrey S.; Hodler, Thomas W., 2009)
 
                             </h5>
                         </div>
@@ -112,11 +110,11 @@
                                     <p></p>
                                     <h5 class="mb-0" style="text-align: justify; color:#64a19d">
                                         From the previous section, we have learnt about data type just like it is shown in Figure 2.
-                                        Choropleth map is used to represent <b><i>Quantitative Data</i></b>
+                                        Proportional Symbol Map is used to represent <b><i>Quantitative Data</i></b>
                                         <p></p>
                                         <h5 class="mb-0" style="text-align: left; color:#64a19d">
-                                        The examples of Quantitative data which are 'Abrupt - Continuous' for Choropleth Map:<br> 
-                                        &#8594 Population density, forest coverage percentage per cities, poverty index of a specific region
+                                        The examples of Quantitative data which are 'Abrupt - Discrete' for Proportional Symbol Map:<br> 
+                                        &#8594 Population of a specific region, presidential election results of a specific country, total gross domestic product.
                                         </h5>
                                     </h5>
                                     <hr class="d-none d-lg-block mb-0 ms-0" />
@@ -135,23 +133,37 @@
                                     <h3 class="text-white"><b>Proportional Symbol Map Design Considerations</b></h3>
                                     <p></p>
                                     <h5 class="mb-0" style="text-align: justify; color:#64a19d">
-                                        As you can see in Figure 3 beside, color scheme is one of the most important cosiderations of making a Choropleth Map.<br>
-                                        There are two main color scheme:
-                                        <p></p>
-                                        <h5 class="mb-0" style="text-align: left; color:#64a19d">
-                                        &#9898; Multi Hue <br> 
-                                        <p></p>
-                                        &#9898; Single Hue<br> 
+                                        From Figure 3 beside, the proportional symbol should consider about the <b><i>symbol scalling.</i></b>
+                                        In this web, we will learn more about the 2D symbol. You need to know that <b><i>the 2D scale symbol will be strongly depend on the data you have.</i></b>
+                                        You will learn it in the exercise part after this section. 
                                         </h5>
+                                        <p></p>
+                                        <h5 class="mb-0" style="text-align: justify; color:#64a19d">
+                                        You may have your <b><i>data occurs based on the area</i></b>, therefore you need to adjust your point symbol to <b><i>the centroid of each area.</i></b>
+                                        What if you have the <b><i>data which occurs on the point inside an area?</i></b> Then you need to adjust it to <b><i>the exact point of the data distribution.</b></i>
+                                        You can take a look at Figure 4, how the point symbol referring to area and referring to points. 
+                                        For this case, the symbol referring to area shows <b><i>the average of the points for each area.</i></b>
+                                        </h5>
+                                        <p></p>
+                                        <h5 class="mb-0" style="text-align: justify; color:#64a19d">
+                                        What if your symbol overlap? Don't worry! You can <b><i>order it</b></i> just like it is shown in Figure 5 below. 
+                                        Other option would be to use <b><i>opacity</i></b> for the symbol.
+                                        </h5>  
+                                        <img class="img-fluid mb-3 mb-lg-0" src="assets/img/prop_map_pointorder.jpeg" style="padding-top: 1rem;"/>
+                                        <p class="text-center text-white">Figure 5. <a href="https://gistbok.ucgis.org/bok-topics/common-thematic-map-types">When symbols overlap</a></p>
                                     </h5>
                                     <hr class="d-none d-lg-block mb-0 ms-0" />
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 card" style="padding-top: 2rem;">
-                        <img class="img-fluid" src="assets/img/choro_map_CS.png"/>
-                        <p class="text-center">Figure 3. <a href="https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3">Color Brewer 2.0</a></p>
+                    <div class="col-lg-6 card" style="padding-top: 8rem;">
+                        <img class="img-fluid" src="assets/img/prop_map_descon.jpeg"/>
+                        <p class="text-center">Figure 3. <a href="https://gistbok.ucgis.org/bok-topics/common-thematic-map-types">Symbol scaling by dimensionality</a></p>
+                        <img class="img-fluid" src="assets/img/prop_map_referring.jpeg"/>
+                        <p class="text-center">Figure 4. <a href="https://gistbok.ucgis.org/bok-topics/common-thematic-map-types">Proportional symbols referring to points and areas</a><br>
+                        by Golebiowska, I., Korycka-Skorupa, J., and Slomska-Przech, K. (2021)
+                        </p>
                     </div>
                 </div>
         </section>
@@ -185,6 +197,7 @@
                         <p class="text-black-50" style="text-align: left;">
                             - Kraak MJ, RE Roth, B Ricker, A Kagawa, and G Le Sourd. 2020. Mapping for a Sustainable World. The United Nations: New York, NY (USA). <br>
                             - Golebiowska, I., Korycka-Skorupa, J., and Slomska-Przech, K. (2021). Common Thematic Map Types.  The Geographic Information Science & Technology Body of Knowledge (2nd Quarter 2021 Edition), John P. Wilson (ed.). <a href="https://gistbok.ucgis.org/bok-topics/common-thematic-map-types">DOI: 10.22224/gistbok/2021.2.7</a> <br>
+                            - Dent, Borden D.; Torguson, Jeffrey S.; Hodler, Thomas W. (2009). Cartography: Thematic Map Design (6th ed.). McGraw-Hill. <br>
                         </p>
                     </div>
                 </div>
