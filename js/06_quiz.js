@@ -1,29 +1,28 @@
 (function() {
     var questions = [{
-      question: "what kind of quantitative data can be visualized in a Choropleth Map?",
-      choices: [' abrupt and discrete',
-      ' smooth and continous',
-      ' smooth and discrete',
-      ' abrupt and continous',
-      ' abrupt and smooth'],
+      question: "What are <b>three</b> out of six map elements that need to be included in the thematic map?",
+      choices: [' map frame, inset, map legend',
+      ' grid, inset, map frame',
+      ' map frame, map title, map legend',
+      ' map frame, inset, map citation',
+      ],
+      correctAnswer: 2
+    }, {
+      question: "What information does not need to be included in the map title?",
+      choices: [' What?',
+      ' Where?',
+      ' When?',
+      ' How?',
+    ],
       correctAnswer: 3
     }, {
-      question: "Which data cannot be visualized with a Choropleth Map?",
-      choices: [' Population density',
-      ' The direction of butterfly migration',
-      ' Covid case of Country X',
-      ' Life expectancy',
-      ' Forest coverage of Region Y'
-    ],
+      question: "Why do we need to include a map legend?",
+      choices: [' So that map readers can see the map clearly',
+        ' So that map readers are able to interpret the visualized data',
+        ' So the map can be more beautiful',
+        ' So the map readers can see the difference between location',
+      ],
       correctAnswer: 1
-    }, {
-      question: "Which classification method is not mentioned in the material above?",
-      choices: [' Equal Interval',
-        ' Quantile (Equal Count)',
-        ' Natural Breaks (Jenks)',
-        ' Standard Deviation',
-        ' Artificial Breaks'],
-      correctAnswer: 4
     }];
     
     var questionCounter = 0; //Tracks question number
@@ -178,3 +177,4 @@
       return score;
     }
   })();
+

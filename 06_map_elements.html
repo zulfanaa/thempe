@@ -17,6 +17,7 @@
         <link href="css/styles.css" rel="stylesheet" />
         <link href="css/quiz.css" rel="stylesheet" />
         <link href="css/sidebar.css" rel="stylesheet" />
+        <link href="css/modal.css" rel="stylesheet" />
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -102,8 +103,9 @@
                                     <h3 class="text-white"><b>Map Frame</b></h3>
                                     <p></p>
                                     <h5 class="mb-0" style="text-align: justify; color:#64a19d">
-                                        Thematic mapping is a <b><i>cartographis process of making a thematic map</b></i>. The thematic map itself is a map which can <b><i>represent the various geographic phenomena(s), the location, and the information of its attribute at the same time.</i></b>
-                                        The goal of this map is to be able to show the audience about statistical information which usually can not be justified directly.
+                                        Map Frame is the most important element you need to include. 
+                                        Just like it shows in Figure 2 beside, it has <b><i>the main data that you visualize on the map.</i></b>  
+                                        In this frame, you can include <b><i>a world-scale map, up to the smallest area</i></b> that is the focus of your data.
                                     </h5>
                                     <hr class="d-none d-lg-block mb-0 ms-0" />
                                 </div>
@@ -120,19 +122,22 @@
                                     <h3 class="text-white"><b>Map Title</b></h3>
                                     <p></p>
                                     <h5 class="mb-0" style="text-align: left; color:#64a19d">
-                                        From Figure 3, we know that Bertin defined perception properties of visual variables into 4 categories below:<br>
+                                        From Figure 3 beside, we can see that map title optionally includes:<br>
                                         <p></p>
-                                        &#9898; Selective: easily separated as an obvious symbol from the group symbol based on the contrast<br>
+                                        -<b>The data visualized in map/The main idea</b> (what?)<br>
                                         <p></p>
+                                        -<b>The location or the frame of map</b> (where)<br>
+                                        <p></p>
+                                        -<b>The year or the time of when it occurs</b> (when)
                                     </h5>
                                     <hr class="d-none d-lg-block mb-0 ms-0" />
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 card" style="padding-top: 10rem;">
-                        <img class="img-fluid" src="assets/img/perception_properties.png" />
-                        <p class="text-center">Figure 3. <a href="https://www.axismaps.com/guide/visual-variables">Bertin's Visual Variables</a></p>
+                    <div class="col-lg-6 card" style="padding-top: 3rem;">
+                        <img class="img-fluid" src="assets/img/map_example_11_destinations.jpeg" />
+                        <p class="text-center">Figure 3. <a href="https://gistbok.ucgis.org/bok-topics/common-thematic-map-types">Most Popular Destinations for German Emigrants in 2014</a></p>
                         <p></p>
                         <p></p>
                     </div>
@@ -140,8 +145,13 @@
                 <!-- Map Legend -->
                 <div class="row gx-0 mb-5 mb-lg-0 justify-content-center" id="mapLegend">
                     <div class="col-lg-6 card">
-                        <img class="img-fluid" src="assets/img/prop_map_ex_europe_gdp_map.png"/>
-                        <p class="text-center">Figure 4. Proportional Symbol Map - <a href="https://commons.wikimedia.org/wiki/File:Europe_GDP_Map.png">Total GDP</a></p>
+                        <div id="myModal" class="card-body modal">
+                            <span class="close">&times;</span>
+                            <img class="modal-content" id="img">
+                            <div id="caption"></div>
+                        </div>
+                        <img id="myImg" class="modal-img w-50 img-center" src="assets/img/me_legendpermap.png" alt="Figure 4. Legend for common map types from Golebiowska, I., Korycka-Skorupa, J., and Slomska-Przech, K. (2021)"/>
+                        <p class="text-center">Figure 4. Legend for common map types from <br> <a href="https://gistbok.ucgis.org/bok-topics/common-thematic-map-types">Golebiowska, I., Korycka-Skorupa, J., and Slomska-Przech, K. (2021)</a></p>
                     </div>
                     <div class="col-lg-6">
                         <div class="bg-black text-center h-100 project">
@@ -150,8 +160,9 @@
                                     <h3 class="text-white"><b>Map Legend</b></h3>
                                     <p></p>
                                     <h5 class="mb-0" style="text-align: justify; color:#64a19d">
-                                        Thematic mapping is a <b><i>cartographis process of making a thematic map</b></i>. The thematic map itself is a map which can <b><i>represent the various geographic phenomena(s), the location, and the information of its attribute at the same time.</i></b>
-                                        The goal of this map is to be able to show the audience about statistical information which usually can not be justified directly.
+                                        Map Legend <b><i>depends on the map type visualized in the map frame (see Figure 4).</i></b>
+                                        You can generate the legend automatically when you use mapping software.
+                                        Map readers will take a look at the map legend to be able to <b><i>interpret the map</i></b> that you present.
                                     </h5>
                                     <hr class="d-none d-lg-block mb-0 ms-0" />
                                 </div>
@@ -167,29 +178,28 @@
                                 <div class="project-text w-100 my-auto text-center text-lg-left">
                                     <h3 class="text-white"><b>Orientation</b></h3>
                                     <p></p>
-                                    <h5 class="mb-0" style="text-align: left; color:#64a19d">
-                                        From Figure 3, we know that Bertin defined perception properties of visual variables into 4 categories below:<br>
-                                        <p></p>
-                                        &#9898; Selective: easily separated as an obvious symbol from the group symbol based on the contrast<br>
-                                        <p></p>
+                                    <h5 class="mb-0" style="text-align: justify; color:#64a19d">
+                                        Orientation or north arrow is important for informing map reader so that they can adapt <b><i>their spatial orientation to the map they are reading.</i></b>
+                                        The style of orientation or north arrow can be <b><i>adjusted to the style of your map.</i></b>
+                                        Example of orientation style can be seen from Figure 5 beside.
                                     </h5>
                                     <hr class="d-none d-lg-block mb-0 ms-0" />
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 card" style="padding-top: 10rem;">
-                        <img class="img-fluid" src="assets/img/perception_properties.png" />
-                        <p class="text-center">Figure 5. <a href="https://www.axismaps.com/guide/visual-variables">Bertin's Visual Variables</a></p>
+                    <div class="col-lg-6 card" style="padding-top: 1rem;">
+                        <img class="img-fluid" src="assets/img/me_orientationstyle.png" />
+                        <p class="text-center">Figure 5. <a href="https://pngimage.net/fleche-nord-png-6/">Orientation Style</a></p>
                         <p></p>
                         <p></p>
                     </div>
                 </div>
                 <!-- Map Scale -->
                 <div class="row gx-0 mb-5 mb-lg-0 justify-content-center" id="mapScale">
-                    <div class="col-lg-6 card">
-                        <img class="img-fluid" src="assets/img/prop_map_ex_europe_gdp_map.png"/>
-                        <p class="text-center">Figure 2. Proportional Symbol Map - <a href="https://commons.wikimedia.org/wiki/File:Europe_GDP_Map.png">Total GDP</a></p>
+                    <div class="col-lg-6 card" style="padding-top: 2rem;">
+                        <img class="img-fluid" src="assets/img/me_mapscalestyle.jpeg"/>
+                        <p class="text-center">Figure 6.<a href="https://reference.yourdictionary.com/resources/5-basic-parts-of-any-map.html"> Map Scale</a></p>
                     </div>
                     <div class="col-lg-6">
                         <div class="bg-black text-center h-100 project">
@@ -198,8 +208,11 @@
                                     <h3 class="text-white"><b>Map Scale</b></h3>
                                     <p></p>
                                     <h5 class="mb-0" style="text-align: justify; color:#64a19d">
-                                        Thematic mapping is a <b><i>cartographis process of making a thematic map</b></i>. The thematic map itself is a map which can <b><i>represent the various geographic phenomena(s), the location, and the information of its attribute at the same time.</i></b>
-                                        The goal of this map is to be able to show the audience about statistical information which usually can not be justified directly.
+                                        The scale of the map is important to show the reader so that they can imagine <b><i>the size of the map frame or the symbols you use on the map.</i></b> 
+                                        In addition, the scale is sometimes important to show <b><i>the distance</i></b> from one place to another on the map.
+                                        <p></p>
+                                        You can use <b><i>bar scale</i></b> atau <b><i>line scale</i></b> as you can see in Figure 6 beside. 
+                                        The style and the unit of your map scale can vary depends on your map style.
                                     </h5>
                                     <hr class="d-none d-lg-block mb-0 ms-0" />
                                 </div>
@@ -216,19 +229,17 @@
                                     <h3 class="text-white"><b>Map Citation</b></h3>
                                     <p></p>
                                     <h5 class="mb-0" style="text-align: left; color:#64a19d">
-                                        From Figure 3, we know that Bertin defined perception properties of visual variables into 4 categories below:<br>
-                                        <p></p>
-                                        &#9898; Selective: easily separated as an obvious symbol from the group symbol based on the contrast<br>
-                                        <p></p>
+                                        From Figure 7, we can spot map citation on the left side of the map frame. 
+                                        Usually, map citation includes <b><i>the source of the data</i></b> we visualized in the map.
                                     </h5>
                                     <hr class="d-none d-lg-block mb-0 ms-0" />
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 card" style="padding-top: 10rem;">
-                        <img class="img-fluid" src="assets/img/perception_properties.png" />
-                        <p class="text-center">Figure 7. <a href="https://www.axismaps.com/guide/visual-variables">Bertin's Visual Variables</a></p>
+                    <div class="col-lg-6 card" style="padding-top: 2rem;">
+                        <img class="img-fluid" src="assets/img/me_datacitation.jpeg"/>
+                        <p class="text-center">Figure 7. Cartogram from <br> <a href="https://gistbok.ucgis.org/bok-topics/common-thematic-map-types">Golebiowska, I., Korycka-Skorupa, J., and Slomska-Przech, K. (2021)</a></p>
                         <p></p>
                         <p></p>
                     </div>
@@ -294,22 +305,37 @@
                 <a class='btn btn-dark' id='next' href='#'>Next</a>
                 <a class='btn btn-light' id='prev' href='#'>Prev</a>
                 <a class='btn btn-light' id='try' href='#'>Try Again</a>
-                <a class='btn btn-dark' id='further' href='index.html'>CONGRATULATIONS!</a>
+                <a class='btn btn-dark' id='further' href='#congrats'>CONGRATULATIONS!</a>
                 <p>
                     <p class="text-black mb-4">Hi! R U stuck here? Please <a style="color: black;" href="#contacts">contact me</a> &#128521;&#11015;&#65039;</p>
                 </p>
             </div>
         </section>
+        <!--CONGRATS-->
+        <section class="projects-section text-center bg-light" id="congrats" style="padding-top: 5rem ;">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8">
+                        <h1 class="mb-4" style="font-size:54px;color:#64a19d;"><b>CONGRATULATIONS!!!</b></h1>
+                        <h2>you have done your best during the adventure!</h2>
+                        <h1 class="text-black mb-4">&#127881; &#127881; &#127881;</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!--References-->
-        <section class="projects-section text-center bg-light" id="references" style="padding-top: 5rem ;">
+        <section class="projects-section text-center bg-light" id="references" style="padding-top: 0rem ;">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8">
                         <h3 class="text-black mb-4">References</h3>
                         <p class="text-black-50" style="text-align: left;">
-                            Dempsey, C. (2011). Elements of a Map. GIS Lounge. 
+                            -Dempsey, C. (2011). Elements of a Map. GIS Lounge. 
                             <a href="https://www.gislounge.com/whats-in-a-map/">https://www.gislounge.com/whats-in-a-map/</a>
-                            Retrieved: 9 June 20222
+                            Retrieved: 9 June 20222<br>
+                            -Living Textbook by ITC 
+                            <a href="https://ltb.itc.utwente.nl/498/concept/81634#">https://ltb.itc.utwente.nl/498/concept/81634#</a>
+                            Retrieved: 12 June 20222<br>
                         </p>
                     </div>
                 </div>
@@ -371,5 +397,6 @@
         <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
         <script src="js/map_element.js"></script>
         <link href="css/map_element.css" rel="stylesheet" />
+        <script src="js/modal.js"></script>
     </body>
 </html>
