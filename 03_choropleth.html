@@ -199,7 +199,8 @@
         <!--Visualizing the Data-->
         <section class="projects-section text-center bg-light" style="padding-top: 2em;" id="visualization">
             <div class="container px-4 px-lg-5 text-center" id="createCM">
-                <h2 style="padding-bottom: 1em;"><b>Create a Choropleth Map</b></h2>
+                <h2><b>Create a Choropleth Map</b></h2>
+                <h5 style="padding-bottom: 1em;">create freely, change your data and color scheme to see the difference affected by both</h5>
                 <p>
                     <select class="btn btn-primary dropdown-toggle" id="selectData" onChange="selectData(this.value)" style="min-width: 700px;">
                     <option>Choose your data</option>
@@ -210,10 +211,10 @@
                     <option>Choose color scheme</option>
                     </select>
                 </p>
+                <div id="vis">
+                </div>
                 <h5>Data Description&#11015;&#65039;</h5>
                 <p style="font-size: 18px;" id="dataDescription">will be shown once you select the data</p>
-            </div>
-            <div id="vis">
             </div>
         </section>       
         <!--Quiz!-->
@@ -228,16 +229,15 @@
                 <a class='btn btn-dark' id='next' href='#'>Next</a>
                 <a class='btn btn-light' id='prev' href='#'>Prev</a>
                 <a class='btn btn-light' id='try' href='#'>Try Again</a>
-                <a class='btn btn-dark' id='further' href='#commonmaps'>Further Step</a>
+                <a class='btn btn-dark' id='further' href='#commonmaps'>Good Job! Learn other maps?</a>
                 <hr>
-                    <a class='btn btn-light' href='06_map_elements.html'>Map Elements</a>
+                    <a class='btn btn-light' href='06_map_elements.html'>I understand, go to "Map Elements"</a>
                 </hr>
                 <p>
                     <p class="text-black mb-4">Hi! R U stuck here? Please <a style="color: black;" href="#contacts">contact me</a> &#128521;&#11015;&#65039;</p>
                 </p>
             </div>
         </section>
-
         <!--Common Map Types-->
         <section class="projects-section bg-light" id="commonmaps" style="padding-top: 5em;">
             <div class="container px-4 px-lg-5">
@@ -294,7 +294,7 @@
             </div>
         </section>
         <!--References-->
-        <section class="projects-section text-center bg-light" id="references" style="padding-top: 5rem ;">
+        <section class="projects-section text-center bg-light" id="references" style="padding-top: 0rem ;">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8">

@@ -37,8 +37,8 @@ var color = {
 
 var yourVlSpec = {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 1000,
-    "height": 800,
+    "width": 800,
+    "height": 640,
     "data": {
       "url": "assets/data/un_world.geojson",
       "format": {"property": "features"}

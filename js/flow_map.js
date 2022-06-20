@@ -6,14 +6,14 @@ var options = {
 };
 
 var color = {
-    "color hue" : {"field": "variable", "type": "nominal"},
-    "color value" : {"field": "variable", "type": "quantitative", "scale": {"scheme": "reds"}},
+    "color hue" : {"field": "data", "type": "nominal"},
+    "color value" : {"field": "data", "type": "quantitative", "scale": {"scheme": "reds"}},
 }
 
 var yourVlSpec = {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 1000,
-    "height": 800,
+    "width": 800,
+    "height": 640,
     "config": {
       "legend": {
         "orient": "top-left",
@@ -57,9 +57,9 @@ var yourVlSpec = {
           "latitude2": {"field": "lat2"},
           "longitude2": {"field": "lon2"},
           "size" : {"value": 10},
-          "color": {"field": "variable", "type": "nominal"},
+          "color": {"field": "data", "type": "nominal"},
           "tooltip": [
-            {"field": "variable"},
+            {"field": "data"},
             {"field": "origin", "type": "nominal"},
             {"field": "destination", "type": "nominal"}
           ]

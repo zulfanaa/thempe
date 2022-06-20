@@ -1,29 +1,29 @@
 (function() {
     var questions = [{
-      question: "what kind of quantitative data can be visualized in a Choropleth Map?",
-      choices: [' abrupt and discrete',
-      ' smooth and continous',
-      ' smooth and discrete',
-      ' abrupt and continous',
-      ' abrupt and smooth'],
-      correctAnswer: 3
-    }, {
-      question: "Which data cannot be visualized with a Choropleth Map?",
-      choices: [' Population density',
-      ' The direction of butterfly migration',
-      ' Covid case of Country X',
-      ' Life expectancy',
-      ' Forest coverage of Region Y'
-    ],
-      correctAnswer: 1
-    }, {
-      question: "Which classification method is not mentioned in the material above?",
-      choices: [' Equal Interval',
-        ' Quantile (Equal Count)',
-        ' Natural Breaks (Jenks)',
-        ' Standard Deviation',
-        ' Artificial Breaks'],
+      question: "Which visual variables can be used to visualize data with a Flow Map?",
+      choices: [' color hue, shape, color value',
+      ' color hue, size, texture',
+      ' orientation, size, color value',
+      ' color hue, shape, orientation',
+      ' color hue, size, color value'],
       correctAnswer: 4
+    }, {
+      question: "Which data cannot be visualized with a Flow Map?",
+      choices: [' Wheat imports in Europe',
+      ' The direction of bird migration',
+      ' Covid case of Country X',
+      ' Wind currents',
+      ' Trans-Atlantic slave trade'
+    ],
+      correctAnswer: 2
+    }, {
+      question: "Which design consideration is not mentioned in the material above?",
+      choices: [' Origins and Destinations',
+        ' Flow Length',
+        ' Flow line geometry and arrangements',
+        ' Flow direction',
+        ' Flow magnitude'],
+      correctAnswer: 1
     }];
     
     var questionCounter = 0; //Tracks question number

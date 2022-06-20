@@ -1,28 +1,28 @@
 (function() {
     var questions = [{
-      question: "what kind of quantitative data can be visualized in a Choropleth Map?",
+      question: "what kind of quantitative data can be visualized in a Proportional Symbol Map?",
       choices: [' abrupt and discrete',
       ' smooth and continous',
       ' smooth and discrete',
       ' abrupt and continous',
       ' abrupt and smooth'],
+      correctAnswer: 0
+    }, {
+      question: "Which data cannot be visualized with a Proportional Symbol Map?",
+      choices: [' Oil Consumption of Region X',
+      ' Presidential Election of Country X',
+      ' Population of Country Y',
+      ' Wheat Import Direction between Countries',
+      ' Number of Airports in Region Y'
+    ],
       correctAnswer: 3
     }, {
-      question: "Which data cannot be visualized with a Choropleth Map?",
-      choices: [' Population density',
-      ' The direction of butterfly migration',
-      ' Covid case of Country X',
-      ' Life expectancy',
-      ' Forest coverage of Region Y'
-    ],
-      correctAnswer: 1
-    }, {
-      question: "Which classification method is not mentioned in the material above?",
-      choices: [' Equal Interval',
-        ' Quantile (Equal Count)',
-        ' Natural Breaks (Jenks)',
-        ' Standard Deviation',
-        ' Artificial Breaks'],
+      question: "How is the process of creating a Proportional Symbol Map mentioned in study material above?",
+      choices: [' data classification - symbol scalling - proportional symbol map',
+        ' base map - data classification - proportional symbol map',
+        ' data preprocessing - symbol scalling - proportional symbol map',
+        ' base map - visual variable choosing - proportional symbol map',
+        ' base map - symbol scalling - proportional symbol map'],
       correctAnswer: 4
     }];
     

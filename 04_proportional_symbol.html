@@ -171,23 +171,100 @@
         <!--Visualizing the Data-->
         <section class="projects-section text-center bg-light" style="padding-top: 2em;" id="visualization">
             <div class="container px-4 px-lg-5 text-center" id="createPS">
-                <h2 style="padding-bottom: 1em;"><b>Create a Proportional Symbol Map</b></h2>
+                <h2><b>Create a Proportional Symbol Map</b></h2>
+                <h5 style="padding-bottom: 1em;">create freely, change your data and symbol scale to see the difference affected by both</h5>
                 <p>
-                    <select class="btn btn-primary dropdown-toggle" id="selectData" onChange="selectData(this.value)" style="min-width: 500px;">
+                    <select class="btn btn-primary dropdown-toggle" id="selectData" onChange="selectData(this.value)" style="min-width: 700px;">
                     <option>Choose your data</option>
                     </select>
                 </p>
                 <p>
-                    <select class="btn btn-primary dropdown-toggle" id="selectScale" onChange="selectScale(this.value)" style="min-width: 500px;">
+                    <select class="btn btn-primary dropdown-toggle" id="selectScale" onChange="selectScale(this.value)" style="min-width: 700px;">
                     <option>Choose the symbol scale</option>
                     </select>
                 </p>
+                <div id="vis"></div>
+                </div>
                 <h5>Data Description&#11015;&#65039;</h5>
                 <p style="font-size: 18px;" id="dataDescription">will be shown once you select the data</p>
             </div>
-            <div id="vis"></div>
-            </div>
         </section>       
+        <!--Quiz!-->
+        <!--this script is taken from: https://codepen.io/gcarino/pen/AaJBOo-->
+        <section class="bg-light">
+            <div id='container'>
+                <div id='quiz_01'>
+                    <h2>Quiz #4: Proportional Symbol Map</h2>
+                </div>
+                <br/>
+                <div id='quiz'></div>
+                <a class='btn btn-dark' id='next' href='#'>Next</a>
+                <a class='btn btn-light' id='prev' href='#'>Prev</a>
+                <a class='btn btn-light' id='try' href='#'>Try Again</a>
+                <a class='btn btn-dark' id='further' href='#commonmaps'>Good Job! Learn other maps?</a>
+                <hr>
+                    <a class='btn btn-light' href='06_map_elements.html'>I understand, go to "Map Elements"</a>
+                </hr>
+                <p>
+                    <p class="text-black mb-4">Hi! R U stuck here? Please <a style="color: black;" href="#contacts">contact me</a> &#128521;&#11015;&#65039;</p>
+                </p>
+            </div>
+        </section>
+        <!--Common Map Types-->
+        <section class="projects-section bg-light" id="commonmaps" style="padding-top: 5em;">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <h2 class="text-black mb-4 text-center"><b>Which Map Type Do You Want to Learn Next?</b></h2>
+                    <hr></hr>
+                </div>
+                <!--Table of Common Map Types-->
+                <table class="table table-bordered table-hover table-sm">
+                    <thead>
+                      <tr class="table-primary">
+                        <th scope="col">#</th>
+                        <th scope="col">Thematic Map Type</th>
+                        <th scope="col">Data Type</th>
+                        <th scope="col">Symbol dimensionality</th>
+                        <th scope="col">Most commonly applied visual variable</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                        <th scope="row">1</th>
+                        <td><a href="03_choropleth.html">Choropleth Map</a>
+                            <p>
+                                <a href="03_choropleth.html"><img class="img-fluid" src="assets/img/choro_map_ex_population.png" width="400"/></a>
+                            </p>
+                        </td>
+                        <td>Quantitative</td>
+                        <td>Area</td>
+                        <td>Color value</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td><a href="04_proportional_symbol.html">Proportional Symbol Map</a>
+                            <p>
+                                <a href="04_proportional_symbol.html"><img class="img-fluid" src="assets/img/prop_map_ex_us_oilcomsumption.jpeg" width="400"/></a>
+                            </p>       
+                        </td>
+                        <td>Quantitative</td>
+                        <td>Line (bars), Area, Volume</td>
+                        <td>Size</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td><a href="05_flow_map.html">Flow Map</a>
+                            <p>
+                                <a href="05_flow_map.html"><img class="img-fluid" src="assets/img/flow_map_ex_disease.png" width="400"/></a>
+                            </p>
+                        </td>
+                        <td>Qualitative and Quantitative</td>
+                        <td>Line</td>
+                        <td>Size or Color Value (when representing magnitude)</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+        </section>
         <!--References-->
         <section class="projects-section text-center bg-light" id="references" style="padding-top: 0rem ;">
             <div class="container px-4 px-lg-5">
@@ -203,25 +280,6 @@
                 </div>
             </div>
         </section>
-        <!--Quiz!-->
-        <!--this script is taken from: https://codepen.io/gcarino/pen/AaJBOo-->
-        <div id='container'>
-			<div id='quiz_01'>
-				<h2>Quiz #4: Proportional Symbol Map</h2>
-			</div>
-   			<br/>
-  			<div id='quiz'></div>
-    		<a class='btn btn-dark' id='next' href='#'>Next</a>
-    		<a class='btn btn-light' id='prev' href='#'>Prev</a>
-            <a class='btn btn-light' id='try' href='#'>Try Again</a>
-    		<a class='btn btn-dark' id='further' href='06_map_elements.html'>Further Step</a>
-            <hr>
-            <a class='btn btn-light' href='06_map_elements.html'>Map Elements</a>
-            </hr>
-            <p>
-                <p class="text-black mb-4">Hi! R U stuck here? Please contact me &#128521;&#11015;&#65039;</p>
-            </p>
-    	</div>
         <!--Contact-->
         <section class="contact-section bg-black" id="contacts">
             <div class="container px-4 px-lg-5">
