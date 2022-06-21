@@ -1,7 +1,7 @@
 var options = {
-    "Export": {"filename": "assets/data/export.csv",
+    "Export - Qualitative": {"filename": "assets/data/export.csv",
     "description": "Export (Dummy) Data"},
-    "Immigration": {"filename": "assets/data/imigration.csv",
+    "Immigration -Quantitative": {"filename": "assets/data/imigration.csv",
     "description": "Imigration (Dummy) Data"},    
 };
 
