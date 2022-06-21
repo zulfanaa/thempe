@@ -20,7 +20,7 @@
       choices: [' has a clear idea of what the map is trying to demonstrate',
         ' legend or key is easy to interpret',
         ' uses a good symbolization to demonstrate a clear point',
-        ' has a beautiful layout',
+        ' has a high complexity of data source',
         ' has clear features and is not overcrowded'],
       correctAnswer: 3
     }];
