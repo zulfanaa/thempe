@@ -1,7 +1,8 @@
 /* The side navigation menu */
 .sidenav {
     height: 100%;
-    width: 375px;
+    width: 0;
+    max-width: max-content;
     position: fixed;
     z-index: 1;
     top: 0;
