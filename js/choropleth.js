@@ -28,11 +28,12 @@ var options = {
 };
 
 var color = {
-  "Browns": {"scheme" : "browns"},
-  "Blues": {"scheme" : "blues"},
-  "Red": {"scheme" : "reds"},
-  "Green" : {"scheme" : "greens"},
-  "Purple" : {"scheme" : "purples"}
+  "Sequential Single-Hue: Browns": {"scheme" : "browns"},
+  "Sequential Single-Hue: Red": {"scheme" : "reds"},
+  "Sequential Multi-Hue: Viridis": {"scheme" : "viridis"},
+  "Sequential Multi-Hue: Turbo": {"scheme" : "turbo"},
+  "Diverging Schemes: Purple-Green ": {"scheme" : "purplegreen"},
+  "Diverging Schemes: Red-Grey": {"scheme" : "redgrey"},
 }
 
 var yourVlSpec = {
