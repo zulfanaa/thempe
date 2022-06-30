@@ -62,7 +62,7 @@ var yourVlSpec = {
           "value": "#aaa"
         },
         "field": "latest_value", "type": "quantitative",
-        "scale": {"scheme": "tealblues"}
+        "scale": {"scheme": "purples"}
       },
       "tooltip": {"condition": {
         "test": "datum['latest_value'] === null",
