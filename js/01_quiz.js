@@ -10,10 +10,10 @@
     }, {
       question: "What is the purpose of a thematic map?",
       choices: [' to show a beautiful representation of information',
-      ' to visualize geographic phemomena distribution',
+      ' to visualize geographic phenomenon distribution',
       ' to represent one or more geographic phenomena, the location, and the attribute',
-      ' to show a detail statistical data',
-      ' to tell the audience about a speacific geographical area'],
+      ' to show detailed statistical data',
+      ' to tell the audience about a specific geographical area'],
       correctAnswer: 2
     }, {
       question: "Which one is not a quality of a good map?",

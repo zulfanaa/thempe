@@ -1,6 +1,6 @@
 (function() {
     var questions = [{
-      question: "what kind of quantitative data can be visualized in a Proportional Symbol Map?",
+      question: "What kind of quantitative data can be visualized in a Proportional Symbol Map?",
       choices: [' abrupt and discrete',
       ' smooth and continous',
       ' smooth and discrete',
