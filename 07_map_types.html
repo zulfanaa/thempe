@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Map Types</title>
+        <link rel="icon" href="assets/icon.png" sizes="128x128" type="image/png">
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open Sans"/>
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/quiz.css" rel="stylesheet" />
+        <link href="css/sidebar.css" rel="stylesheet" />
+        <link href="css/carto_process.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+            <div id="mySidenav" class="sidenav accordion accordion-flush">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="01_introduction.html"><b>1 -</b> Introduction</a>
+                <a href="02_carto_process.html"><b>2 -</b> Cartographic Process</a>
+                <div class="accordion-item">
+                    <h2 href="07_map_types.html" class="accordion-header" id="headingOne">
+                        <a class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <b>3 -</b> Map Type
+                        </a>
+                    </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p style="font-style:italic; color: white; font-size: 16px;">learn about each map type</p>
+                            <a style="color:darkgrey;" href="#"><b>3.1 -</b> Choropleth Map &#128274;</a>
+                            <a style="color:darkgrey;" href="#"><b>3.2 -</b> Proportional Symbol Map &#128274;</a>
+                            <a style="color:darkgrey;" href="#"><b>3.3 -</b> Flow Map &#128274;</a>
+                        </div>
+                    </div>
+                </div>
+                <a style="color:darkgrey;" href="#"><b>4 -</b> Map Elements &#128274;</a>
+                <hr></hr>
+                <a style="font-style:italic; color: white; font-size: 16px;">
+                    Hi!!! <br>
+                    you can unlock the locked pages by doing the Quiz on each page
+                </a>
+                <hr></hr>
+                <a style="color:white;" href="https://arcg.is/1KK5ai">Give Your Feedback&#128140;</a>
+            </div>
+            <div id="main">
+                <span style="font-size:30px;cursor:pointer;color:#64a19d;" onclick="openNav()">&#9776;</span>
+            </div>
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" style="color:black" href="index.html">Thempe Home&#127968;</a>
+                <a class="navbar-brand" style="color:#64a19d" href="#container">Quiz&#128221;</a>
+            </div>
+        </nav>
+        <!-- About-->
+        <section class="about-section text-center" id="about">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8">
+                        <h1 style="font-size: 115px;color: #64a19d;">3</h1>
+                        <h1 class="text-white mb-4"><b>Map Types</b></h2>
+                        <h3 class="text-white-50">
+                        In this section, you will learn about thematic map types. There are 10 thematic map types introduced on this page.
+                        </h3>
+                        <p></p>
+                        <p>
+                            <a type="button" class="btn btn-primary btn-lg" href="#projects">TELL ME MORE</a></p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Projects-->
+        <section class="projects-section bg-light" id="projects">
+            <div class="container px-4 px-lg-5">
+                <!-- Featured Project Row-->
+                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+                    <div class="col-xl-8 col-lg-7">
+                        <img class="img-fluid mb-3 mb-lg-0" src="assets/img/thematic_map_pinterest.png"/>
+                        <p class="text-center">Figure 1. <a href="https://ltb.itc.utwente.nl/498/concept/81756">The cartographic communication process</a>, <br>
+                            based on “How do I say what to whom, and is it effective?”</p>
+                    </div>
+                    <div class="col-xl-4 col-lg-5">
+                        <div class="featured-text text-center text-lg-left" style="text-align: justify; color:#64a19d">
+                            <h2 style="color:#64a19d"><b>Thematic Map Types</b></h2>
+                            <p></p>
+                            <h5 class="text-black mb-0" style="text-align: justify;">
+                                As it is represented in the Figure 1 beside, we can see different types of thematic map out there.
+                                The <i><b>type of data</b></i> we are working on will influence <i><b>the way we visualise it on thematic maps</b></i>. For example, categorical data, like types of vegetation often leads to maps with different colours or patterns for each category. 
+                                <p></p>
+                                The specific data type guides us in selecting the best thematic map style to effectively convey the information at hand.<br>
+                                <p></p>
+                                <a href="#data">Here are thematic map types we introduce on THEMPE:</a>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Choropleth Map-->
+                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center" id="choro_map">
+                    <div class="col-lg-6 card" style="padding-top: 8rem;">
+                        <img class="img-fluid" src="assets/img/choro_map_ex_population.png"/>
+                        <p class="text-center">Figure 2. <a href="https://www.internetgeography.net/choropleth-maps-in-geography/">Choropleth Map</a></p>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h1 style="font-size: 70px;color: #64a19d;">1</h1>
+                                    <h3 class="text-white"><b>Choropleth Map</b></h3>
+                                    <p></p>
+                                    <h5 class="mb-0" style="text-align: justify; color:#64a19d">
+                                        As you can see in Figure 2 beside, this is the example of Choropleth Map to represent population density 2022.<br>
+                                        <p></p>
+                                        <h5 class="mb-0" style="text-align: left; color:#64a19d">
+                                            ➡️ it depicts <b>quantitative data</b> <br>
+                                            ➡️ it represents <b>quantitative or enumerated data</b> <br>                                
+                                        <p></p>
+                                            It relies on <b>colour value</b> as visual variable to show the gradation. Also, it employs <b>colour hue and saturation</b> for advanced symbolization.
+                                        <p></p>
+                                        </h5>
+                                    </h5>
+                                    <hr class="d-none d-lg-block mb-0 ms-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Proportional Symbol Map-->
+                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center" id="propsim_map">
+                    <div class="col-lg-6">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h1 style="font-size: 70px;color: #64a19d;">2</h1>
+                                    <h3 class="text-white"><b>Proportional Symbol Map</b></h3>
+                                    <p></p>
+                                    <h5 class="mb-0" style="text-align: justify; color:#64a19d">
+                                        From Figure 3, we can see the example of Proportional Symbol Map for mapping the oil consumption<br>
+                                        <p></p>
+                                        <h5 class="mb-0" style="text-align: left; color:#64a19d">
+                                        ➡️ it depicts <b>quantitative data</b><br>
+                                        ➡️ it represents <b>individual or enumerated data</b> by mapping the attribute value as a centroid point of the polygon<br>
+                                        <p></p>
+                                        Possible visual variable for this map is <b>size</b>
+                                        <p></p>
+                                        </h5>
+                                    </h5>
+                                    <hr class="d-none d-lg-block mb-0 ms-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 card" style="padding-top: 5rem;">
+                        <img class="img-fluid" src="assets/img/prop_map_ex_us_oilcomsumption.jpeg" />
+                        <p class="text-center">Figure 3. <a href="https://mappingignorance.org/2013/12/16/the-complexity-of-drawing-good-proportional-symbol-maps/">Proportional Symbol Map</a></p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                </div>
+                <!-- Flow Map-->
+                <div class="row gx-0 justify-content-center" id="flow_map">
+                    <div class="col-lg-6 card" style="padding-top: 8rem;">
+                        <img class="img-fluid" src="assets/img/flow_map_ex_disease.png"/>
+                        <p class="text-center">Figure 4. <a href="https://www.flowmapp.com/blog/qa/what-is-a-flow-map">Flow Map</a></p>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h1 style="font-size: 70px;color: #64a19d;">3</h1>
+                                    <h3 class="text-white"><b>Flow Map</b></h3>
+                                    <p></p>
+                                    <h5 class="mb-0" style="text-align: justify; color:#64a19d">
+                                        In the figure 4, we can see how we visualise the data to a flow map<br>
+                                        <p></p>
+                                        <h5 class="mb-0" style="text-align: left; color:#64a19d">
+                                        ➡️ it depicts <b>nominal and/or quantitative data</b><br>
+                                        ➡️ it represents the <b>direction and/or magnitude</b> of a certain occured phenomenon along linear objects or between locations<br>
+                                        <p></p>
+                                        The most special thing about this map is that it can visualise both <b>qualitative and quantitative</b> data.
+                                        </h5>
+                                    </h5>
+                                    <hr class="d-none d-lg-block mb-0 me-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Nominal Map-->
+                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center" id="nominal_map">
+                    <div class="col-lg-6">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h1 style="font-size: 70px;color: #64a19d;">4</h1>
+                                    <h3 class="text-white"><b>Nominal Map</b></h3>
+                                    <p></p>
+                                    <h5 class="mb-0" style="text-align: justify; color:#64a19d">
+                                        From Figure 5, we can see the example of Nominal Map<br>
+                                        <p></p>
+                                        <h5 class="mb-0" style="text-align: left; color:#64a19d">
+                                        ➡️ it depicts <b>nominal or categorical data</b><br>
+                                        ➡️ it represents <b>individual or enumerated data</b><br>
+                                        <p></p>
+                                        Possible visual variables for this map are <b>colour hue and shape</b>
+                                        <p></p>
+                                        </h5>
+                                    </h5>
+                                    <hr class="d-none d-lg-block mb-0 ms-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 card" style="padding-top: 5rem;">
+                        <img class="img-fluid" src="assets/img/prop_map_ex_us_oilcomsumption.jpeg" />
+                        <p class="text-center">Figure 5. <a href="https://mappingignorance.org/2013/12/16/the-complexity-of-drawing-good-proportional-symbol-maps/">Nominal Map</a></p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                </div>
+                <!-- Dasymetric Map-->
+                <div class="row gx-0 justify-content-center" id="dasy_map">
+                    <div class="col-lg-6 card" style="padding-top: 8rem;">
+                        <img class="img-fluid" src="assets/img/flow_map_ex_disease.png"/>
+                        <p class="text-center">Figure 6. <a href="https://www.flowmapp.com/blog/qa/what-is-a-flow-map">Dasymetric Map</a></p>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h1 style="font-size: 70px;color: #64a19d;">5</h1>
+                                    <h3 class="text-white"><b>Dasymetric Map</b></h3>
+                                    <p></p>
+                                    <h5 class="mb-0" style="text-align: justify; color:#64a19d">
+                                        In the figure 6, we can see how we visualise the data to a dasymetric map<br>
+                                        <p></p>
+                                        <h5 class="mb-0" style="text-align: left; color:#64a19d">
+                                        ➡️ it depicts <b>quantitative data</b><br>
+                                        ➡️ it represents the <b>quantitative or enumerated data</b><br>
+                                        <p></p>
+                                        The most special thing about this map is that it employs <b>ancillary data</b> to establish more meaningful boundaries for enumeration units, thereby enhancing the depiction of the geographic distribution of the phenomenon being mapped.
+                                        </h5>
+                                    </h5>
+                                    <hr class="d-none d-lg-block mb-0 me-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Bivariate Map-->
+                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center" id="bivariate_map">
+                    <div class="col-lg-6">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h1 style="font-size: 70px;color: #64a19d;">6</h1>
+                                    <h3 class="text-white"><b>Bivariate Map</b></h3>
+                                    <p></p>
+                                    <h5 class="mb-0" style="text-align: justify; color:#64a19d">
+                                        From Figure 7, we can see the example of Bivariate Map<br>
+                                        <p></p>
+                                        <h5 class="mb-0" style="text-align: left; color:#64a19d">
+                                        ➡️ it depicts <b>two data attributes</b> in one thematic map<br>
+                                        ➡️ it represents the legend as <b> X and Y axis</b><br>
+                                        <p></p>
+                                        A powerful map for the <b>visual interpretation of spatial patterns</b> of the geospatial data
+                                        <p></p>
+                                        </h5>
+                                    </h5>
+                                    <hr class="d-none d-lg-block mb-0 ms-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 card" style="padding-top: 5rem;">
+                        <img class="img-fluid" src="assets/img/prop_map_ex_us_oilcomsumption.jpeg" />
+                        <p class="text-center">Figure 7. <a href="https://mappingignorance.org/2013/12/16/the-complexity-of-drawing-good-proportional-symbol-maps/">Bivariate Map</a></p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                </div>
+                <!-- Cartogram-->
+                <div class="row gx-0 justify-content-center" id="cartogram">
+                    <div class="col-lg-6 card" style="padding-top: 8rem;">
+                        <img class="img-fluid" src="assets/img/flow_map_ex_disease.png"/>
+                        <p class="text-center">Figure 8. <a href="https://www.flowmapp.com/blog/qa/what-is-a-flow-map">Cartogram</a></p>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h1 style="font-size: 70px;color: #64a19d;">7</h1>
+                                    <h3 class="text-white"><b>Cartogram</b></h3>
+                                    <p></p>
+                                    <h5 class="mb-0" style="text-align: justify; color:#64a19d">
+                                        In the figure 8, we can see how we visualise the data to cartogram<br>
+                                        <p></p>
+                                        <h5 class="mb-0" style="text-align: left; color:#64a19d">
+                                        ➡️ it depicts <b>quantitative differences</b><br>
+                                        ➡️ it scales each geographical region <b>according to its attribute value</b>, and employs size as a visual element to represent the data<br>
+                                        <p></p>
+                                        This map distorts the <b>size, shape, and/or topological relationships</b> of the enumeration units it visualises.
+                                        </h5>
+                                    </h5>
+                                    <hr class="d-none d-lg-block mb-0 me-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Diagram Map-->
+                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center" id="diagram_map">
+                    <div class="col-lg-6">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h1 style="font-size: 70px;color: #64a19d;">8</h1>
+                                    <h3 class="text-white"><b>Diagram Map</b></h3>
+                                    <p></p>
+                                    <h5 class="mb-0" style="text-align: justify; color:#64a19d">
+                                        From Figure 9, we can see the example of Diagram Map<br>
+                                        <p></p>
+                                        ➡️ it uses location as visual variable on map, and other variables (e.g. size) can be added to show <b>qualitative and quantitative data</b>.<br>
+                                        <p></p>
+                                        By having diagrams on the map and visualise it on the centroid of enumeration unit, <b>the non-geographic attributes and temporal pattern</b> can be seen on it.
+                                    </h5>
+                                    <hr class="d-none d-lg-block mb-0 ms-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 card" style="padding-top: 5rem;">
+                        <img class="img-fluid" src="assets/img/prop_map_ex_us_oilcomsumption.jpeg" />
+                        <p class="text-center">Figure 9. <a href="https://mappingignorance.org/2013/12/16/the-complexity-of-drawing-good-proportional-symbol-maps/">Diagram Map</a></p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                </div>
+                <!-- Isoline Map-->
+                <div class="row gx-0 justify-content-center" id="isoline_map">
+                    <div class="col-lg-6 card" style="padding-top: 8rem;">
+                        <img class="img-fluid" src="assets/img/flow_map_ex_disease.png"/>
+                        <p class="text-center">Figure 10. <a href="https://www.flowmapp.com/blog/qa/what-is-a-flow-map">Isoline Map</a></p>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h1 style="font-size: 70px;color: #64a19d;">9</h1>
+                                    <h3 class="text-white"><b>Isoline Map</b></h3>
+                                    <p></p>
+                                    <h5 class="mb-0" style="text-align: justify; color:#64a19d">
+                                        In the figure 10, we can see the example of isoline map.<br>
+                                        <p></p>
+                                        Thematic representation on a map created by <b>drawing lines through interpolation</b>, connecting points with the <b>same attribute value</b>.<br>
+                                        <p></p>
+                                        These lines can be referred to as either <b>isometric lines or isoplethic lines</b>.
+                                    </h5>
+                                    <hr class="d-none d-lg-block mb-0 me-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Dot Density Map-->
+                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center" id="dotdon_map">
+                    <div class="col-lg-6">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h1 style="font-size: 70px;color: #64a19d;">10</h1>
+                                    <h3 class="text-white"><b>Dot Density Map</b></h3>
+                                    <p></p>
+                                    <h5 class="mb-0" style="text-align: justify; color:#64a19d">
+                                        From Figure 11, we can see the example of Dot Density Map<br>
+                                        <p></p>
+                                        ➡️ it represents dots within a geographic region <b>based on the value they represent</b>, aiming to maintain the distribution and density variations of a specific phenomenon.<br>
+                                        <p></p>
+                                        This map employs the visual variable called <b>"numerousness"</b> which blends arrangement and size to convey the impression of either sparseness or concentrated clustering.
+                                    </h5>
+                                    <hr class="d-none d-lg-block mb-0 ms-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 card" style="padding-top: 5rem;">
+                        <img class="img-fluid" src="assets/img/prop_map_ex_us_oilcomsumption.jpeg" />
+                        <p class="text-center">Figure 11. <a href="https://mappingignorance.org/2013/12/16/the-complexity-of-drawing-good-proportional-symbol-maps/">Dot Density Map</a></p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </section>    
+        <!--Exercise,
+        code is taken from https://javascript.plainenglish.io/beginner-drag-and-drop-game-with-html-css-and-js-58653f974285 -->
+        <section class="projects-section bg-light" id="exercise" style="padding-top: 0em;">
+            <div class="container px-4 px-lg-5 text-center" id="maptovis" style="padding-top: 5rem;">
+                <h2><b>Match the thematic map types</b></h2>
+                <p></p>
+                <div id="visual_variable2">
+                    <div id="dropBox5" style="font-size: 24px;" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <p><b>Color Hue</b></p>
+                    </div>
+
+                    <div id="dropBox6"style="font-size: 24px;" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <p><b>Size</b></p>
+                    </div>
+
+                    <div id="dropBox7" style="font-size: 24px;" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <p><b>Color value</b></p>
+                    </div>
+
+                    <div id="dropBox8" style="font-size: 24px;" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <p><b>Position/Location</b></p>
+                    </div>
+                </div>
+
+                <div id="maps" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img class="card-img-top text-center justify-content-center visvar2" id="vis_size" src="assets/img/vis_size.png"
+                    style="width: 18rem;height: auto;"
+                    draggable="true" ondragstart="drag(event)">
+                    <img class="card-img-top text-center justify-content-center visvar2" id="vis_hue" src="assets/img/vis_hue.png"
+                    style="width: 18rem;height: auto;"
+                    draggable="true" ondragstart="drag(event)">
+                    <img class="card-img-top text-center justify-content-center visvar2" id="vis_value" src="assets/img/vis_value.png"
+                    style="width: 18rem;height: auto;"
+                    draggable="true" ondragstart="drag(event)">
+                    <img class="card-img-top text-center justify-content-center visvar2" id="vis_position" src="assets/img/vis_position.png"
+                    style="width: 18rem;height: auto;"
+                    draggable="true" ondragstart="drag(event)">
+                </div>
+
+                <div class="btn btn-primary" id="check" onclick="checkRight()"> Check your answers </div>
+                <p id="checkRight" style="color:#64a19d; font-size: 24px; padding-top: 1rem;"></p>
+
+                <h4 style="font-style: italic; padding-top:3rem;">
+                    Map source: <a href="https://mapmaker.nationalgeographic.org/">Map Maker by National Geographic</a>
+                </h4>
+            </div>
+        </section>
+        <!--Common Map Types-->
+        <section class="projects-section bg-light" id="commonmaps" style="padding-top: 2em;">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <h2 class="text-black mb-4 text-center"><b>Which Map Type Do You Want to Learn Further?</b></h2>
+                    <hr></hr>
+                </div>
+                <!--Table of Common Map Types-->
+                <table class="table table-bordered table-hover table-sm">
+                    <thead>
+                      <tr class="table-primary">
+                        <th scope="col">#</th>
+                        <th scope="col">Thematic Map Type</th>
+                        <th scope="col">Data Type</th>
+                        <th scope="col">Symbol dimensionality</th>
+                        <th scope="col">Most commonly applied visual variable</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                        <th scope="row">1</th>
+                        <td><a href="03_choropleth.html">Choropleth Map</a>
+                            <p>
+                                <a href="03_choropleth.html"><img class="img-fluid" src="assets/img/choro_map_ex_population.png" width="400"/></a>
+                            </p>
+                        </td>
+                        <td>Quantitative</td>
+                        <td>Area</td>
+                        <td>Color value</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td><a href="04_proportional_symbol.html">Proportional Symbol Map</a>
+                            <p>
+                                <a href="04_proportional_symbol.html"><img class="img-fluid" src="assets/img/prop_map_ex_us_oilcomsumption.jpeg" width="400"/></a>
+                            </p>       
+                        </td>
+                        <td>Quantitative</td>
+                        <td>Line (bars), Area, Volume</td>
+                        <td>Size</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td><a href="05_flow_map.html">Flow Map</a>
+                            <p>
+                                <a href="05_flow_map.html"><img class="img-fluid" src="assets/img/flow_map_ex_disease.png" width="400"/></a>
+                            </p>
+                        </td>
+                        <td>Qualitative and Quantitative</td>
+                        <td>Line</td>
+                        <td>Size or Color Value (when representing magnitude)</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+        </section>
+        <!--Quiz!-->
+        <!--this script is taken from: https://codepen.io/gcarino/pen/AaJBOo-->
+        <section class="bg-light">
+            <div id='container'>
+                <div id='quiz_01'>
+                    <h2>Quiz #2: Cartographic Process</h2>
+                    <h4>&#128273; for the next chapter</h4>
+                </div>
+                <br/>
+                <div id='quiz'></div>
+                <a class='btn btn-dark' id='next' href='#'>Next</a>
+                <a class='btn btn-light' id='prev' href='#'>Prev</a>
+                <a class='btn btn-light' id='try' href='#'>Try Again</a>
+                <a class='btn btn-light dropdown-toggle' type="button" id="further" data-bs-toggle="dropdown" style="min-width: 300px;">
+                    Choose One Map Type
+                <ul class="dropdown-menu dropmn" aria-labelledby="further">
+                    <li><a class="dropdown-item" href="03_choropleth.html">Choropleth Map</a></li>
+                    <li><a class="dropdown-item" href="04_proportional_symbol.html">Proportional Symbol Map</a></li>
+                    <li><a class="dropdown-item" href="05_flow_map.html">Flow Map</a></li>
+                </ul>
+                </a>
+                <p class="text-black mb-4">
+                    Hi! R U stuck here? Please <a style="color: black;" href="#contacts">contact me</a> &#128521;&#11015;&#65039; 
+                    <div class="dropdown d-inline-block">
+                        <button class="btn btn-light dropdown-toggle" type="button" id="emergency" data-bs-toggle="dropdown" style="min-width: 100px;">
+                            Emergency &#128273;
+                        </button>
+                        <ul class="dropdown-menu dropmn" aria-labelledby="emergency">
+                            <li><a class="dropdown-item" href="03_choropleth.html">Choropleth Map</a></li>
+                            <li><a class="dropdown-item" href="04_proportional_symbol.html">Proportional Symbol Map</a></li>
+                            <li><a class="dropdown-item" href="05_flow_map.html">Flow Map</a></li>
+                        </ul>
+                    </div>
+                </p>
+                <p class="text-black mb-4">
+                    You are allowed to use this button if you cannot do the quiz
+                </p>                               
+            </div>
+        </section>
+        <!--References-->
+        <section class="projects-section text-center bg-light" id="references" style="padding-top: 5rem ;">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8">
+                        <h3 class="text-black mb-4">References</h3>
+                        <p class="text-black-50" style="text-align: left;">
+                            - Bertin, J. (1967). Sémiologie graphique. Les diagrammes Les réseaux Les cartes. Paris: Gauthier-Villars. <br>
+                            - By, R., Huisman, Otto, and Kraak, Menno-Jan. 2013. The core of GIScience: a process-based approach. Faculty of Geo-Information Science and Earth Observation (ITC), University of Twente. The Netherlands.<br>
+                            - Köbben, B. 2018. Open educational resources for cartography: the Thematic Mapping Tutor (Tech. Rep. No. e27203v1). PeerJ Inc. Retrieved 2022-03-25, from https://peerj.com/preprints/27203 (ISSN: 2167-9843) <br>
+                            - Roth, R.E,. 2017. Visual Variables. John Wiley & Sons, Ltd. DOI: 10.1002/9781118786352.wbieg0761.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Contact-->
+        <section class="contact-section bg-black" id="contacts" style="padding-top:0.5rem;">
+            <div class="social d-flex justify-content-center" style="opacity:0.5;">
+                <a class="mx-2" href="mailto:zulfanaa@icloud.com"><i class="fas fa-envelope text-primary m-0"></i></a>
+                <a class="mx-2" href="https://twitter.com/zzulfanaa"><i class="fab fa-twitter text-primary m-0"></i></a>
+                <a class="mx-2" href="https://www.facebook.com/zulfa.afifah.0705/"><i class="fab fa-facebook-f text-primary m-0"></i></a>
+                <a class="mx-2" href="https://github.com/zulfanaa/thempe"><i class="fab fa-github text-primary m-0"></i></a>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer bg-black small text-center text-white-50" style="padding-top: 2rem;">
+            <div class="container px-4 px-lg-5" style="font-size: 24px;">Copyright &copy; Thempe 2022</div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
+        <script src="js/02_quiz.js"></script>
+        <script src="js/sidebar.js"></script>
+        <script src="js/carto_process.js"></script>
+    </body>
+</html>
